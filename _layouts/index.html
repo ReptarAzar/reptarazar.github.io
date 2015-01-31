@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- design & development by
+
+ .d8888b.  888              d8b                      d8888
+d88P  Y88b 888              Y8P                     d88888
+888    888 888                                     d88P888
+888        88888b.  888d888 888 .d8888b           d88P 888 88888888  8888b.  888d888
+888        888 "88b 888P"   888 88K              d88P  888    d88P      "88b 888P"
+888    888 888  888 888     888 "Y8888b.        d88P   888   d88P   .d888888 888
+Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
+ "Y8888P"  888  888 888     888  88888P'      d88P     888 88888888 "Y888888 888    -->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title data-typer-targets="here's to the little things, here's to the good life">here's to you</title>
+        <meta name="description" content="to the designers, the makers, the hustlers: the world is yours.">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic|Merriweather:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+        <script type="text/javascript"> window.onload = function() { document.getElementById('menu').style.display = 'none'; };</script>
+    </head>
+
+        <!--
+        <link rel="alternate" type="application/rss+xml" href="/rss" title="RSS Feed">
+        {{ "app.css" | asset_url | stylesheet_tag }}
+        <link rel="stylesheet" href="{{ "layout.css" | asset_url }}" media="(min-width:1em)">
+        {{ "modernizr.min.js" | asset_url | script_tag }}
+        -->
+
+<body class="dark">
+
+  {% include header.html %}
+
+    <div class="index-wrapper">
+    {{ content }}
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/typer.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<header class="page-head">
+
+  <nav>
+    <p><a href="/" title="home"></a></p>
+
+    <div class="menu">
+      <button class="menu-btn">
+        <span class="menu-label">menu</span>
+        <span class="burger-bar top"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar bottom"></span>
+      </button>
+
+      <div class="menu-content" id="menu">
+        <ul>
+          <li class="post-links">
+            <p class="latest">Latest Posts</p>
+            <p><a href="/blog/getting-started">Getting started</a></p>
+            <p><a href="/blog/wanderlust">Wanderlust</a></p>
+          </li>
+          <li class="page-links">
+            <a href="/portfolio" class="portfolio">Portfolio</a>
+            <span class="divider">.</span>
+            <a href="/about">About</a>
+            <span class="divider">.</span>
+            <a href="/blog">Blog</a>
+            <span class="divider">.</span>
+            <!-- <a href="/contact">Contact</a>
+            <span class="divider">.</span> -->
+            <a href="/resources">Resources</a>
+          </li>
+          <li class="social-links">
+            <p>
+              <a href="https://twitter.com/reptarazar" target="_blank">twitter</a>
+              <a href="http://www.flickr.com/photos/reptarazar/" target="_blank">flickr</a>
+              <a href="https://foursquare.com/reptarazar" target="_blank">foursquare</a>
+              <a href="assets/docs/Azar-Resume.pdf" target="_blank">resumé</a>
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+        type="text/javascript"></script>
+
+<script type="text/javascript">
+var menu = $('.menu-content');
+  $(menu).hide();
+
+$( ".menu" ).click(function() {
+  $( ".menu-content" ).slideToggle( 150 );
+});
+</script>
