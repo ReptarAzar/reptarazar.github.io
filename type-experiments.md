@@ -1,0 +1,16 @@
+---
+layout: page
+title: Type Experiments
+permalink: /type-experiments/
+---
+
+<a href="http://instagram.com/p/r8sERcl2Qs/"><img src="../assets/img/type/1.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/cAPTmXl2Uc/"><img src="../assets/img/type/2.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/YfQ_yxF2Q_/"><img src="../assets/img/type/3.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/MzSiwel2bY/"><img src="../assets/img/type/4.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/Jgl0iJF2Zi/"><img src="../assets/img/type/5.jpg" class="type-experiment"/></a>
+<a href="http://codepen.io/ReptarAzar/full/Ioiet"><img src="../assets/img/type/6.jpg" class="type-experiment"/></a>
+<a href="http://blog.christopherazar.com/2011/07/its-wrap.html"><img src="../assets/img/type/7.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/dBmG3/"><img src="../assets/img/type/8.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/c6mT_/"><img src="../assets/img/type/9.jpg" class="type-experiment"/></a>
+<a href="http://instagram.com/p/c-DDq/"><img src="../assets/img/type/10.jpg" class="type-experiment"/></a>

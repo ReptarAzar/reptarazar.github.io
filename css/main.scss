@@ -1,8 +1,10 @@
 ---
 ---
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic|Merriweather:400,700);
 
 
+//Put all the varibles and global ish in here
+//Put Resets in _base.scss
+//put all things layout nested/namespaced that cascade in _layout.scss
 
 // Our variables
 $base-font-family: Lato, Helvetica, Arial, sans-serif;
@@ -14,11 +16,13 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #f9f9f9;
-$brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$tan:              #f9ebdc;
+$teal:             #09b7aa;
+$orange:           #fca659;
+$grey:             #888;
+$dark:             #333;
+$white:            #fff;
 
 $on-palm:          600px;
 $on-laptop:        800px;

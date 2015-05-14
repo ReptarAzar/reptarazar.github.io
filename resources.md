@@ -151,7 +151,7 @@ permalink: /resources/
         <dl>
             <dt>Photo &amp; Film </dt>
             <dd><a href="http://en.wikipedia.org/wiki/Ansel_Adams" target="_blank">Ansel Adams</a>
-                <p><a href="http://www.nytimes.com/2008/04/27/travel/27journeys.html?pagewanted=all&_r=0"><img src="http://graphics8.nytimes.com/images/2008/04/27/travel/27journeys600.jpg"/></a></p><p>Photographer and environmentalist best known for his black-and-white landscape photographs of the American West, especially of Yosemite.</p></dd>
+                <p><a href="http://www.nytimes.com/2008/04/27/travel/27journeys.html?pagewanted=all&_r=0"><img src="http://graphics8.nytimes.com/images/2008/04/27/travel/27journeys600.jpg"/></a></p><p>Photographer and environmentalist best known for his black-and-white landscape photographs of the American West, especially of Yosemite. <br/> <a href="https://www.artsy.net/artist/ansel-adams" target="_blank">More about Ansel Adams on Artsy</a> </p></dd>
             <dd><a href="http://mediastorm.com/" target="_blank">MediaStorm®</a>
                 <p>Work with top visual storytellers, interactive designers, and global organizations to create narratives that speak to the human condition.</p></dd>
             <dd><a href="https://vimeo.com/chrismilk" target="_blank">Chris Milk</a>

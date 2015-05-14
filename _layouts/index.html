@@ -35,7 +35,7 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 
 <body class="dark">
 
-  {% include header.html %}
+  {% include nav.html %}
 
     <div class="index-wrapper">
     {{ content }}
@@ -44,6 +44,16 @@ Y88b  d88P 888  888 888     888      X88       d8888888888  d88P    888  888 888
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script src="js/typer.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        var menu = $('.menu-content');
+            $(menu).hide();
+        $( ".menu" ).click(function() {
+            $( ".menu-content" ).slideToggle( 150 );
+        });
+        window.onload = function() { document.getElementById('menu').style.display = 'none'; };
+    </script>
+
 </body>
 
 </html>

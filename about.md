@@ -38,7 +38,7 @@ permalink: /about/
             <p><b>A:</b> Nope.</p>
         <hr class="hr"/>
         <h3>About the site</h3>
-            <p>Hand coded in Washington, DC using <a href="https://github.com/Shopify/liquid" target="_blank">liquid</a>, <a href="http://sass-lang.com/" target="_blank">SASS</a>, and <a href="http://mixture.io">mixture</a>. The (open source) fonts are <a href="http://www.google.com/fonts/specimen/Lato" target="_blank">Lato</a> and <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a> and are served by <a href="http://www.google.com/fonts" target="_blank">Google Fonts</a>. </p>
+            <p>Hand coded in California using <a href="https://help.github.com/articles/using-jekyll-with-pages/">Jekyll</a>, <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="http://haml.info/" target="_blank">HAML</a>, and <a href="http://sass-lang.com/" target="_blank">SASS</a>. The (open source) fonts are <a href="http://www.google.com/fonts/specimen/Lato" target="_blank">Lato</a> and <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a> and are served by <a href="http://www.google.com/fonts" target="_blank">Google Fonts</a>. </p>
         <h3>Previous versions of this site</h3>
             <p>v1.0 (Lost) &mdash; Circa 2006</p>
             <p><a href="http://cazar.mysite.syr.edu/personal_site/index.htm">v2.0</a> &mdash; Circa 2009</p>
