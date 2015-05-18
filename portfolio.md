@@ -4,8 +4,11 @@ title: portfolio
 permalink: /portfolio/
 ---
 <div>
+    <h1>In process...</h1>
+    <p>in the meantime checkout <a href="http://trove.com">trove.com</a>.</p>
 </div>
-<ul class="post-list">
+
+<!-- <ul class="post-list">
   {% for post in site.posts %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -16,3 +19,4 @@ permalink: /portfolio/
     </li>
   {% endfor %}
 </ul>
+-->
