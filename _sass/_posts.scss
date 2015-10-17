@@ -10,14 +10,24 @@
 }
 
 
+//remove these two when portfolio is ready
 h1.mess {
+    font-family: $font_1;
     text-align: center;
-    margin: 5em 0 0;
+    margin: 5em 0 5px;
+    font-size: 3em;
+    line-height: 1.2em;
+
+    @media screen and (max-width: 580px) {
+            font-size: 1.5em;
+        }
 }
 
 h3.mess {
+    font-family: $font_1;
     text-align: center;
     margin: 0 0 5em;
+    font-size: 1.5em;
 }
 
 // Portfolio index
@@ -30,9 +40,18 @@ h3.mess {
         height: 380px;
         background-color: #f0f0f0;
         margin-bottom: 20px;
+
         // small screens
         @media screen and (max-width: 580px) {
             height: 240px;
+        }
+
+        &.tinker-thumb {
+            background-image: url(../assets/img/portfolio/micardi-illustration.png);
+            background-size: 70%;
+            background-position: 43% 40%;
+            background-repeat: no-repeat;
+
         }
 
     }
@@ -69,6 +88,7 @@ h3.mess {
         &.littletinker {
             color: black;
             background-color: #FFE200;
+            background-color: rgba(255, 226, 0, 0.5);
             padding: 4px 0 0;
         }
         &.ifttt {

@@ -21,7 +21,7 @@ permalink: /portfolio/
 
         <li class="post-thumb"><a class="post-link trove" href="/trove-goodies">Goodies</a></li>
 
-        <li class="post-thumb"><a class="post-link littletinker" href="http://littletinker.io" target="_blank">Little Tinker</a> illustration</li>
+        <li class="post-thumb tinker-thumb"><a class="post-link littletinker" href="http://littletinker.io" target="_blank">Little Tinker</a></li>
 
         <li class="post-thumb"><a class="post-link ga" href="/future-of-ux">Future of UX</a></li>
 
