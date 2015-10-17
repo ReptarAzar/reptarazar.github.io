@@ -413,6 +413,16 @@ $font_2: sans-serif;
                         font-size: 1.8rem;
                         line-height: 1.7037;
                         font-weight: 500;
+
+                        // Sm screeens
+                        @media screen and (max-width: 520px) {
+                            width: 100%;
+                            display: block;
+                            padding: 5px 0 0;
+                            font-size: 1.75em;
+                        }
+
+
                     }
                 }
                 &.social-links a {
