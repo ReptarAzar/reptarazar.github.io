@@ -482,26 +482,26 @@ $font_2: sans-serif;
 // About page styles
 .profile-pic {
     background: #fff url(../assets/img/me.png) center center;
-    height: 350px;
+    min-height: 350px;
     width: 100%;
     display: block;
     background-size: cover;
 
     // huge screeens
     @media screen and (min-width: 1300px) {
-        height: 650px;
+        min-height: 650px;
     }
     // big screeens
     @media screen and (min-width: 1200px) {
-        height: 550px;
+        min-height: 550px;
     }
     // Med screeens
     @media screen and (max-width: 620px) and (min-width: 376px) {
-        height: 260px;
+        min-height: 260px;
     }
     // Small screeens
     @media screen and (max-width: 376px) {
-        height: 170px;
+        min-height: 170px;
     }
 
 }
