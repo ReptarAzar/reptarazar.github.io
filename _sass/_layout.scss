@@ -486,6 +486,7 @@ $font_2: sans-serif;
     width: 100%;
     display: block;
     background-size: cover;
+
     // huge screeens
     @media screen and (min-width: 1300px) {
         min-height: 650px;
@@ -494,9 +495,13 @@ $font_2: sans-serif;
     @media screen and (min-width: 1200px) {
         min-height: 550px;
     }
-    // sm screens
-    @media screen and (max-width: 500px) {
-        min-height: 250px;
+    // Med screeens
+    @media screen and (max-width: 620px) and (min-width: 376px) {
+        height: 260px;
+    }
+    // Small screeens
+    @media screen and (max-width: 376px) {
+        height: 170px;
     }
 
 }
