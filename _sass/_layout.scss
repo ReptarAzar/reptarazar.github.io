@@ -141,10 +141,20 @@ $font_2: sans-serif;
             width: 364px;
         }
 
-        // Small screeens
-        @media screen and (max-width: 620px) {
+        // Med screeens
+        @media screen and (max-width: 620px) and (min-width: 376px) {
+            position: relative;
             background-image: url("../assets/img/me.png");
-            height: 230px;
+            height: 260px;
+            width: 100%;
+            border: none;
+            background-size: cover;
+        }
+        // Small screeens
+        @media screen and (max-width: 376px) {
+            position: relative;
+            background-image: url("../assets/img/me.png");
+            height: 170px;
             width: 100%;
             border: none;
             background-size: cover;
@@ -171,7 +181,7 @@ $font_2: sans-serif;
 
             // Small screeens
             @media screen and (max-width: 620px) {
-                margin-top: 265px;
+                margin-top: 20px;
             }
         }
 
