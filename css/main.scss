@@ -7,7 +7,7 @@
 //put all things layout nested/namespaced that cascade in _layout.scss
 
 // Our variables
-$base-font-family: Lato, Helvetica, Arial, sans-serif;
+$base-font-family: 'Avenir Next','Avenir',Helvetica,Arial,sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -23,6 +23,7 @@ $orange:           #fca659;
 $grey:             #888;
 $dark:             #333;
 $white:            #fff;
+$lavender:         #684D8C;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -47,6 +48,8 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "lightbox",
         "layout",
+        "posts",
         "syntax-highlighting"
 ;

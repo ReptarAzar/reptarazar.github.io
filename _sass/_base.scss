@@ -30,7 +30,7 @@ body {
 //original selectors
 //button, input, select, textarea
 %extend_2 {
-    font-family: inherit;
+    font-family: $base-font-family;
     font-size: 100%;
     margin: 0;
 }
@@ -340,7 +340,7 @@ hr {
     padding: 0;
 }
 ol {
-    margin: 0;
+    margin: 1em 2em;
     padding: 0;
     @extend %extend_4;
     li {
@@ -422,10 +422,9 @@ option {
     font-size: 13px;
     font-size: .86667rem;
     line-height: 1.76923;
+    padding: 20px;
     max-width: 650px;
     margin: 5em auto 0;
-    padding-bottom: 1em;
-    padding-top: 1em;
     border-top: 1px solid #e9e9e9;
     text-align: center;
     &:after {

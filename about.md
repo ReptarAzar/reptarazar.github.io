@@ -1,12 +1,10 @@
 ---
-layout: page
-title: About
+layout: about
+title: About | ChristopherAzar.com
 permalink: /about/
 ---
 
 <article class="about">
-        <img src="../assets/img/me.png" />
-        <caption>Photo by: <a href="https://twitter.com/alexanderogers" target="_blank">Alexander Rogers</a></caption>
         <!-- <h3>An entertaining profile written by Samantha Okazaki.</h3>
         <h4>My self-summary</h4>
             <p>I'm kind of a geek? But in a good way...if that's even possible.</p>
@@ -29,9 +27,10 @@ permalink: /about/
         <h4>On a typical Friday night I am</h4>
             <p>Who wants a typical Friday night?</p>
         <hr class="hr"/> -->
-        <h3>A quick bio</h3>
+        <div class="photo-credit">Photo by <a href="https://www.facebook.com/megomalleyphotography/posts/1137752982906796" target="_blank">Meg O'Malley</a></div>
+        <h3>Bio</h3>
             <p>Christopher is a product designer based in San Francisco, California. Currently working on the future of news at <a href="http://trove.com" target="_blank">Trove</a> (formerly known as the Washington Post Digital Innovation Lab). He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences with digital and physical products.</p>
-            <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Boston Red Sox fan. His <strike>dream</strike> plan is to start a company and to run the Boston Marathon. </p>
+            <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Syracuse Basketball fan. His <strike>dream</strike> plan is to start a company and to run the Boston Marathon. </p>
             <p>He has a Bachelor's Degree in Graphic Design from the S.I. Newhouse School of Public Communications at Syracuse University. You can find all this and a few more interesting bits on his <a href="assets/docs/Azar-Resume.pdf">Resumé</a>.</p>
         <h3>FAQ</h3>
             <p><b>Q:</b> Are you available for freelance work?</p>

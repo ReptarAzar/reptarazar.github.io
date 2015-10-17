@@ -1,0 +1,177 @@
+// Portfolio styles
+// Override all other stylesheets except _syntax-highlighting.scss
+
+// To do: make this only load on blog and post pages
+
+.portfolio-content {
+    padding: 20px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+h1.mess {
+    text-align: center;
+    margin: 5em 0 0;
+}
+
+h3.mess {
+    text-align: center;
+    margin: 0 0 5em;
+}
+
+// Portfolio index
+.post-list {
+    margin-top: 50px;
+    list-style: none;
+
+    .post-thumb {
+        position: relative;
+        height: 380px;
+        background-color: #f0f0f0;
+        margin-bottom: 20px;
+        // small screens
+        @media screen and (max-width: 580px) {
+            height: 240px;
+        }
+
+    }
+
+    .post-link {
+        position: absolute;
+        top: 43%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.55rem;
+        line-height: 1.25em;
+        font-weight: 900;
+        text-transform: uppercase;
+        // big screeens
+        @media screen and (min-width: 580px) {
+            font-size: 3em;
+        }
+
+        &.trove {
+            display: inline-block;
+            color: white;
+            background-color: #9966DD;
+            padding: 3px 4px 0;
+            &:hover {
+                //some crazy shit
+                //image? solid, moving grdient horiz barberpole?
+            }
+        }
+
+        &.ga {
+            color: #E52123;
+        }
+
+        &.littletinker {
+            color: black;
+            background-color: #FFE200;
+            padding: 4px 0 0;
+        }
+        &.ifttt {
+            color: dodgerblue;
+        }
+    }
+
+}
+
+
+.post {
+    font-size: 1.25em;
+    line-height: 1.5em;
+
+    .row {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+        display: block;
+        clear: both;
+
+        &.intro {
+            text-align: center;
+            color: $white;
+
+            .title {
+                width: 100%;
+                display: block;
+                font-weight: 900;
+                letter-spacing: .5px;
+                text-transform: uppercase;
+                font-size: 2em;
+                line-height: 1.25em;
+                margin-top: 100px;
+            }
+            .sub-head {
+                font-style: italic;
+            }
+
+            .role {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        &.hero {
+            width: 100%;
+            height: 400px;
+            margin: 0 0 10px 0;
+            background-color: $lavender;
+
+        }
+
+        &.next {
+            width: 100%;
+            margin: 10px 0;
+            background-color: $lavender;
+
+            .next-column {
+                width: 50%;
+                float: left;
+            }
+        }
+
+        .label-column {
+            float: left;
+            min-width: 150px;
+            text-transform: lowercase;
+            color: #aaa;
+            letter-spacing: 1px;
+            font-size: .8em;
+            padding-right: 20px;
+            text-align: right;
+            font-weight: 500;
+            @media screen and (max-width: 840px) {
+                min-width: 210px;
+                text-align: left;
+            }
+
+        }
+
+        .content-column {
+            width: 75%;
+            float: left;
+            min-width: 200px;
+
+            @media screen and (max-width: 840px) {
+                width: 100%;
+            }
+
+            blockquote {
+                font-style: italic;
+                text-indent: -6px;
+                margin: 20px 50px;
+                padding: 0;
+                border-left: none;
+                text-align: justify;
+            }
+
+        }
+
+    // end .row
+    }
+
+// end .post
+}

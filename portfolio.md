@@ -1,22 +1,48 @@
 ---
-layout: page
-title: portfolio
+layout: default
+title: Portfolio | ChristopherAzar.com
 permalink: /portfolio/
 ---
-<div>
-    <h1>In process...</h1>
-    <p>in the meantime checkout <a href="http://trove.com">trove.com</a>.</p>
+
+<h1 class="mess">STILL UNDER CONSTRUCTION </h1>
+<h3 class="mess">... sorry about the mess ...</h3>
+
+<div class="portfolio-content">
+
+    <ul class="post-list">
+
+        <li class="post-thumb"><a class="post-link trove" href="/conversations">Conversations</a></li>
+
+        <li class="post-thumb"><a class="post-link trove" href="/profile">Profiles</a></li>
+
+        <li class="post-thumb"><a class="post-link trove" href="/stars-comments">Stars </a></li>
+
+        <li class="post-thumb"><a class="post-link trove" href="/trove-homepage">Homepage</a></li>
+
+        <li class="post-thumb"><a class="post-link trove" href="/trove-goodies">Goodies</a></li>
+
+        <li class="post-thumb"><a class="post-link littletinker" href="http://littletinker.io" target="_blank">Little Tinker</a> illustration</li>
+
+        <li class="post-thumb"><a class="post-link ga" href="/future-of-ux">Future of UX</a></li>
+
+        <li class="post-thumb"><a class="post-link ifttt" href="/ifttt">IFTTT</a></li>
+
+    </ul>
+
+<p>In all of these projects, you will see a trend, a process.</p>
+
+<p>You may find it boring, or repetitive, or a bit like your classic elementary school scientific method. While I'm constantly tinkering, I follow this because it is how I've learned to produce the best, most useful work I know how. But, it goes a little something like this:</p>
+
+    <ol>
+        <li>Figure out and define the problem (for the business and the user)</li>
+        <li>Analyze it and figure out the best way(s) to solve it and sketch those out</li>
+        <li>Continue to flesh those ideas out until everyone is on the same page and we figure out what we're gonna build</li>
+        <li>Mock up, build, and test</li>
+        <li>Analyze how it went and start all over when we decide there's a problem again.</li>
+    </ol>
+
+<p>The process is only slightly different for personal projects – there is no business, so we can focus on building that focuses on just the user problems and experience.</p>
+
+<p>So that is the "process" I hope you enjoy the case studies to see what decisions get made where and why.</p>
+
 </div>
-
-<!-- <ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>
--->

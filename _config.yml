@@ -1,8 +1,8 @@
 # Site settings
-title: here's to the little things
+title: Christopher Azar
 email: christopherazar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  to the designers, the makers, the hustlers: the world is yours.
+  Christopher Azar is a product designer and maker.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://christopherazar.com" # the base hostname & protocol for your site
 twitter_username: reptarazar

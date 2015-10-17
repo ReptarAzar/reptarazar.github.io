@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Resources | ChristopherAzar.com
 permalink: /resources/
 ---
 
@@ -63,7 +63,7 @@ permalink: /resources/
             <dd><a href="http://devdocs.io/" target="_blank">DevDocs</a>
                 <p>All in one web API documentation reader. (It's keyboard enabled!)</p></dd>
             <dd><a href="https://github.com/ReptarAzar" target="_blank">GitHub</a>
-                <p>Web-based hosting service for software development projects that use the Git revision control system</p><p>Learn it in the browser with <a href="https://try.github.io/" target="_blank">Try Git</a>.</p></dd>
+                <p>Web-based hosting service for software development projects that use the Git revision control system</p><p>Learn it with <a href="https://try.github.io/" target="_blank">Try Git</a>.</p></dd>
             <dd><a href="http://thenews.im/" target="_blank">HackerNews + DesignerNews</a>
                 <p>Technology, entrepreneurship, and design news side-by-side and democratized from Y Combinator, LayerVault, and Ahmet Sülek who brought them together.</p></dd>
             <dd><a href="http://shop.oreilly.com/category/browse-subjects.do" target="_blank">O'Reilly Books</a>
