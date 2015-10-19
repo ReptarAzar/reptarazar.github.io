@@ -8,9 +8,19 @@ categories:
 
 <!-- Begin Hero Row -->
 <div class="row hero intro">
-    <div class="title">Conversations</div>
-    <div class="sub-head">Bring the magic of thoughtful intercourse to trove</div>
-    <div><button>Visit a conversation</button></div>
+
+</div>
+
+<div class="row intro">
+    <div class="label-column">
+        <div>Project Name</div>
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
+        <span class="title">Conversations</span>
+        <span class="role">Design Lead</span>
+    </div>
 </div>
 
 <!-- Begin role Row -->
@@ -24,16 +34,6 @@ categories:
     </div>
 </div>
 
-<!-- Begin role Row -->
-<div class="row role">
-    <div class="label-column">
-        Role
-    </div>
-
-    <div class="content-column">
-        Lead Designer
-    </div>
-</div>
 
 <!-- Begin Problem Row -->
 <div class="row problem">
@@ -60,7 +60,7 @@ categories:
     <div class="content-column">
         Conversations are not an entirely new phenomena on the web. A nod to my former colleauge and creator of Slashdot, Rob Malda, who in many ways invented social news constructs. We knew we had a lot of established social tech products and interpersonal paradigms to consider and draw inspiration.
 
-        <p><a href="../assets/img/me.png" data-lightbox="wireframe"><img src="../assets/img/me.png" class="lightbox-image"  /></a></p>
+        <p><a href="../assets/img/me.png" data-lightbox="wireframe"  class="lightbox-image"><img src="../assets/img/me.png" /></a></p>
 
 
         When doing research, instead of looking at the most popular products, I look for products people _Love_. In addition, I look for taste - products that have been created by obsessed mad geniuses preferably that have made multiple successful products. Here are a few of the products I looked closely at and what I like/disliked about them.

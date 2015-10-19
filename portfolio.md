@@ -34,7 +34,7 @@ permalink: /portfolio/
 <p>You may find it boring, or repetitive, or a bit like your classic elementary school scientific method. While I'm constantly tinkering, I follow this because it is how I've learned to produce the best, most useful work I know how. But, it goes a little something like this:</p>
 
     <ol>
-        <li>Figure out and define the problem (for the business and the user)</li>
+        <li>Figure out and define the problem for the business and users</li>
         <li>Analyze it and figure out the best way(s) to solve it and sketch those out</li>
         <li>Continue to flesh those ideas out until everyone is on the same page and we figure out what we're gonna build</li>
         <li>Mock up, build, and test</li>
