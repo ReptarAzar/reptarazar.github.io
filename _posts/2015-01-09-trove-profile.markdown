@@ -59,20 +59,11 @@ categories:
         <a href="../assets/img/portfolio/profiles/whiteboad-001.jpg" data-lightbox="sketches" class="lightbox-image">
             <img src="../assets/img/portfolio/profiles/whiteboad-001.jpg" />
         </a>
-        Going through what we wanted to see with stakeholders
+
+        <p>Going through what we wanted to see with stakeholders</p>
     </div>
 </div>
 
-<!-- Begin UX row -->
-<div class="row Rx">
-    <div class="label-column">
-        UXD/Wireframes
-    </div>
-
-    <div class="content-column">
-        [UX Design/Wireframes]
-    </div>
-</div>
 
 <!-- Begin Mockup Row -->
 <div class="row mockup">
@@ -81,16 +72,15 @@ categories:
     </div>
 
     <div class="content-column">
-        Screenshot of the mockup Sketch document
+        <a href="../assets/img/portfolio/profiles/sketch-doc.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/profiles/sketch-doc.png" />
+        </a>
 
-        Details (2 mobile mocks, side-by-side)
+        <p>Screenshot of the mockup Sketch document</p>
 
+        <p>Then I'll begin pixel-perfect mock ups of the final designs. After the designs are reviewed by stakeholders, they are split into tickets and I'll generate a focused batch of mockup files for each ticket that way the engineer can just grab exactly what they need and don't have to dig at all.  <a href="../assets/img/portfolio/profiles/folder-structure.png" data-lightbox="sketches">tickets/folder structure </a>for this project.</p>
 
-        Then I'll begin pixel-perfect mock ups of the final designs. After the designs are reviewed by stakeholders, they are split into tickets and I'll generate a focused batch of mockup files for each ticket that way the engineer can just grab exactly what they need and don't have to dig at all.
-
-        Folder structure for this project.
-
-        <p> <a href="">Download sketch file</a></p>
+        <p> <a href="../assets/img/portfolio/profiles/profile.sketch">Download sketch file</a></p>
 
     </div>
 </div>
@@ -102,10 +92,8 @@ categories:
     </div>
 
     <div class="content-column">
-        Here are a few prototypes I made that you can click around and play with.
 
-
-        <p>As a fun game try making the first one look filled in like the second prototype.</p>
+        Here are a few prototypes I made that you can click around and play with. As a fun game try making the first one look filled in like the second prototype. <br />
 
         <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen scrolling="no"></iframe>
         <iframe class="invision" width="438" height="870" src="//invis.io/QX4LBOJYM" frameborder="0" allowfullscreen scrolling="no"></iframe>
@@ -119,7 +107,35 @@ categories:
     </div>
 
     <div class="content-column">
-        Awesome person profile - thumbnail
+
+        In the engineering scope process, the uploading of cover photos for each profile was cut. But here is a few screenshots of the work in production.
+
+       <div class="thumb-row">
+            <p>
+                <a href="../assets/img/portfolio/profiles/vijay-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                    <img src="../assets/img/portfolio/profiles/vijay-picks-sm.png"  />
+                </a>
+                <a href="../assets/img/portfolio/profiles/vijay-troves.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                    <img src="../assets/img/portfolio/profiles/vijay-troves-sm.png"  />
+                </a>
+            </p>
+
+            <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Vijay's Profile</a></p>
+
+       </div>
+
+        <!-- <div class="thumb-row">
+            <p>
+                <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                    <img src="../assets/img/portfolio/profiles/azar-picks-sm.png" />
+                </a>
+                <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                    <img src="../assets/img/portfolio/profiles/azar-edit-sm.png" />
+                </a>
+            </p>
+            <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Chris's Profile</a></p>
+        </div>
+        -->
 
 
     </div>
