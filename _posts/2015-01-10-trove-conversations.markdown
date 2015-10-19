@@ -7,34 +7,34 @@ categories:
 ---
 
 <!-- Begin Hero Row -->
-<div class="row hero intro">
+<div class="row hero">
 <p>3 slanted diagonal wireframes</p>
     <p>wide, med, narrw</p>
     <p>like the frontpage one from dribbble, but gray no background</p>
 </div>
 
-<div class="row intro">
+<!-- Begin Title Row -->
+<div class="row title">
     <div class="label-column">
         <div>Project Name</div>
+    </div>
+
+    <div class="content-column">
+        <span class="title">Converstations</span>
+    </div>
+</div>
+
+<!-- Begin Role Row -->
+<div class="row role">
+    <div class="label-column">
         <div>Role</div>
     </div>
 
     <div class="content-column">
-        <span class="title">Conversations</span>
         <span class="role">Design Lead</span>
     </div>
 </div>
 
-<!-- Begin role Row -->
-<div class="row role">
-    <div class="label-column">
-        Date
-    </div>
-
-    <div class="content-column">
-        September 2015
-    </div>
-</div>
 
 
 <!-- Begin Problem Row -->
