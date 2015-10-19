@@ -8,7 +8,9 @@ categories:
 
 <!-- Begin Hero Row -->
 <div class="row hero intro">
-
+<p>3 slanted diagonal wireframes</p>
+    <p>wide, med, narrw</p>
+    <p>like the frontpage one from dribbble, but gray no background</p>
 </div>
 
 <div class="row intro">

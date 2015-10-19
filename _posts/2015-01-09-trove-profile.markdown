@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Profiles"
+title:  "Profile Page | ChristopherAzar.com"
 date:   2015-01-09 00:00:00
 permalink: profile
 categories:
@@ -8,6 +8,9 @@ categories:
 
 <!-- Begin Hero Row -->
 <div class="row hero">
+    <p>slanted diagonal mockups</p>
+    <p>wide, med, narrw</p>
+    <p>like the frontpage one from dribbble, but gray no background</p>
 </div>
 
 <!-- Begin Intro Row -->
