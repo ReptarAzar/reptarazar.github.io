@@ -13,7 +13,7 @@ categories:
     <p>like the frontpage one from dribbble, but gray no background</p>
 </div>
 
-<!-- Begin Intro Row -->
+<!-- Begin Title Row -->
 <div class="row title">
     <div class="label-column">
         <div>Project Name</div>
@@ -23,7 +23,7 @@ categories:
         <span class="title">User Profile Pages</span>
     </div>
 </div>
-<!-- Begin Intro Row -->
+<!-- Begin Role Row -->
 <div class="row role">
     <div class="label-column">
         <div>Role</div>
@@ -87,11 +87,9 @@ categories:
             <img src="../assets/img/portfolio/profiles/sketch-doc.png" />
         </a>
 
-        <p>Screenshot of the mockup Sketch document</p>
+        <p><a href="../assets/img/portfolio/profiles/profile.sketch">Download sketch file</a></p>
 
         <p>Then I'll begin pixel-perfect mock ups of the final designs. After the designs are reviewed by stakeholders, they are split into tickets and I'll generate a focused batch of mockup files for each ticket that way the engineer can just grab exactly what they need and don't have to dig at all.  <a href="../assets/img/portfolio/profiles/folder-structure.png" data-lightbox="sketches">tickets/folder structure </a>for this project.</p>
-
-        <p> <a href="../assets/img/portfolio/profiles/profile.sketch">Download sketch file</a></p>
 
     </div>
 </div>
@@ -123,10 +121,10 @@ categories:
 
        <div class="thumb-row">
             <p>
-                <a href="../assets/img/portfolio/profiles/vijay-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                <a href="../assets/img/portfolio/profiles/vijay-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
                     <img src="../assets/img/portfolio/profiles/vijay-picks-sm.png"  />
                 </a>
-                <a href="../assets/img/portfolio/profiles/vijay-troves.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                <a href="../assets/img/portfolio/profiles/vijay-troves.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
                     <img src="../assets/img/portfolio/profiles/vijay-troves-sm.png"  />
                 </a>
             </p>
@@ -137,10 +135,10 @@ categories:
 
         <!-- <div class="thumb-row">
             <p>
-                <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb ">
                     <img src="../assets/img/portfolio/profiles/azar-picks-sm.png" />
                 </a>
-                <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb">
+                <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
                     <img src="../assets/img/portfolio/profiles/azar-edit-sm.png" />
                 </a>
             </p>

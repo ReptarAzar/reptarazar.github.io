@@ -106,8 +106,9 @@ h3.mess {
 
     .row {
         width: 80%;
+        max-width: 1200px;
         margin: 0 auto;
-        padding-top: 20px;
+        padding-top: 40px;
         display: block;
         clear: both;
 
@@ -121,6 +122,7 @@ h3.mess {
 
         &.hero {
             width: 100%;
+            max-width: 999999px;
             height: 400px;
             margin: 0 0 10px 0;
             background-color: #eee;
@@ -129,9 +131,11 @@ h3.mess {
 
         &.next {
             width: 100%;
+            max-width: 999999px;
             margin: 100px 0 0;
             background-color: #eee;
             float: left;
+            padding: 20px 10px 0px;
 
 
             .next-column {
@@ -174,7 +178,7 @@ h3.mess {
             blockquote {
                 font-style: italic;
                 text-indent: -6px;
-                margin: 20px 50px;
+                margin: 20px 50px 0;
                 padding: 0;
                 border-left: none;
                 text-align: justify;
@@ -214,7 +218,24 @@ h3.mess {
             .mockup-thumb {
                 float: left;
                 margin: 0 20px 20px 0;
+            }
+
+            .shadow {
                 box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
+            }
+
+            .pull-pic {
+                float: left;
+                margin: 20px 0 10px 0;
+                position: relative;
+                left: -30px;
+                width: 38.1966011%;
+                @media screen and (max-width: 540px) {
+                    margin: 20px 0;
+                    position: relative;
+                    left: 0;
+                    width: 100%;
+                }
             }
 
         }

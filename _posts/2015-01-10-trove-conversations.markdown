@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Conversations"
+title:  "Conversations | ChristopherAzar.com"
 date:   2015-01-10 00:00:00
 permalink: conversations
 categories:
 ---
 
 <!-- Begin Hero Row -->
-<div class="row hero">
+<div class="hero row">
 <p>3 slanted diagonal wireframes</p>
     <p>wide, med, narrw</p>
     <p>like the frontpage one from dribbble, but gray no background</p>
@@ -62,14 +62,18 @@ categories:
     <div class="content-column">
         Conversations are not an entirely new phenomena on the web. A nod to my former colleauge and creator of Slashdot, Rob Malda, who in many ways invented social news constructs. We knew we had a lot of established social tech products and interpersonal paradigms to consider and draw inspiration.
 
-        <p><a href="../assets/img/me.png" data-lightbox="wireframe"  class="lightbox-image"><img src="../assets/img/me.png" /></a></p>
+        <p>When doing research, instead of looking at the most popular products, I look for products people _Love_. In addition, I look for taste - products that have been created by obsessed mad geniuses preferably that have made multiple successful products. Here are a few of the products I looked closely at and what I like/disliked about them.
+        </p>
 
+        <p>Branch - Discussions only platform, a back-and-forth style UI starting with a single article post (since been shutdown)- created by the genius @Ev and was sold to fb. Branch Product Lead now works for the white house as the first head of product.</p>
 
-        When doing research, instead of looking at the most popular products, I look for products people _Love_. In addition, I look for taste - products that have been created by obsessed mad geniuses preferably that have made multiple successful products. Here are a few of the products I looked closely at and what I like/disliked about them.
+        <p>Swarm - Less similar but, people talking to their friends about where they are and where they're going - @dens has been a personal inspiration and has a ton of experience with tips and online communication
+        Letterboxed - a film diary website with a tight community of cinaphiles - excellent at creating hooks back into the product. Keep the flow going and films have longer halflife than most articles but is similar to some of the featured news on Trove.</p>
 
-        Branch - Discussions only platform, a back-and-forth style UI starting with a single article post (since been shutdown)- created by the genius @Ev and was sold to fb. Branch Product Lead now works for the white house as the first head of product.
-        Swarm - Less similar but, people talking to their friends about where they are and where they're going - @dens has been a personal inspiration and has a ton of experience with tips and online communication
-        Letterboxed - a film diary website with a tight community of cinaphiles - excellent at creating hooks back into the product. Keep the flow going and films have longer halflife than most articles but is similar to some of the featured news on Trove.
+        <p>
+            <a href="../assets/img/portfolio/conversations/conversations-research.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/conversations/conversations-research.png" /></a>
+        </p>
+
     </div>
 </div>
 
@@ -82,7 +86,12 @@ categories:
     <div class="content-column">
         I always start with lists of ideas because they are the fastest way to get ideas out. At the beginning of every project, there's a flood and if I  don't get them down, they're gone. Next is a bunch of thumbnails of flows that I'm working out in my head. These thumbails are also the first time I can show other designers and PMs what I'm thinking and get feedback after only a few minutes. If I have a complete flow between products (web, email, native) it's a great way to all get on the same page before blowing out full wireframes.
 
-        In general my sketches are low-fidelity and invlude no visual design. I'm simply trying to illustrate interactions and information arcitecture. Getting the flow and the general heirarchy down is most important in this phase. Soft pencils and a regular black sharpie to paper work really well for me in this phase.
+        <p>In general my sketches are low-fidelity and include no visual design. I'm simply trying to illustrate interactions and information architecture. Getting the flow and the general hierarchy down is most important in this phase. Soft pencils and a regular black sharpie to paper work really well for me in this phase.</p>
+
+        <!-- <a href="../assets/img/portfolio/conversations/conversations-research.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/conversations/conversations-research.png" />
+        </a> -->
+
     </div>
 </div>
 
@@ -93,16 +102,27 @@ categories:
     </div>
 
     <div class="content-column">
-        The bread and butter of any UX Designer, I've honed wireframes so now I have my own style. I use bold lines, black and white wireframes that use proportion, line and figre-ground to illustrate the communication, so that everyone (including me) can go nose first into the wall and focus on the hare interactions and flows that will result on the right experience we want to create and save teh visual design, colors and polish for later. This is where engineering is more involved as well.
 
-        Starting with mobile, I'll start with the key interactions and the flesh out the others  For this project, there was a different experience we wanted for the curator (that's starting and hosting the conversations) and the follower that's getting involved later.
+        <a href="../assets/img/portfolio/conversations/sketch-doc-wireframes.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/conversations/sketch-doc-wireframes.png" />
+        </a>
 
-        Sometimes I'll throw these wireframes into a keynote so they can animate together a tiny bit so they will feel alive and get people excited about what we're building. I'm easily excitable and galvanizing a team, espcially as new people and engineers are introduced to the concept, is important.
+        <p><a href="../assets/img/portfolio/conversations/conversations-working.sketch">Download sketch file</a></p>
 
-        Then I'll revise and return for another presentation.  8 presentations in a 10 day period is common. I don't take too many meetings during this period and am very head down sketching and creating more wireframes. Miranda, a Senior PM, and I will typically have 1:1s daily to work out the kinks and get the ideas/feedback cleaner for me to respond to.
-        I'll make anywhere between
+        <p>
+        The secret sauce, the glue between product and design and engineering, the great focuser: wireframes. I've honed wireframes so now I have my own style. I use bold lines, black and white wireframes that use proportion, line and figre-ground to illustrate the communication, so that everyone (including me) can go nose first into the wall and focus on the hare interactions and flows that will result on the right experience we want to create and save teh visual design, colors and polish for later. This is where engineering is more involved as well.
+        </p>
 
-        words are important. part of building the UX is thinking about the microcopy and labels throughout the feature. Worked with marketing towards the right thing to call this feature that felt natural and friendly, like inviting a neighbor.  Hosting a conversation is what we inevitably decided.
+        <img src="https://lh3.googleusercontent.com/wZy4Mvx5c-cJFJDjTLIb5oBcpUE58YMjv6tN_HaaG_No=w972-h730-no" class="pull-pic">
+
+        <p>Starting with mobile, I'll start with the key interactions and the flesh out the others  For this project, there was a different experience we wanted for the curator (that's starting and hosting the conversations) and the follower that's getting involved later.</p>
+
+        <p>Sometimes I'll throw these wireframes into a keynote so they can animate together a tiny bit so they will feel alive and get people excited about what we're building. I'm easily excitable and galvanizing a team, espcially as new people and engineers are introduced to the concept, is important.</p>
+
+        <p>Then I'll revise and return for another presentation.  8 presentations in a 10 day period is common. I don't take too many meetings during this period and am very head down sketching and creating more wireframes. Miranda, a Senior PM, and I will typically have 1:1s daily to work out the kinks and get the ideas/feedback cleaner for me to respond to.</p>
+
+        <p>I'll make anywhere between words are important. part of building the UX is thinking about the microcopy and labels throughout the feature. Worked with marketing towards the right thing to call this feature that felt natural and friendly, like inviting a neighbor.  Hosting a conversation is what we inevitably decided.</p>
+
     </div>
 </div>
 
@@ -113,18 +133,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Email Mockup + download link
-    </div>
-</div>
+        <a href="../assets/img/portfolio/conversations/follower-email.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/conversations/follower-email.png" class="shadow" /></a>
 
-<!-- Begin Prototype Row -->
-<div class="row prototype">
-    <div class="label-column">
-        Prototype
-    </div>
-
-    <div class="content-column">
-        [Prototype]
+        <p>This is the email design for followers to reply to a conversation that has been started. It's responsive too.</p>
     </div>
 </div>
 
