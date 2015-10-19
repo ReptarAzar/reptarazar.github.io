@@ -202,9 +202,16 @@ h3.mess {
             .invision {
                 float: left;
                 width: 430px;
-                width: 1px;
-                min-width: 100%;
-                *width: 100%;
+                @media screen and (max-width: 540px) {
+                    -ms-zoom: 0.6;
+                    -moz-transform: scale(0.6);
+                    -moz-transform-origin: 0 0;
+                    -o-transform: scale(0.6);
+                    -o-transform-origin: 0 0;
+                    -webkit-transform: scale(0.6);
+                    -webkit-transform-origin: 0 0;
+                }
+
             }
 
         }

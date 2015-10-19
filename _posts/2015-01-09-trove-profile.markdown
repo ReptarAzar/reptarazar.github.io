@@ -104,7 +104,9 @@ categories:
     <div class="content-column">
         Here are a few prototypes I made that you can click around and play with.
 
-        As a fun game try making the first one look filled in like the second prototype.
+
+        <p>As a fun game try making the first one look filled in like the second prototype.</p>
+
         <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen scrolling="no"></iframe>
         <iframe class="invision" width="438" height="870" src="//invis.io/QX4LBOJYM" frameborder="0" allowfullscreen scrolling="no"></iframe>
     </div>
