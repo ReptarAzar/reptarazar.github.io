@@ -105,6 +105,10 @@ h3.mess {
         display: block;
         clear: both;
 
+        @media screen and (max-width: 540px) {
+            font-size: .9em;
+        }
+
         &.intro {
             // text-align: center;
             // color: $white;
@@ -188,11 +192,19 @@ h3.mess {
                 padding: 0;
                 border-left: none;
                 text-align: justify;
+
+                @media screen and (max-width: 540px) {
+                    padding: 0;
+                    margin: 20px 10px;
+                }
             }
 
             .invision {
                 float: left;
                 width: 430px;
+                width: 1px;
+                min-width: 100%;
+                *width: 100%;
             }
 
         }

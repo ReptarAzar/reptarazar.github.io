@@ -105,8 +105,8 @@ categories:
         Here are a few prototypes I made that you can click around and play with.
 
         As a fun game try making the first one look filled in like the second prototype.
-        <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen></iframe>
-        <iframe class="invision" width="438" height="870" src="//invis.io/QX4LBOJYM" frameborder="0" allowfullscreen></iframe>
+        <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen scrolling="no"></iframe>
+        <iframe class="invision" width="438" height="870" src="//invis.io/QX4LBOJYM" frameborder="0" allowfullscreen scrolling="no"></iframe>
     </div>
 </div>
 
@@ -135,7 +135,7 @@ categories:
 
         <p>It's a clickable prototype too, so feel free to play around and check out the different input types and save structure. </p>
 
-        <iframe class="invision" width="438" height="870" src="//invis.io/A33BPR568" frameborder="0" allowfullscreen></iframe>
+        <iframe class="invision" width="438" height="870" src="//invis.io/A33BPR568" frameborder="0" allowfullscreen scrolling="no"></iframe>
 
     </div>
 </div>
