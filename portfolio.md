@@ -5,7 +5,7 @@ permalink: /portfolio/
 ---
 
 <h1 class="mess">STILL UNDER CONSTRUCTION </h1>
-<h3 class="mess">... sorry about the mess ...</h3>
+<h3 class="mess">(sorry about the mess)</h3>
 
 <div class="portfolio-index-content">
 
