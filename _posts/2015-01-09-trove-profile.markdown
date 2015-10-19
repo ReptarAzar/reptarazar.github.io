@@ -11,14 +11,22 @@ categories:
 </div>
 
 <!-- Begin Intro Row -->
-<div class="row intro">
+<div class="row title">
     <div class="label-column">
         <div>Project Name</div>
-        <div>Role</div>
     </div>
 
     <div class="content-column">
         <span class="title">User Profile Pages</span>
+    </div>
+</div>
+<!-- Begin Intro Row -->
+<div class="row role">
+    <div class="label-column">
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
         <span class="role">Design Lead</span>
     </div>
 </div>

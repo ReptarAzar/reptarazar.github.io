@@ -109,28 +109,8 @@ h3.mess {
             font-size: .9em;
         }
 
-        &.intro {
-            // text-align: center;
-            // color: $white;
-
-            .title {
-                // width: 100%;
-                // display: block;
-                // font-weight: 900;
-                // letter-spacing: .5px;
-                // text-transform: uppercase;
-                // font-size: 2em;
-                // line-height: 1.25em;
-                // margin-top: 100px;
-            }
-            .sub-head {
-                font-style: italic;
-            }
-
-            .role {
-                width: 100%;
-                display: block;
-            }
+        &.role {
+            padding-top: 0;
         }
 
         &.hero {
@@ -203,6 +183,8 @@ h3.mess {
                 float: left;
                 width: 430px;
                 @media screen and (max-width: 540px) {
+                    overflow: visible;
+
                     -ms-zoom: 0.6;
                     -moz-transform: scale(0.6);
                     -moz-transform-origin: 0 0;
@@ -210,6 +192,9 @@ h3.mess {
                     -o-transform-origin: 0 0;
                     -webkit-transform: scale(0.6);
                     -webkit-transform-origin: 0 0;
+
+                    transform: scale(0.6);
+                    transform-origin: 0 0;
                 }
 
             }
