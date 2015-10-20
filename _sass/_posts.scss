@@ -131,6 +131,20 @@ h3.mess {
         }
         &.ifttt {
             color: dodgerblue;
+
+            // KERNING :)
+            .character-1 {
+                letter-spacing: -.06em;
+            }
+            .character-2 {
+                letter-spacing: .018em;
+            }
+            .character-3 {
+                letter-spacing: .05em;
+            }
+            .character-4 {
+                letter-spacing: .05em;
+            }
         }
     }
 

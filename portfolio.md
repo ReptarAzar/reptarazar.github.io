@@ -27,7 +27,7 @@ permalink: /portfolio/
 
         <li class="post-thumb soon-thumb">
             <a class="post-link ifttt" href="/ifttt">
-                <span class="character-1" style="letter-spacing: -.06em;">I</span><span class="character-2" style="letter-spacing: .018em;">F</span><span class="character-3" style="letter-spacing: .05em;">T</span><span class="character-4" style="letter-spacing: .05em;">T</span><span class="character-5">T</span>
+                <span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T
             </a>
         </li>
 
