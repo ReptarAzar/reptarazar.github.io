@@ -11,21 +11,21 @@ permalink: /portfolio/
 
     <ul class="post-list">
 
-        <li class="post-thumb"><a class="post-link trove" href="/conversations">Conversations</a></li>
+        <li class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Conversations</a></li>
 
-        <li class="post-thumb"><a class="post-link trove" href="/profile">Profiles</a></li>
+        <li class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile">Profiles</a></li>
 
-        <li class="post-thumb"><a class="post-link trove" href="/stars-comments">Stars </a></li>
+        <li class="post-thumb soon-thumb"><a class="post-link trove" href="/stars-comments">Stars </a></li>
 
-        <li class="post-thumb"><a class="post-link trove" href="/trove-homepage">Homepage</a></li>
+        <li class="post-thumb soon-thumb"><a class="post-link trove" href="/trove-homepage">Homepage</a></li>
 
-        <li class="post-thumb"><a class="post-link trove" href="/trove-goodies">Goodies</a></li>
+        <li class="post-thumb soon-thumb"><a class="post-link trove" href="/trove-goodies">Goodies</a></li>
 
         <li class="post-thumb tinker-thumb"><a class="post-link littletinker" href="http://littletinker.io" target="_blank">Little Tinker</a></li>
 
         <li class="post-thumb"><a class="post-link ga" href="/future-of-ux">Future of UX</a></li>
 
-        <li class="post-thumb"><a class="post-link ifttt" href="/ifttt">IFTTT</a></li>
+        <li class="post-thumb soon-thumb"><a class="post-link ifttt" href="/ifttt">IFTTT</a></li>
 
     </ul>
 

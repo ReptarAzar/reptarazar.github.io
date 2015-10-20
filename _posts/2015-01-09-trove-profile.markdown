@@ -7,11 +7,7 @@ categories:
 ---
 
 <!-- Begin Hero Row -->
-<div class="row hero">
-    <p>slanted diagonal mockups</p>
-    <p>wide, med, narrw</p>
-    <p>like the frontpage one from dribbble, but gray no background</p>
-</div>
+<div class="row hero trove-profile-hero"></div>
 
 <!-- Begin Title Row -->
 <div class="row title">

@@ -7,10 +7,7 @@ categories:
 ---
 
 <!-- Begin Hero Row -->
-<div class="hero row">
-<p>3 slanted diagonal wireframes</p>
-    <p>wide, med, narrw</p>
-    <p>like the frontpage one from dribbble, but gray no background</p>
+<div class="hero row trove-conversations-hero">
 </div>
 
 <!-- Begin Title Row -->
