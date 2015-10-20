@@ -68,6 +68,16 @@ h3.mess {
         &.soon-thumb {
             background-image: url(../assets/img/portfolio/soon.png);
             background-repeat: repeat;
+
+            -webkit-transition:background-position 5s linear;
+            -moz-transition:background-position 5s linear;
+            -o-transition:background-position 5s linear;
+            transition:background-position 5s linear;
+
+            &:hover {
+                background-position: 1000px 1000px;
+            }
+
         }
 
     }
