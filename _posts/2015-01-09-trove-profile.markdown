@@ -2,7 +2,7 @@
 layout: post
 title:  "Profile Page | ChristopherAzar.com"
 date:   2015-01-09 00:00:00
-permalink: profile
+permalink: profile-9v9AegmHHmd4H2ET
 categories:
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Conversations | ChristopherAzar.com"
 date:   2015-01-10 00:00:00
-permalink: conversations
+permalink: conversations-9v9AegmHHmd4H2ET
 categories:
 ---
 
