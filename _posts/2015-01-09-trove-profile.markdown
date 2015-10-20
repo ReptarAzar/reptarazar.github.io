@@ -169,11 +169,14 @@ categories:
 
 <!-- Begin Next Row -->
 <div class="row next">
-    <div class="next-column">
-        <div></div>
+
+    <h2>what to check out next...</h2>
+
+    <div class="next-column post-list">
+        <div class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile">Profiles</a></div>
     </div>
 
-    <div class="next-column">
-        next
+    <div class="next-column post-list">
+        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Stars</a></div>
     </div>
 </div>
