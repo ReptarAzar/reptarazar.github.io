@@ -11,9 +11,9 @@ permalink: /portfolio/
 
     <ul class="post-list">
 
-        <li class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations-pVMcY24Cajjp7fM4">Conversations</a></li>
+        <li class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Conversations</a></li>
 
-        <li class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile-pVMcY24Cajjp7fM4">Profiles</a></li>
+        <li class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile">Profiles</a></li>
 
         <li class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars-comments">Stars </a></li>
 
