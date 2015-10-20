@@ -2,7 +2,7 @@
 layout: post
 title:  "Profile Page | ChristopherAzar.com"
 date:   2015-01-09 00:00:00
-permalink: profile-pVMcY24Cajjp7fM4
+permalink: profile
 categories:
 ---
 
@@ -38,7 +38,8 @@ categories:
 
     <div class="content-column">
         Users: "Who are these [curator] folks? And why do I care?"
-        Product/Biz: "We need folks to stick around after creating an account. Profiles are a place for sharing snippet of identity not just a record of their activity on the site"
+
+        <p>Product/Biz: "We need folks to stick around after creating an account. Profiles are a place for sharing snippet of identity not just a record of their activity on the site"</p>
     </div>
 </div>
 
@@ -169,7 +170,7 @@ categories:
 <!-- Begin Next Row -->
 <div class="row next">
     <div class="next-column">
-        next
+        <div></div>
     </div>
 
     <div class="next-column">

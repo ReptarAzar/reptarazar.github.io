@@ -65,6 +65,11 @@ h3.mess {
             background-size: 100%;
         }
 
+        &.trove-stars-thumb {
+            background-image: url(../assets/img/portfolio/stars/thumb.png);
+            background-size: 100%;
+        }
+
         &.soon-thumb {
             background-image: url(../assets/img/portfolio/soon.png);
             background-repeat: repeat;
@@ -158,7 +163,8 @@ h3.mess {
             height: 400px;
             margin: 0 0 10px 0;
             background-color: #eee;
-            box-shadow: 0px -1px 2px 0px rgba(0,0,0,0.5);
+            box-shadow: inset 0 -2px 2px 0px rgba(0, 0, 0, 0.1);
+            background-attachment: fixed;
             background-repeat: no-repeat;
 
             @media screen and (max-width: 540px) {
@@ -173,6 +179,11 @@ h3.mess {
 
             &.trove-conversations-hero {
                 background-image: url(../assets/img/portfolio/conversations/thumb.png);
+                background-position: 40% 0;
+            }
+
+            &.trove-stars-hero {
+                background-image: url(../assets/img/portfolio/stars/thumb.png);
                 background-position: 40% 0;
             }
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Conversations | ChristopherAzar.com"
 date:   2015-01-10 00:00:00
-permalink: conversations-pVMcY24Cajjp7fM4
+permalink: conversations
 categories:
 ---
 
@@ -141,6 +141,9 @@ categories:
         <p>This is the email design for followers to reply to a conversation that has been started. It's responsive too.</p>
     </div>
 </div>
+
+
+
 
 <!-- Begin Live Row -->
 <div class="row live">
