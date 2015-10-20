@@ -162,7 +162,9 @@ categories:
 
         <p>It's a clickable prototype too, so feel free to play around and check out the different input types and save structure. </p>
 
-        <iframe class="invision" width="438" height="870" src="//invis.io/A33BPR568" frameborder="0" allowfullscreen scrolling="no"></iframe>
+        <div class="invision-wrapper">
+            <iframe class="invision" width="438" height="870" src="//invis.io/A33BPR568" frameborder="0" allowfullscreen scrolling="no"></iframe>
+        </div>
 
     </div>
 </div>
