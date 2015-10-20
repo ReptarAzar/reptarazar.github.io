@@ -120,6 +120,10 @@ categories:
 
         <p>I'll make anywhere between words are important. part of building the UX is thinking about the microcopy and labels throughout the feature. Worked with marketing towards the right thing to call this feature that felt natural and friendly, like inviting a neighbor.  Hosting a conversation is what we inevitably decided.</p>
 
+        <p>Below is the slides from keynote presentation I gave to the product and engineering teams while we were trying to nail down the key flows. It covers a persona and the email hook to trove.com engagement hook that we eventually decided on pushing through production.</p>
+
+        <p><video id="conversations-presentation" src="../assets/img/portfolio/conversations/conversations.m4v" preload controls autoplay></video></p>
+
     </div>
 </div>
 
@@ -130,6 +134,8 @@ categories:
     </div>
 
     <div class="content-column">
+        For this project I was only responsible for the email portion of the high-resolution mockups. The responsive email design can be seen below.
+
         <a href="../assets/img/portfolio/conversations/follower-email.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/conversations/follower-email.png" class="shadow" /></a>
 
         <p>This is the email design for followers to reply to a conversation that has been started. It's responsive too.</p>
