@@ -25,7 +25,11 @@ permalink: /portfolio/
 
         <li class="post-thumb"><a class="post-link ga" href="/future-of-ux">Future of UX</a></li>
 
-        <li class="post-thumb soon-thumb"><a class="post-link ifttt" href="/ifttt">IFTTT</a></li>
+        <li class="post-thumb soon-thumb">
+            <a class="post-link ifttt" href="/ifttt">
+                <span class="character-1" style="letter-spacing: -.06em;">I</span><span class="character-2" style="letter-spacing: .018em;">F</span><span class="character-3" style="letter-spacing: .05em;">T</span><span class="character-4" style="letter-spacing: .05em;">T</span><span class="character-5">T</span>
+            </a>
+        </li>
 
     </ul>
 
