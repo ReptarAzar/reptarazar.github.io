@@ -221,25 +221,36 @@ h3.mess {
                 }
             }
 
-            .invision {
+            .invision-wrapper {
+                width: 438px;
+                height: 870px;
                 float: left;
-                width: 430px;
-                @media screen and (max-width: 540px) {
-                    overflow: visible;
+                @media screen and (max-width: 1460px) {
+                    width: 258px !important;
+                    height: 522px !important;
+                    overflow: hidden;
+                }
 
-                    -ms-zoom: 0.6;
-                    -moz-transform: scale(0.6);
-                    -moz-transform-origin: 0 0;
-                    -o-transform: scale(0.6);
-                    -o-transform-origin: 0 0;
-                    -webkit-transform: scale(0.6);
-                    -webkit-transform-origin: 0 0;
+                .invision {
+                    float: left;
+                    width: 430px;
+                    @media screen and (max-width: 1460px) {
 
-                    transform: scale(0.6);
-                    transform-origin: 0 0;
+                        -ms-zoom: 0.6;
+                        -moz-transform: scale(0.6);
+                        -moz-transform-origin: 0 0;
+                        -o-transform: scale(0.6);
+                        -o-transform-origin: 0 0;
+                        -webkit-transform: scale(0.6);
+                        -webkit-transform-origin: 0 0;
+
+                        transform: scale(0.6);
+                        transform-origin: 0 0;
+                    }
                 }
 
             }
+
 
             .thumb-row {
                 width: 100%;
@@ -262,14 +273,14 @@ h3.mess {
                 position: relative;
                 left: -30px;
                 width: 38.1966011%;
-                @media screen and (max-width: 540px) {
+
+                @media screen and (max-width: 1400px) {
                     margin: 20px 0;
                     position: relative;
                     left: 0;
                     width: 100%;
                 }
             }
-
         }
 
     // end .row
