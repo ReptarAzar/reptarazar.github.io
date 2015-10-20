@@ -2,7 +2,7 @@
 layout: post
 title:  "Trove Homepage"
 date:   2015-01-07 00:00:00
-permalink: trove-homepage-9v9AegmHHmd4H2ET
+permalink: trove-homepage
 categories:
 ---
 
