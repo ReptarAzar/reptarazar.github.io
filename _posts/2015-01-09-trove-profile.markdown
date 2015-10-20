@@ -2,7 +2,7 @@
 layout: post
 title:  "Profile Page | ChristopherAzar.com"
 date:   2015-01-09 00:00:00
-permalink: profile
+permalink: profile-pVMcY24Cajjp7fM4
 categories:
 ---
 
@@ -98,7 +98,7 @@ categories:
 
     <div class="content-column">
 
-        Here are a few prototypes I made that you can click around and play with. As a fun game try making the first one look filled in like the second prototype. <br />
+        Here are a few prototypes I made that you can click around and play with. As a fun game try making the first one look filled in like the second prototype (or top and bottom if you're on mobile). <br />
         <div class="invision-wrapper">
             <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen scrolling="no"></iframe>
         </div>
