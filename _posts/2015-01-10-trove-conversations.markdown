@@ -17,7 +17,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="title">Converstations</span>
+        <span class="title">Conversations on <a href="http://trove.com">Trove.com</a></span>
     </div>
 </div>
 

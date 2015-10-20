@@ -16,7 +16,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="title">User Profile Pages</span>
+        <span class="title">User Profile Pages on <a href="http://trove.com">Trove.com</a></span>
     </div>
 </div>
 <!-- Begin Role Row -->
