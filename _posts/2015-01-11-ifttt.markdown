@@ -5,3 +5,215 @@ date:   2015-01-09 00:00:00
 permalink: ifttt
 categories:
 ---
+
+
+<!-- Begin Hero Row -->
+<div class="hero row ifttt-hero">
+</div>
+
+<!-- Begin Title Row -->
+<div class="row title">
+    <div class="label-column">
+        <div>Project Name</div>
+    </div>
+
+    <div class="content-column">
+        <span class="title">IFTTT Experiments</a></span>
+    </div>
+</div>
+
+<!-- Begin Role Row -->
+<div class="row role">
+    <div class="label-column">
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
+        <span class="role">Outside Tinkerer</span>
+    </div>
+</div>
+
+<!-- Begin Problem Row -->
+<div class="row problem">
+    <div class="label-column">
+        Problem
+    </div>
+
+    <div class="content-column">
+
+        Whoa Whoa Whoa. Who said we had a problem?
+
+        <p><img src="../assets/img/departed-who-said.jpg" /></p>
+
+        <p>Before I get started, they're one of my favorite companies right now, I love IFTTT. They've got ____ of APIs with ___ combinations. I've been using it since 2011 and see an awesome future ahead for them too.
+
+        <p>BUT I wanted to experiment, not with the recipes, but how we interact with the APIs. The UX of a scanning a grid of logos, is a bit weighty and cumbersome. What would a command line interface (the fastest and oldest of all) look like for IFTTT?</p>
+
+        <p>The open text input is a daunting, but the most powerful. How could we co-mingle the speed and simplicity of the commandline/google search input with the joy and ease of using IFTTT and all it's wonderful magic?</p>
+
+        <p>Because! BecauseBecause, if you could nail the type-to-ifttt `<input>` you could put/integrate it infinitely more places – in a tweet, in slack, alfred, sms even?. Anyways, it would be kickass. Also, while a grid of icons is scaleable and clean as a layout, it doesn't exactly get the synapses firing like writing out text does.
+        </p>
+
+        <p>User: IFTTT rules, but making a recipe is slow(er) and hard(er) than it could be.</p>
+
+        </div>
+</div>
+
+
+<!-- Begin Research Row -->
+<div class="row research">
+    <div class="label-column">
+        Research
+    </div>
+
+    <div class="content-column">
+
+        So I put my intuition about scanning icon grids being slow to the test and found this research about it.
+
+        Not everyone is the same. For some, icons work better and some labels. So, in conclusion why not use both?? Sweet.
+
+        Smart auto-completing would have to be a must. Here's what that might look like.
+
+    </div>
+</div>
+
+<!-- Begin Sketches Row -->
+<div class="row sketches">
+    <div class="label-column">
+        Sketches
+    </div>
+
+    <div class="content-column">
+
+    </div>
+</div>
+
+<!-- Begin UX row -->
+<div class="row Rx">
+    <div class="label-column">
+        UXD/Wireframes
+    </div>
+
+    <div class="content-column">
+
+        Wireframes
+
+        <a href="../assets/img/portfolio/stars/stars-wireframe-001.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/stars/stars-wireframe-001.png" />
+        </a>
+
+        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
+
+        <p>This project plan was so large that we started by rethinking what would be the best card reading experience would be for the user. We were looking to balance information density and beautiful calming news reader.</p>
+
+        <p><a href="../assets/img/portfolio/stars/stars-wireframe-002.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/stars/stars-wireframe-002.png" />
+        </a></p>
+
+        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
+
+    </div>
+</div>
+
+<!-- Begin Mockup Row -->
+<div class="row mockup">
+    <div class="label-column">
+        Mockup
+    </div>
+
+    <div class="content-column">
+        <a href="../assets/img/portfolio/stars/stars-mockup.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/stars/stars-mockup.png" />
+        </a>
+    </div>
+</div>
+
+
+<!-- Begin Prototype Row -->
+<div class="row prototype">
+    <div class="label-column">
+        Prototype
+    </div>
+
+    <div class="content-column">
+        [Code Pen]
+
+        It's a sweet (but lean) proof of concept.
+
+        Type in "Instagram" and see what happens.
+
+    </div>
+</div>
+
+<!-- Begin Live Row -->
+<div class="row live">
+    <div class="label-column">
+        Live
+    </div>
+
+    <div class="content-column">
+
+    </div>
+</div>
+
+<!-- Begin Next Row -->
+<div class="row next">
+    <div class="next-column">
+        next
+    </div>
+
+    <div class="next-column">
+        next
+    </div>
+</div>
+
+
+
+
+Conclusion:
+Pros
+Faster, can use it in slack.
+Cons
+Robotic as hell, really rough, needs robust auto complete/tabs to get it right.
+
+Had really high hopes for this, and while I was shooting for a fast + fluid way to use IFTTT, it's not quite there yet. It's a bit robotic. For example "Download new Instagram photos you like to your phone" in the command like is "If Instagram @reptarazar" "like the photo".
+
+It works better/would work better with a huge set of type ahead.
+
+
+<a href="https://ifttt.com/view_embed_recipe/126728-download-new-instagram-photos-you-like-to-your-phone" target = "_blank" class="embed_recipe embed_recipe-l_52" id= "embed_recipe-126728"><img src= 'https://ifttt.com/recipe_embed_img/126728' alt="IFTTT Recipe: Download new Instagram photos you like to your phone connects instagram to ios-photos" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>
+
+
+-----
+
+Bright idea #2
+
+Experiment with illustrating the experience.
+
+Hypothesis:
+The sensation of having your house glow orange at Giants gametime, or having your lights flicker when the stove goes off if you're a blind person is not well represented by the phillips hue logo. Using logos works well, but makes the product feel like a utility, a quilt of other app (which it is), but is so much more. Sell the inspiration. WHY?: Making the internet your bitch. Bend it to your will, effortlessly. Use the icons in addition, but sell the warm and fuzzy why of automation.
+
+
+
+Bright idea #3
+
+GIFTTT: Social Good at IFTTT
+
+One of the most compelling things about automation is helping those that are frequently ignored by the tech we make. Being poor, or sick just makes everything harder - but if you can automate even a little bit. It could be a lot better.
+
+Taking medication,
+
+
+
+Bright idea #4
+
+Physical DO buttons
+
+Did Little Tinker once, and never left me. I still believe in the blurring of the physical and digital worlds as an artist and maker. I think thin interest in the hacking of the Amazon buttons are enough to take a whack at this one. (link/video)
+
+Disposable/biodegradeable would be clutch, but not a blocker. (but if they were disposable you could see them on milk. When you are done, press a button on the carton for another)
+
+
+
+Programmable 2G chips that fire a DO recipe: ready, go! Kickstarter chip that I bought ages ago.
+
