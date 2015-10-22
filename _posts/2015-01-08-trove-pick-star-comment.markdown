@@ -2,7 +2,7 @@
 layout: post
 title:  "Picks, Stars, and Comments | ChristopherAzar.com"
 date:   2015-01-08 00:00:00
-permalink: stars-comments
+permalink: stars
 categories:
 ---
 

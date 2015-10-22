@@ -6,6 +6,8 @@ permalink: trove-homepage
 categories:
 ---
 
+
+<!--
 Project Name:
 Role:
 Problem: "Users: Seems like a cool app. What do we do next?"
@@ -16,3 +18,4 @@ Sketches:
 UX Design/Wireframes:
 Mockup:
 Prototype:
+-->

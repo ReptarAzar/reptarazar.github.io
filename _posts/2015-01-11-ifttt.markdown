@@ -9,6 +9,10 @@ categories:
 
 <!-- Begin Hero Row -->
 <div class="hero row ifttt-hero">
+    <div class="one-heroic-headline"><span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T</div>
+
+    <img src="../assets/img/portfolio/ifttt/erlenmeyer-flask.png" class="erlenmeyer-flask" />
+
 </div>
 
 <!-- Begin Title Row -->
@@ -18,7 +22,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="title">IFTTT Experiments</a></span>
+        <span class="title">IFTTT UX Experiment</a></span>
     </div>
 </div>
 
@@ -33,6 +37,25 @@ categories:
     </div>
 </div>
 
+<!-- Begin Intro Row -->
+<div class="row problem">
+    <div class="label-column">
+        Intro
+    </div>
+
+    <div class="content-column">
+        DISCLAIMER: Unlike all the other projects in this portfolio, this one is not for realsies. It's an experiment and a proof of concept and that's it.
+
+        <p>While I would really like to, I do not work at IFTTT at this time. </p>
+
+        <p>BUT, I wanted to experiment, not with the recipes, but how we (users) interact with the APIs. In my head, the UX of a scanning a grid of logos felt a bit weighty and cumbersome compared to typing recipes out. So, what would a command line or Slack interface look like for IFTTT? Could one co-mingle speed and simplicity of the command line with the and ease of using IFTTT and all it's wonderful magic?</p>
+
+        <p>Enough intro, lets get into it.</p>
+
+    </div>
+</div>
+
+
 <!-- Begin Problem Row -->
 <div class="row problem">
     <div class="label-column">
@@ -40,25 +63,9 @@ categories:
     </div>
 
     <div class="content-column">
-
-        Whoa Whoa Whoa. Who said we had a problem?
-
-        <p><img src="../assets/img/departed-who-said.jpg" /></p>
-
-        <p>Before I get started, they're one of my favorite companies right now, I love IFTTT. They've got ____ of APIs with ___ combinations. I've been using it since 2011 and see an awesome future ahead for them too.
-
-        <p>BUT I wanted to experiment, not with the recipes, but how we interact with the APIs. The UX of a scanning a grid of logos, is a bit weighty and cumbersome. What would a command line interface (the fastest and oldest of all) look like for IFTTT?</p>
-
-        <p>The open text input is a daunting, but the most powerful. How could we co-mingle the speed and simplicity of the commandline/google search input with the joy and ease of using IFTTT and all it's wonderful magic?</p>
-
-        <p>Because! BecauseBecause, if you could nail the type-to-ifttt `<input>` you could put/integrate it infinitely more places – in a tweet, in slack, alfred, sms even?. Anyways, it would be kickass. Also, while a grid of icons is scaleable and clean as a layout, it doesn't exactly get the synapses firing like writing out text does.
-        </p>
-
-        <p>User: IFTTT rules, but making a recipe is slow(er) and hard(er) than it could be.</p>
-
+        User: IFTTT rules, but making a recipe is slower than it could be and confined to the web/native apps.
         </div>
 </div>
-
 
 <!-- Begin Research Row -->
 <div class="row research">
@@ -68,66 +75,49 @@ categories:
 
     <div class="content-column">
 
-        So I put my intuition about scanning icon grids being slow to the test and found this research about it.
+        So I put my intuition about lists being easier to scan than grids to the test. What I found was compelling answer to the contrary. Aka, I was wrong. Grids are faster than lists for finding objects. Here's why: Humans can use parallelized peripheral scanning when identifying objects and take shortcuts as opposed to scanning a list of text in a serialized manner.
 
-        Not everyone is the same. For some, icons work better and some labels. So, in conclusion why not use both?? Sweet.
+    <blockquote>
+        "Most people's names have less than 3 words, which means the eye can scan each name with a single fixation - this is good for visual searching. However, text is read using eye fixations in a serial manner; this means that in order to read a shopping list (or a list of contacts), each item has to be scanned - one at a time (this is true if you actually reading it; for visual search the brain takes shortcuts, but it's a process that with words still involves more fixations)."
 
-        Smart auto-completing would have to be a must. Here's what that might look like.
+        With a group of images, a single fixation could suffice as in addition to the point of fixation the brain also processes in parallel the peripheral view.
 
+        <p>— Izhaki, <a href="http://ux.stackexchange.com/questions/71767/which-gives-heavier-congitive-load-in-grid-on-phone-screen-grid-of-images-or-gr">ux.stackexchange</a></p>
+    </blockquote>
+
+        <p>Images are easier to scan because of parallelized processing. And we developed this skill early on, before we developed language.</p>
+
+        <p>But I still thought I could make a faster experience for people who knew what they wanted and wanted to type it quickly. This use case fits Chris Becker, an infrastructure and devops engineer, perfectly.</p>
+
+        <blockquote>
+            Oh wow! I really like this. I can see this totally useful for our ops chat for doing some basic dumb monitoring of the status of services.
+
+            <p>– Chris Becker, Warby Parker</p>
+        </blockquote>
+
+        <p>So with at least one potential user, I set out to draw it up.</p>
     </div>
 </div>
+
 
 <!-- Begin Sketches Row -->
 <div class="row sketches">
-    <div class="label-column">
-        Sketches
-    </div>
-
-    <div class="content-column">
-
-    </div>
-</div>
-
-<!-- Begin UX row -->
-<div class="row Rx">
     <div class="label-column">
         UXD/Wireframes
     </div>
 
     <div class="content-column">
-
-        Wireframes
-
-        <a href="../assets/img/portfolio/stars/stars-wireframe-001.png" data-lightbox="sketches" class="lightbox-image">
-            <img src="../assets/img/portfolio/stars/stars-wireframe-001.png" />
+        <a href="../assets/img/portfolio/ifttt/ifttt-plus-slack.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/ifttt/ifttt-plus-slack.png" />
         </a>
 
-        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
+        <p>I wanted it to be as self-contained, simple as possible without losing any of the functionality that IFTTT provides. There were challenges like: what should be the order of the search autocomplete? where should the helper text live? and what if the user hasn't connected one of the accounts in the list? </p>
 
-        <p>This project plan was so large that we started by rethinking what would be the best card reading experience would be for the user. We were looking to balance information density and beautiful calming news reader.</p>
+        <p>I solved each of those by trying a few different things before setting on this final set of wireframes.</p>
 
-        <p><a href="../assets/img/portfolio/stars/stars-wireframe-002.png" data-lightbox="sketches" class="lightbox-image">
-            <img src="../assets/img/portfolio/stars/stars-wireframe-002.png" />
-        </a></p>
-
-        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
 
     </div>
 </div>
-
-<!-- Begin Mockup Row -->
-<div class="row mockup">
-    <div class="label-column">
-        Mockup
-    </div>
-
-    <div class="content-column">
-        <a href="../assets/img/portfolio/stars/stars-mockup.png" data-lightbox="sketches" class="lightbox-image">
-            <img src="../assets/img/portfolio/stars/stars-mockup.png" />
-        </a>
-    </div>
-</div>
-
 
 <!-- Begin Prototype Row -->
 <div class="row prototype">
@@ -137,6 +127,8 @@ categories:
 
     <div class="content-column">
         [Code Pen]
+
+        :focus => dropdown
 
         It's a sweet (but lean) proof of concept.
 
@@ -148,10 +140,13 @@ categories:
 <!-- Begin Live Row -->
 <div class="row live">
     <div class="label-column">
-        Live
+        Conclusions
     </div>
 
     <div class="content-column">
+        Pros: Loads of potential for fast, integrable experience for IFTTT.
+
+        <p>Cons: Currently robotic as hell and would need a strong suggestion engine built (like <a href="https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md">bloodhound.js</a>) to pull off the recommendations and auto completing. </p>
 
     </div>
 </div>
@@ -167,53 +162,4 @@ categories:
     </div>
 </div>
 
-
-
-
-Conclusion:
-Pros
-Faster, can use it in slack.
-Cons
-Robotic as hell, really rough, needs robust auto complete/tabs to get it right.
-
-Had really high hopes for this, and while I was shooting for a fast + fluid way to use IFTTT, it's not quite there yet. It's a bit robotic. For example "Download new Instagram photos you like to your phone" in the command like is "If Instagram @reptarazar" "like the photo".
-
-It works better/would work better with a huge set of type ahead.
-
-
-<a href="https://ifttt.com/view_embed_recipe/126728-download-new-instagram-photos-you-like-to-your-phone" target = "_blank" class="embed_recipe embed_recipe-l_52" id= "embed_recipe-126728"><img src= 'https://ifttt.com/recipe_embed_img/126728' alt="IFTTT Recipe: Download new Instagram photos you like to your phone connects instagram to ios-photos" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>
-
-
------
-
-Bright idea #2
-
-Experiment with illustrating the experience.
-
-Hypothesis:
-The sensation of having your house glow orange at Giants gametime, or having your lights flicker when the stove goes off if you're a blind person is not well represented by the phillips hue logo. Using logos works well, but makes the product feel like a utility, a quilt of other app (which it is), but is so much more. Sell the inspiration. WHY?: Making the internet your bitch. Bend it to your will, effortlessly. Use the icons in addition, but sell the warm and fuzzy why of automation.
-
-
-
-Bright idea #3
-
-GIFTTT: Social Good at IFTTT
-
-One of the most compelling things about automation is helping those that are frequently ignored by the tech we make. Being poor, or sick just makes everything harder - but if you can automate even a little bit. It could be a lot better.
-
-Taking medication,
-
-
-
-Bright idea #4
-
-Physical DO buttons
-
-Did Little Tinker once, and never left me. I still believe in the blurring of the physical and digital worlds as an artist and maker. I think thin interest in the hacking of the Amazon buttons are enough to take a whack at this one. (link/video)
-
-Disposable/biodegradeable would be clutch, but not a blocker. (but if they were disposable you could see them on milk. When you are done, press a button on the carton for another)
-
-
-
-Programmable 2G chips that fire a DO recipe: ready, go! Kickstarter chip that I bought ages ago.
 

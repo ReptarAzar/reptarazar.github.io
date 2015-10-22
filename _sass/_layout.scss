@@ -841,3 +841,14 @@ h3 {
         text-shadow: transparent 0 0 0;
     }
 }
+
+
+// Print styles
+@media print {
+   font-size: .5em;
+}
+
+
+@page {
+    margin: 0.5cm;
+}
