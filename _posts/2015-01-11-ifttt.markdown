@@ -90,7 +90,7 @@ categories:
         <p>But I still thought I could make a faster experience for people who knew what they wanted and wanted to type it quickly. This use case fits Chris Becker, an infrastructure and devops engineer, perfectly.</p>
 
         <blockquote>
-            Oh wow! I really like this. I can see this totally useful for our ops chat for doing some basic dumb monitoring of the status of services.
+            "Oh wow! I really like this. I can see this totally useful for our ops chat for doing some basic dumb monitoring of the status of services."
 
             <p>– Chris Becker, Warby Parker</p>
         </blockquote>
