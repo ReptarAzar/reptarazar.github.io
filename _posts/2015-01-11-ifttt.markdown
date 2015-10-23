@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IFTTT"
+title:  IFTTT | ChristopherAzar.com
 date:   2015-01-09 00:00:00
 permalink: ifttt
 categories:
@@ -161,7 +161,7 @@ categories:
     </div>
 
     <div class="next-column post-list">
-        <a href="http://onemorelevel.com/static/games/miniputt.swf" class="post-thumb miniputt-thumb">
+        <a href="http://onemorelevel.com/static/games/miniputt.swf" class="post-thumb miniputt-thumb" target="_blank">
             <span class="post-link miniputt">MiniPutt<span class="subheading">(flash game)</span>
         </a>
     </div>
