@@ -153,7 +153,7 @@ categories:
     </div>
 
     <div class="next-column post-list">
-        <a href="http://makesweetshit.tumblr.com/" target="_blank" class="post-thumb tinker-thumb">
+        <a href="https://www.facebook.com/LittleTinkerCo" target="_blank" class="post-thumb tinker-thumb">
             <span class="post-link littletinker">Little Tinker</span>
         </a>
     </div>
