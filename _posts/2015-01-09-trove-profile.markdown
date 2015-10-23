@@ -183,14 +183,3 @@ categories:
     </div>
 </div>
 
-<!-- Begin Next Row -->
-<div class="row next">
-
-    <h2>what to check out next...</h2>
-
-    <div class="next-column post-list">
-        <a class="post-link trove" href="http://onemorelevel.com/static/games/miniputt.swf" data-lightbox="miniputt" class="lightbox-image">miniputt</a>
-    </div>
-</div>
-
-
