@@ -20,7 +20,7 @@ permalink: /portfolio/
         </a>
 
         <a href="/stars" class="post-thumb trove-stars-thumb">
-            <span class="post-link trove">Stars</span>
+            <span class="post-link trove">Picks, Stars</span>
         </a>
 
         <a href="/trove-homepage" class="post-thumb soon-thumb">

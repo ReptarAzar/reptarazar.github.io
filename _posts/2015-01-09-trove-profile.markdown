@@ -179,7 +179,7 @@ categories:
     </div>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Stars</a></div>
+        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Picks, Stars</a></div>
     </div>
 </div>
 
