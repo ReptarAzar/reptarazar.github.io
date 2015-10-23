@@ -41,12 +41,13 @@ categories:
     </div>
 
     <div class="content-column">
-        To have a sucessful news product as with the success of a nation there needs to be a free flowing two way exchange of ideas.
-        Simply put: folks weren't talking on Trove. Conversations, fresh perspectives and alternate viewpoints, are one of the paramount differences between print and the web. It's more than a two way flow of information, it's civility and a community that's required for openness and progress. That's what we are striving to build on the Trove platform: _the_ place on the web to talk about the news. For curators we want to make tools for them to start the conversation, to set the tone, and to host the conversation with a variety of moderation tools. For followers, we want to be smart with our engagement. Personalized and contextual conversations will be the most compelling.
+        To have a successful news product there needs to be a free flowing exchange of ideas.
+        Conversations, fresh perspectives and alternate viewpoints, are one of the paramount differences between print and the web. It's more than a two way flow of information, it's civility and a community that's required for openness and progress. That's what we are striving to build on the Trove platform. We want Trove to be <i>the</i> place on the web to talk about the news. For curators we want to make tools for them to start the conversation, to set the tone, and to host the conversation with a variety of moderation tools. For followers, we are striving for smart engagement.
         <blockquote>
         “Trove aspires to be be a community around the news, however, evidence of community is extremely limited in the existing app. To have true community, there needs to be an ecosystem of interactions that compel curators and users to share and come back into to the app. The lifeblood of conversations is the network of the hooks and invitations that happen outside of the app but bring users back in to participate.”
         <p>—Trove Product Document, August 2015</p>
         </blockquote>
+        <p>Product/Biz: We want Trove to be the place where people can host civil conversations about the news they care about.</p>
     </div>
 </div>
 
@@ -57,9 +58,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Conversations are not an entirely new phenomena on the web. A nod to my former colleauge and creator of Slashdot, Rob Malda, who in many ways invented social news constructs. We knew we had a lot of established social tech products and interpersonal paradigms to consider and draw inspiration.
+        Conversations are not an new construct on the web. Former colleague and creator of SlashDot, Rob Malda, helped me understand the ugliness that can come from an unfettered community. We wanted to seed a very different moderated experience on Trove.
 
-        <p>When doing research, instead of looking at the most popular products, I look for products people _Love_. In addition, I look for taste - products that have been created by obsessed mad geniuses preferably that have made multiple successful products. Here are a few of the products I looked closely at and what I like/disliked about them.
+        <p>When doing research, I started looking for tight, civilized communities. I found that the more transparent and the more niche the context, the better behaved the mob was. I then used these findings to inform design decisions and they helpd product folks decide who to reach out to for the first wave.
         </p>
 
         <p>Branch - Discussions only platform, a back-and-forth style UI starting with a single article post (since been shutdown)- created by the genius @Ev and was sold to fb. Branch Product Lead now works for the white house as the first head of product.</p>
