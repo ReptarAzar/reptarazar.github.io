@@ -143,11 +143,18 @@ categories:
 
 <!-- Begin Next Row -->
 <div class="row next">
-    <div class="next-column">
-        next
+
+    <h2>what to check out next...</h2>
+
+    <div class="next-column post-list">
+        <a href="/conversations" class="post-thumb trove-conversations-thumb">
+            <span class="post-link trove">Conversations</span>
+        </a>
     </div>
 
-    <div class="next-column">
-        next
+    <div class="next-column post-list">
+        <a href="http://littletinker.io" target="_blank" class="post-thumb tinker-thumb">
+            <span class="post-link littletinker">Little Tinker</span>
+        </a>
     </div>
 </div>

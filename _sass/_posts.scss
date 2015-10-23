@@ -25,8 +25,9 @@ h1.mess {
     line-height: 1.2em;
 
     @media screen and (max-width: 580px) {
-            font-size: 1.5em;
-        }
+        font-size: 1.5em;
+    }
+
 }
 
 h3.mess {
@@ -42,10 +43,17 @@ h3.mess {
     list-style: none;
 
     .post-thumb {
+        display: block;
         position: relative;
         height: 380px;
         background-color: #f0f0f0;
         margin-bottom: 20px;
+        background-size: 100%;
+
+        -webkit-transition:background-size .15s ease-out;
+        -moz-transition:background-size .15s ease-out;
+        -o-transition:background-size .15s ease-out;
+        transition:background-size .15s ease-out;
 
         // center the images in the back of the thumbs
         background-position: 43% 40%;
@@ -56,36 +64,51 @@ h3.mess {
             height: 240px;
         }
 
-        &.tinker-thumb {
-            background-image: url(../assets/img/portfolio/micardi-illustration.png);
-            background-size: 70%;
-        }
+        &:hover {
+            background-size: 105%;
 
-        &.trove-profile-thumb {
-            background-image: url(../assets/img/portfolio/profiles/thumb.png);
-            background-size: 100%;
+            .post-link {
+                text-decoration: underline;
+            }
+
         }
 
         &.trove-conversations-thumb {
             background-image: url(../assets/img/portfolio/conversations/thumb.png);
-            background-size: 100%;
+        }
+
+        &.trove-profiles-thumb {
+            background-image: url(../assets/img/portfolio/profiles/thumb.png);
         }
 
         &.trove-stars-thumb {
             background-image: url(../assets/img/portfolio/stars/thumb.png);
+        }
+
+        &.tinker-thumb {
+            background-image: url(../assets/img/portfolio/micardi-illustration.png);
+            background-size: 70%;
+            &:hover {
+                background-size: 75%;
+            }
+        }
+
+        &.miniputt-thumb {
+            background-image: url(../assets/img/portfolio/miniputt-thumb.png);
             background-size: 100%;
+            background-position: 10px -10px;
         }
 
         &.soon-thumb {
             background-image: url(../assets/img/portfolio/soon.png);
             background-repeat: repeat;
+            background-position: 0 0;
+            background-size: inherit;
 
             -webkit-transition:background-position .2s ease-out;
             -moz-transition:background-position .2s ease-out;
             -o-transition:background-position .2s ease-out;
             transition:background-position .2s ease-out;
-
-            background-position: 0 0;
 
             &:hover {
                 -webkit-transition:background-position 10s ease-out;
@@ -94,68 +117,85 @@ h3.mess {
                 transition:background-position 10s ease-out;
 
                 background-position: 2000px 2000px;
+                background-size: inherit;
             }
 
         }
 
-    }
+        .post-link {
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 40%;
+            text-align: center;
+            font-size: 1.55rem;
+            line-height: 1.25em;
+            font-weight: 900;
+            text-transform: uppercase;
 
-    .post-link {
-        position: absolute;
-        top: 43%;
-        width: 100%;
-        text-align: center;
-        font-size: 1.55rem;
-        line-height: 1.25em;
-        font-weight: 900;
-        text-transform: uppercase;
-        // big screeens
-        @media screen and (min-width: 580px) {
-            font-size: 3em;
+            // big screeens
+            @media screen and (min-width: 580px) {
+                font-size: 58px;
+            }
+
+            &.trove {
+                color: white;
+                background-color: #9966DD;
+                padding: 3px 4px 0;
+            }
+
+            &.ga {
+                color: #E52123;
+            }
+
+            &.littletinker {
+                color: black;
+                background-color: #FFE200;
+                background-color: rgba(255, 226, 0, 0.5);
+                padding: 4px 0 0;
+            }
+
+            &.ifttt {
+                color: dodgerblue;
+
+                // KERNING :)
+                .character-1 {
+                    letter-spacing: -.06em;
+                }
+                .character-2 {
+                    letter-spacing: .018em;
+                }
+                .character-3 {
+                    letter-spacing: .05em;
+                }
+                .character-4 {
+                    letter-spacing: .05em;
+                }
+            }
+
+            &.miniputt {
+                background-color: rgb(51, 102, 204);
+                color: white;
+                padding-bottom: 10px;
+                top: 35%;
+
+                .subheading {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 30px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    letter-spacing: .035em;
+                }
+
+            }
+
         }
 
-        &.trove {
-            display: inline-block;
-            color: white;
-            background-color: #9966DD;
-            padding: 3px 4px 0;
-            &:hover {
-                //some crazy shit
-                //image? solid, moving grdient horiz barberpole?
-            }
-        }
-
-        &.ga {
-            color: #E52123;
-        }
-
-        &.littletinker {
-            color: black;
-            background-color: #FFE200;
-            background-color: rgba(255, 226, 0, 0.5);
-            padding: 4px 0 0;
-        }
-        &.ifttt {
-            color: dodgerblue;
-
-            // KERNING :)
-            .character-1 {
-                letter-spacing: -.06em;
-            }
-            .character-2 {
-                letter-spacing: .018em;
-            }
-            .character-3 {
-                letter-spacing: .05em;
-            }
-            .character-4 {
-                letter-spacing: .05em;
-            }
-        }
     }
 
 }
-
 
 .post {
     font-size: 1.25em;
@@ -251,7 +291,6 @@ h3.mess {
         }
 
         &.next {
-            background-color: #ddd;
             width: 100%;
             max-width: 999999px;
             margin: 100px 0 0;
@@ -266,7 +305,7 @@ h3.mess {
                 width: 100%;
                 text-align: center;
                 font-size: 1.2em;
-                color: #fff;
+                color: #888;
             }
 
             .next-column {
@@ -274,7 +313,7 @@ h3.mess {
                 float: left;
                 padding: 0 20px;
                 min-width: 260px;
-                @media screen and (max-width: 940px) {
+                @media screen and (max-width: 1200px) {
                     width: 100%;
                 }
             }
@@ -322,10 +361,13 @@ h3.mess {
                 padding: 0;
                 border-left: none;
                 text-align: justify;
+                line-height: 1.5em;
 
                 @media screen and (max-width: 540px) {
                     padding: 0;
                     margin: 20px 10px;
+                    text-align: left;
+
                 }
             }
 

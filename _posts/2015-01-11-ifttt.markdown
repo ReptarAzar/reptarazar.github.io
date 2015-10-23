@@ -153,12 +153,17 @@ categories:
 
 <!-- Begin Next Row -->
 <div class="row next">
-    <div class="next-column">
-        next
+
+    <h2>what to check out next...</h2>
+
+    <div class="next-column post-list">
+        <div class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Conversations</a></div>
     </div>
 
-    <div class="next-column">
-        next
+    <div class="next-column post-list">
+        <a href="http://onemorelevel.com/static/games/miniputt.swf" class="post-thumb miniputt-thumb">
+            <span class="post-link miniputt">MiniPutt<span class="subheading">(flash game)</span>
+        </a>
     </div>
 </div>
 

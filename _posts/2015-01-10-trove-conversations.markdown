@@ -134,11 +134,10 @@ categories:
     </div>
 
     <div class="content-column">
-        For this project I was only responsible for the email portion of the high-resolution mockups. The responsive email design can be seen below.
 
         <a href="../assets/img/portfolio/conversations/follower-email.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/conversations/follower-email.png" class="shadow" /></a>
 
-        <p>This is the email design for followers to reply to a conversation that has been started. It's responsive too.</p>
+        <p>Above is a mockup for the "join the conversation" email that went out after a curator had started a conversation.</p>
     </div>
 </div>
 
@@ -149,7 +148,28 @@ categories:
     </div>
 
     <div class="content-column">
-        screenshots of Vijay's two conversations from Amazon Day 1.
+        Vijay Ravindran, CEO of Trove, had some great conversations in the first two days of this feature rolling out in his Amazon Day 1 trove. George Aposporos, the founding VP of Business Development at Amazon and Neil Roseman, the original VP of Video at Amazon both joined in a conversation.
+
+       <div class="thumb-row">
+            <p>
+                <a href="../assets/img/portfolio/conversations/conversations-live-001.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/conversations/conversations-live-001-sm.png"  />
+                </a>
+                <a href="../assets/img/portfolio/conversations/conversations-live-002.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/conversations/conversations-live-002-sm.png"  />
+                </a>
+            </p>
+
+            <p><a href="https://trove.com/a/Amazon-takes-cowboy-tactics-to-%E2%80%98wild-wild-East%E2%80%99-of-India.jkvnh/conversation?chid=142594&_p=profile[activity][comments][2][10]" target="_blank">Conversation 1</a></p>
+
+            <p><a href="https://trove.com/a/By-banning-Apple-TV-and-Chromecast-Amazon-shows-what-it-means-to-be-a-monopolist.mdDin/conversation?chid=142594&_p=profile[activity][comments][3][1]" target="_blank">Conversation 2</a></p>
+
+       </div>
+
+
+
+
+
     </div>
 </div>
 
@@ -159,10 +179,14 @@ categories:
     <h2>what to check out next...</h2>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile">Profiles</a></div>
+        <a href="/profile" class="post-thumb trove-profiles-thumb">
+            <span class="post-link trove">Profiles</span>
+        </a>
     </div>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Stars</a></div>
+        <a href="/stars" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Stars</span>
+        </a>
     </div>
 </div>

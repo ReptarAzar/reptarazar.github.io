@@ -9,29 +9,41 @@ permalink: /portfolio/
 
 <div class="portfolio-index-content">
 
-    <ul class="post-list">
+    <div class="post-list">
 
-        <li class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Conversations</a></li>
+        <a href="/conversations" class="post-thumb trove-conversations-thumb">
+            <span class="post-link trove">Conversations</span>
+        </a>
 
-        <li class="post-thumb trove-profile-thumb"><a class="post-link trove" href="/profile">Profiles</a></li>
+        <a href="/profile" class="post-thumb trove-profiles-thumb">
+            <span class="post-link trove">Profiles</span>
+        </a>
 
-        <li class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Stars</a></li>
+        <a href="/stars" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Stars</span>
+        </a>
 
-        <li class="post-thumb soon-thumb"><a class="post-link trove" href="/trove-homepage">Homepage</a></li>
+        <a href="/trove-homepage" class="post-thumb soon-thumb">
+            <span class="post-link trove">Homepage</span>
+        </a>
 
-        <li class="post-thumb soon-thumb"><a class="post-link trove" href="/trove-goodies">Goodies</a></li>
+        <a href="/trove-goodies" class="post-thumb soon-thumb">
+            <span class="post-link trove">Goodies</span>
+        </a>
 
-        <li class="post-thumb tinker-thumb"><a class="post-link littletinker" href="http://littletinker.io" target="_blank">Little Tinker</a></li>
+        <a href="http://littletinker.io" target="_blank" class="post-thumb tinker-thumb">
+            <span class="post-link littletinker">Little Tinker</span>
+        </a>
 
-        <li class="post-thumb"><a class="post-link ga" href="/future-of-ux">Future of UX</a></li>
+        <a href="/future-of-ux" class="post-thumb">
+            <span class="post-link ga">Future of UX</span>
+        </a>
 
-        <li class="post-thumb soon-thumb">
-            <a class="post-link ifttt" href="/ifttt">
-                <span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T
-            </a>
-        </li>
+        <a href="/ifttt" class="post-thumb soon-thumb">
+            <span class="post-link ifttt"><span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T</span>
+        </a>
 
-    </ul>
+    </div>
 
 <p>In all of these projects, you will see a trend, a process.</p>
 
