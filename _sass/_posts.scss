@@ -320,6 +320,10 @@ h3.mess {
             .post-thumb {
                 margin-bottom: 0;
                 background-size: 85%;
+
+                &:hover {
+                    background-size: 95%;
+                }
             }
 
         }
@@ -334,6 +338,7 @@ h3.mess {
             padding-right: 20px;
             text-align: right;
             font-weight: 500;
+
             @media screen and (max-width: 840px) {
                 min-width: 210px;
                 text-align: left;
