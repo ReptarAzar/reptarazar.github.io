@@ -31,7 +31,7 @@ permalink: /portfolio/
             <span class="post-link trove">Goodies</span>
         </a>
 
-        <a href="http://littletinker.io" target="_blank" class="post-thumb tinker-thumb">
+        <a href="http://makesweetshit.tumblr.com/" target="_blank" class="post-thumb tinker-thumb">
             <span class="post-link littletinker">Little Tinker</span>
         </a>
 
