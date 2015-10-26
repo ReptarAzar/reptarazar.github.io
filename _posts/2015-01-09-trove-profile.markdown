@@ -50,10 +50,7 @@ categories:
     </div>
 
     <div class="content-column">
-        The "before"
-
-        Research/Approach:
-        After reading a study from <a href="http://blog.ghost.org/ghost-onboarding/">Ghost</a> about updating profiles. And watching countless User Testing (link)videos. Researching the case studies of a few major brands updating their profiles (including <a href="https://blog.twitter.com/2015/designing-the-new-twitter-profiles">Twitter</a>), we went to work sketching and ideas. We made a few basic assumptions about what would be valuable to support on a profile and how to display the existing data we had on a user to support the second assumption about the what to include.
+        For this project we had a lot of usability testing results to work from. In addition to those videos I pulled in a study from <a href="http://blog.ghost.org/ghost-onboarding/">Ghost</a> about and a few case studies from other apps into the pool of research. We took a look at the wins and takeaways <a href="https://blog.twitter.com/2015/designing-the-new-twitter-profiles">Twitter</a> had building their profiles and we started sketching ideas. We made a few basic assumptions about what would be valuable to support on a profile. We then went about designing new fields the user activity we already had returning in the API.
     </div>
 </div>
 
@@ -68,7 +65,7 @@ categories:
             <img src="../assets/img/portfolio/profiles/whiteboad-001.jpg" />
         </a>
 
-        <p>Going through what we wanted to see with stakeholders</p>
+        <p>Both philosophical and practical ideas about what it means to have a profile go into out product discussions with designers and stakeholders.</p>
     </div>
 </div>
 
