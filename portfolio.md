@@ -4,8 +4,8 @@ title: Portfolio | ChristopherAzar.com
 permalink: /portfolio/
 ---
 
-<h1 class="mess">STILL UNDER CONSTRUCTION </h1>
-<h3 class="mess">(sorry about the mess)</h3>
+<!-- <h1 class="mess">WORK IN PROGRESS </h1>
+<h3 class="mess">(aren't we all)</h3>-->
 
 <div class="portfolio-index-content">
 
