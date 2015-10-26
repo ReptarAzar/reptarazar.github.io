@@ -83,15 +83,17 @@ categories:
 
     <div class="content-column">
 
-        Wireframes for this project went through 19 rounds of feedback before the executive and engineering teams were satisfied before the mockup and prototyping phases.
+        This project was a massive undertaking that spanned several months. Wireframes for this project went through 19 rounds of feedback before I got the go ahead from the executive and engineering teams to move to the mockup and prototyping phases.
 
-        <p>This was also before Sketch had implemented the symbols funtionality, which was a welcome addition later down the road.</p>
+        <p>In this project, "Picking" was established as a "curation action". When a user picked an article, they were essentially adding it to a list that other users could follow. Some of the key decisions were how to invoke the pick action. We went with a modal so that users could focus on the task at hand. Also a modal worked well because it can pop on any page without disturbing the content beneath the modal.</p>
 
-        <a href="../assets/img/portfolio/stars/stars-wireframe-001.png" data-lightbox="sketches" class="lightbox-image">
+        <p>This project plan was so large that we started by rethinking what would be the best card reading experience would be for the user. We were looking to balance information density and beautiful calming news reader. Below is a few of my explorations. We eventually stuck with the card layout second from the left. </p>
+
+        <p><a href="../assets/img/portfolio/stars/stars-wireframe-001.png" data-lightbox="sketches" class="lightbox-image">
             <img src="../assets/img/portfolio/stars/stars-wireframe-001.png" />
-        </a>
+        </a></p>
 
-        <p>This project plan was so large that we started by rethinking what would be the best card reading experience would be for the user. We were looking to balance information density and beautiful calming news reader.</p>
+        <p>Below is a screenshot of the final round of mobile wireframes. The key flows outlined are the Pick flow, the trove creation flow from a pick, and the trove/article views after a pick.</p>
 
         <p><a href="../assets/img/portfolio/stars/stars-wireframe-002.png" data-lightbox="sketches" class="lightbox-image">
             <img src="../assets/img/portfolio/stars/stars-wireframe-002.png" />
@@ -112,7 +114,10 @@ categories:
         <a href="../assets/img/portfolio/stars/stars-mockup.png" data-lightbox="sketches" class="lightbox-image">
             <img src="../assets/img/portfolio/stars/stars-mockup.png" />
         </a>
+
+        <p>Next I moved into the visual design phase. Would take a little while to write up, but I would love to talk about all the little design decisions that went into this if you're interested. Shoot me an <a href="mailto:christopherazar@gmail.com">email</a>. </p>
     </div>
+
 </div>
 
 
@@ -125,8 +130,9 @@ categories:
     <div class="content-column">
         I handed off a few polished micro-interactions as prototypes in the early stages of development. Below is a CSS image sprite button. It animates through 14 steps over a desired animation time to create the animated effect. Take a look at the CSS tab for the magic.
 
+        <p>
         <div data-height="156" data-theme-id="11350" data-slug-hash="dlmKg" data-default-tab="null" data-user="ReptarAzar" class='codepen'><pre><code></code></pre>
-        </div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div><script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
 
     </div>
 </div>
