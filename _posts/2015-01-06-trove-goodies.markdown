@@ -10,26 +10,13 @@ categories:
 
 Here are a few of the bits and goodies I've worked on in the three years at Trove...
 
-Sploding star and pick with CSS
+<h3>Trove UI Kit for Sketch</h3>
+Lots of goodies packed into this one. <a href="../assets/img/portfolio/goodies/Trove-UIKit.sketch">Download UI Kit (Requires Sketch 3)</a>
 
-[ Code Pen Here ]
+<h3>Trove Icon Font</h3>
+<a href="../assets/img/portfolio/goodies/TroveIcons.zip">Download Trove Icon Font (.ttf File)</a>
 
-Trove UI Kit for Sketch
-Sometimes you need to go on vacation and sometimes life goes on. Lots of goodies packed into this one.
+<h3>Trove Raspberry Pi Ticker</h3>
+<img src="../assets/img/portfolio/goodies/ticker.png" />
 
-<a href="assets/UIKit.zip">Download Kit (Requires Sketch v3.3.3)</a>
 
-Made a font!
-Many screens and many densities
-
-<a href="assets/TroveIcons.zip">Download Trove Icon Font (.ttf File)</a>
-
-Internal Launch Party Invitation
-
-<img src="">
-
-Trove Ticker
-Runs on a RasperryPi and
-Image from Keynote
-
-<img src="">

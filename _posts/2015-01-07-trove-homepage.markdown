@@ -6,6 +6,9 @@ permalink: trove-homepage
 categories:
 ---
 
+<h3 class="mess" style="padding: 40px 0 0; margin:20px 0 0;">Coming Soon</h3>
+<img src="../assets/img/portfolio/homepage/dribbble.png" style="max-width: 1000px;margin: 0 auto; display: block;">
+
 
 <!--
 Project Name:
