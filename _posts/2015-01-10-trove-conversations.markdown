@@ -117,11 +117,10 @@ categories:
 
         <p>Sometimes I'll throw these wireframes into a keynote so they can animate together a tiny bit so they will feel alive and get people excited about what we're building. I'm easily excitable and galvanizing a team, espcially as new people and engineers are introduced to the concept, is important.</p>
 
-        <p>Then I'll revise and return for another presentation.  8 presentations in a 10 day period is common. I don't take too many meetings during this period and am very head down sketching and creating more wireframes. Miranda, a Senior PM, and I will typically have 1:1s daily to work out the kinks and get the ideas/feedback cleaner for me to respond to.</p>
+        <p>Then I'll revise and return for another presentation. 6-8 presentations in a 10 day period is common. I don't take too many meetings during these sprints and am very head down sketching and creating more wireframes. Miranda, a Senior PM, and I will typically have 1:1s daily to work out the kinks and get the ideas/feedback cleaner for me to respond to.</p>
 
-        <p>I'll make anywhere between words are important. part of building the UX is thinking about the microcopy and labels throughout the feature. Worked with marketing towards the right thing to call this feature that felt natural and friendly, like inviting a neighbor.  Hosting a conversation is what we inevitably decided.</p>
 
-        <p>Below is the slides from keynote presentation I gave to the product and engineering teams while we were trying to nail down the key flows. It covers a persona and the email hook to trove.com engagement hook that we eventually decided on pushing through production.</p>
+        <p>Below is the slides from keynote presentation I gave to the product and engineering teams while we were trying to nail down the key flows. It covers a persona, the email hook for a curator, the flow to trove.com, and the follower flow that closes the feedback loop.</p>
 
         <p><video id="conversations-presentation" src="../assets/img/portfolio/conversations/conversations.m4v" preload controls autoplay></video></p>
 
@@ -138,7 +137,7 @@ categories:
 
         <a href="../assets/img/portfolio/conversations/follower-email.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/conversations/follower-email.png" class="shadow" /></a>
 
-        <p>Above is a mockup for the "join the conversation" email that went out after a curator had started a conversation.</p>
+        <p>Above is a mockup for the "join the conversation" email that went out after to the followers of a trove after a curator started a conversation.</p>
     </div>
 </div>
 
@@ -149,7 +148,7 @@ categories:
     </div>
 
     <div class="content-column">
-        Vijay Ravindran, CEO of Trove, had some great conversations in the first two days of this feature rolling out in his Amazon Day 1 trove. George Aposporos, the founding VP of Business Development at Amazon and Neil Roseman, the original VP of Video at Amazon both joined in a conversation.
+        Vijay Ravindran, CEO of Trove, had some great conversations in the first two days of this feature rolling out in his "Amazon Day 1" trove. George Aposporos, the founding VP of Business Development at Amazon and Neil Roseman, the original VP of Video at Amazon both joined in a conversation.
 
        <div class="thumb-row">
             <p>

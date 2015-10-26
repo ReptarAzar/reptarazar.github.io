@@ -114,7 +114,7 @@ categories:
 
     <div class="content-column">
 
-        In the engineering scope process, the uploading of cover photos for each profile was cut. But here is a few screenshots of the work in production.
+        In the engineering scope process, the uploading of cover photos for each profile was cut. But here is a few screenshots of what made it to production.
 
        <div class="thumb-row">
             <p>
