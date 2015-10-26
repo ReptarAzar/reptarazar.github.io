@@ -126,13 +126,13 @@ categories:
     </div>
 
     <div class="content-column">
-        [Code Pen]
+        ** Coming soon **
 
-        :focus => dropdown
+        <!-- :focus => dropdown
 
         It's a sweet (but lean) proof of concept.
 
-        Type in "Instagram" and see what happens.
+        Type in "Instagram" and see what happens. -->
 
     </div>
 </div>
@@ -144,9 +144,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Pros: Loads of potential for fast, integrable experience for IFTTT.
+        Pros: Fast. Various potential app integrations.
 
-        <p>Cons: Currently robotic as hell and would need a strong suggestion engine built (like <a href="https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md">bloodhound.js</a>) to pull off the recommendations and auto completing. </p>
+        <p>Cons: Output is robotic as hell. Still needs a suggestion engine like <a href="https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md">bloodhound.js</a> built out. </p>
 
     </div>
 </div>
