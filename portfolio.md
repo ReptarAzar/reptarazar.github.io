@@ -47,7 +47,7 @@ permalink: /portfolio/
 
 <p>In all of these projects, you will see a trend, a process.</p>
 
-<p>You may find it boring, or repetitive, or a bit like your classic elementary school scientific method. While I'm constantly tinkering, I follow this because it is how I've learned to produce the best, most useful work I know how. But, it goes a little something like this:</p>
+<p>You may find it boring, or repetitive, or a bit like your classic elementary school scientific method. But t works. There's a lot of nuance to a good process but here's how I've learned to produce the best, most useful work I know how. Here goes:</p>
 
     <ol>
         <li>Figure out and define the problem for the business and users</li>
