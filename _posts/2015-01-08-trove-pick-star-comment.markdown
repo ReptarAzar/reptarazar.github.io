@@ -17,7 +17,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="title">Starring, Picking, and Commenting Flow on <a href="http://trove.com">Trove.com</a></span>
+        <span class="title">Starring, Picking, and Commenting Flows on <a href="http://trove.com">Trove.com</a></span>
     </div>
 </div>
 
@@ -41,9 +41,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Users: I would really love if there was a way to let someone know I liked thier pick! or say something about the article. Also, what does the "Picking" action even do?
+        Users: What does "picking" do? I would love to give feedback to a curator.
 
-        <p>Product/Biz: We really need to get some more engagement on the site. There's articles, but there's nothng after that for them to do with the articles.</p>
+        <p>Product/Biz: We really need to get some more engagement and interactivity on the site. After folks read an article, there's nothing keeping them around.</p>
 
     </div>
 </div>
@@ -64,7 +64,7 @@ categories:
     </div>
 </div>
 
-<!-- Begin Sketches Row -->
+<!-- Begin Sketches Row
 <div class="row sketches">
     <div class="label-column">
         Sketches
@@ -73,7 +73,7 @@ categories:
     <div class="content-column">
 
     </div>
-</div>
+</div>-->
 
 <!-- Begin UX row -->
 <div class="row Rx">

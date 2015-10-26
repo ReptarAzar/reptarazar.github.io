@@ -61,7 +61,7 @@ h3.mess {
 
         // small screens
         @media screen and (max-width: 580px) {
-            height: 240px;
+            height: 200px;
         }
 
         &:hover {
@@ -87,6 +87,12 @@ h3.mess {
 
         &.tinker-thumb {
             background-image: url(../assets/img/portfolio/micardi-illustration.png);
+        }
+
+        &.ifttt-thumb {
+            background-image: url(../assets/img/portfolio/ifttt/erlenmeyer-flask.png);
+            background-size: 29%;
+            background-position: 50% 69%;
         }
 
         &.miniputt-thumb {
@@ -123,7 +129,7 @@ h3.mess {
             position: absolute;
             top: 40%;
             text-align: center;
-            font-size: 1.55rem;
+            font-size: 1.8rem;
             line-height: 1.25em;
             font-weight: 900;
             text-transform: uppercase;
@@ -152,6 +158,7 @@ h3.mess {
 
             &.ifttt {
                 color: dodgerblue;
+                top: 14%;
 
                 // KERNING :)
                 .character-1 {
