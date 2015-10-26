@@ -21,8 +21,6 @@ I presented this talk this past Tuesday (7/21/15) at the San Francisco at Genera
 >   3.  Wearable interfaces are here (to stay)
 >   4.  Ubiquitous and calm computers are a must
 
-[ 2-3 Highlight slides ]
-
 <img src="">
 <img src="">
 <img src="">

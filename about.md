@@ -37,7 +37,7 @@ permalink: /about/
             <p><b>A:</b> Nope.</p>
         <hr class="hr"/>
         <h3>About the site</h3>
-            <p>Hand coded in California using <a href="https://help.github.com/articles/using-jekyll-with-pages/">Jekyll</a>, <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="http://haml.info/" target="_blank">HAML</a>, and <a href="http://sass-lang.com/" target="_blank">SASS</a>. The fonts are <a href="https://support.apple.com/en-us/HT201375" target="_blank">Avenir Next</a> and <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a>. This colophon is dedicated to the late <a href="https://www.fontshop.com/content/adrian-frutiger-1928-2015">Adrian Frutiger,</a> the legendary font designer and creator of Avenir.</p>
+            <p>Hand coded in California using <a href="https://help.github.com/articles/using-jekyll-with-pages/">Jekyll</a>, <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, and <a href="http://sass-lang.com/" target="_blank">SASS</a>. The fonts are <a href="https://support.apple.com/en-us/HT201375" target="_blank">Avenir Next</a> and <a href="http://www.google.com/fonts/specimen/Merriweather" target="_blank">Merriweather</a>. This colophon is dedicated to the late <a href="https://www.fontshop.com/content/adrian-frutiger-1928-2015">Adrian Frutiger,</a> the legendary font designer and creator of Avenir.</p>
         <h3>Previous versions of this site</h3>
             <p>v1.0 (Lost) &mdash; Circa 2006</p>
             <p><a href="http://cazar.mysite.syr.edu/personal_site/index.htm" target="_blank">v2.0</a> &mdash; Circa 2009</p>
