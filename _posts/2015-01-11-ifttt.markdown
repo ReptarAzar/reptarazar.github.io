@@ -85,7 +85,7 @@ categories:
         <p>— Izhaki, <a href="http://ux.stackexchange.com/questions/71767/which-gives-heavier-congitive-load-in-grid-on-phone-screen-grid-of-images-or-gr">ux.stackexchange</a></p>
     </blockquote>
 
-        <p>Images are easier to scan because of parallelized processing. And we developed this skill early on, before we developed language.</p>
+        <p>Images are easier to scan because of parallelized processing. And we develop this skill early on, before we developed language.</p>
 
         <p>But I still thought I could make a faster experience for people who knew what they wanted and wanted to type it quickly. This use case fits Chris Becker, an infrastructure and devops engineer, perfectly.</p>
 
