@@ -91,15 +91,13 @@ categories:
             <img src="../assets/img/portfolio/stars/stars-wireframe-001.png" />
         </a>
 
-        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
-
         <p>This project plan was so large that we started by rethinking what would be the best card reading experience would be for the user. We were looking to balance information density and beautiful calming news reader.</p>
 
         <p><a href="../assets/img/portfolio/stars/stars-wireframe-002.png" data-lightbox="sketches" class="lightbox-image">
             <img src="../assets/img/portfolio/stars/stars-wireframe-002.png" />
         </a></p>
 
-        <p><a href="../assets/img/portfolio/stars/stars-working.sketch">Download sketch file</a></p>
+        <p><a href="../assets/img/portfolio/stars/stars-ux.sketch">Download sketch file</a></p>
 
     </div>
 </div>
@@ -125,7 +123,10 @@ categories:
     </div>
 
     <div class="content-column">
-        I handed off these very polished micro-interactions as prototypes in the early stages of development.
+        I handed off a few polished micro-interactions as prototypes in the early stages of development. Below is a CSS image sprite button. It animates through 14 steps over a desired animation time to create the animated effect. Take a look at the CSS tab for the magic.
+
+        <div data-height="156" data-theme-id="11350" data-slug-hash="dlmKg" data-default-tab="null" data-user="ReptarAzar" class='codepen'><pre><code></code></pre>
+        </div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
     </div>
 </div>
@@ -137,6 +138,21 @@ categories:
     </div>
 
     <div class="content-column">
+    Tap the Pick, Star, or Comment icon to test it out. FYI: you gotta register or sign in first.
+
+           <div class="thumb-row">
+            <p>
+                <a href="../assets/img/portfolio/stars/stars-live-001.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/stars/stars-live-001-sm.png"  />
+                </a>
+                <a href="../assets/img/portfolio/stars/stars-live-002.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/stars/stars-live-002-sm.png"  />
+                </a>
+            </p>
+
+            <p><a href="https://trove.com/" target="_blank">Pick, Star, Comment at Trove.com</a></p>
+
+       </div>
 
     </div>
 </div>
