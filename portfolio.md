@@ -35,7 +35,7 @@ permalink: /portfolio/
             <span class="post-link littletinker">Little Tinker</span>
         </a>
 
-        <a href="/future-of-ux" class="post-thumb">
+        <a href="/future-of-ux" class="post-thumb ga-thumb">
             <span class="post-link ga">Future of UX</span>
         </a>
 
