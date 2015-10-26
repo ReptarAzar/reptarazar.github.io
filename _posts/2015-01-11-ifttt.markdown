@@ -111,7 +111,7 @@ categories:
             <img src="../assets/img/portfolio/ifttt/ifttt-plus-slack.png" />
         </a>
 
-        <p>I wanted it to be as self-contained, simple as possible without losing any of the functionality that IFTTT provides. There were challenges like: what should be the order of the search autocomplete? where should the helper text live? and what if the user hasn't connected one of the accounts in the list? </p>
+        <p>I wanted it to be as self-contained and simple as possible without losing any of the functionality that IFTTT provides. There were challenges like: what should be the order of the search autocomplete? where should the helper text live? and what if the user hasn't connected one of the accounts in the list? </p>
 
         <p>I solved each of those by trying a few different things before setting on this final set of wireframes.</p>
 
