@@ -141,6 +141,11 @@ $font_2: sans-serif;
             width: 364px;
         }
 
+        // Really WIDE and short screeens
+        @media screen and (max-height: 900px) and (min-width: 376px) {
+            background: #131313 url("../assets/img/me-lg.jpg") no-repeat center center;
+        }
+
         // Med screeens
         @media screen and (max-width: 620px) and (min-width: 376px) {
             position: relative;
@@ -176,8 +181,18 @@ $font_2: sans-serif;
             font-weight: 600;
             color: $teal;
             display: inline-block;
-            margin-top: 600px;
+            margin-top: 620px;
             border-bottom: 2px solid $teal;
+
+            // WIDE and short screeens
+            @media screen and (max-height: 900px) and (min-width: 376px) {
+                margin-top: 350px;
+            }
+
+            // Really WIDE and short screeens
+            @media screen and (max-height: 600px) and (min-width: 376px) {
+                margin-top: 150px;
+            }
 
             // Small screeens
             @media screen and (max-width: 620px) {
