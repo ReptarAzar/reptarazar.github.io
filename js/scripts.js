@@ -24,7 +24,7 @@ $(window).resize(function() {
 
 // If they've resized the window, they'll see a message
 $(window).on('resizeEnd', function() {
-    if (resizeCount == 1) { // Increase this number if you want to make 'em work for it
+    if (resizeCount == 0) { // Increase this number if you want to make 'em work for it
         console.log("Oh yeah, it's responsive. 😎");
         console.log("Curious? Email me: christopherazar@gmail.com");
     } else if (resizeCount >= 5) {
