@@ -9,6 +9,7 @@ window.onload = function() { document.getElementById('menu').style.display = 'no
 
 
 // Resize easter egg
+// Resize the window, I dare ya :)
 $(window).resize(function() {
     if(this.resizeTO) clearTimeout(this.resizeTO);
     this.resizeTO = setTimeout(function() {
@@ -20,5 +21,4 @@ $(window).on('resizeEnd', function() {
     console.log("Oh yeah, it's responsive. 😎");
     console.log("Curious? Email me: christopherazar@gmail.com");
     $(this).off();
-
 });
