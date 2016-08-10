@@ -505,7 +505,8 @@ $font_2: sans-serif;
 
 // About page styles
 .profile-pic {
-    background: #fff url(../assets/img/me.png) center center;
+    // todo: optimize this for different sized screens and speeds
+    background: #fff url(https://c2.staticflickr.com/9/8756/28351425185_47b62f95a3_k.jpg) center center;
     min-height: 350px;
     width: 100%;
     display: block;
