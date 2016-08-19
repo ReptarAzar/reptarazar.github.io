@@ -668,7 +668,7 @@ article {
             line-height: 2em;
             padding-top: 1em;
             span {
-                color: $color_19;
+                color: #808080;
                 font-size: 12px;
                 font-style: italic;
                 float: right;
@@ -684,10 +684,8 @@ article {
                 padding-bottom: 3em;
             }
             a {
-                font-size: .85em;
-                margin: 0;
-                padding: .2em 0 0;
-                line-height: .5em;
+                font-size: 1em;
+                line-height: 1.25em;
                 &:link {
                     color: $color_22;
                 }
@@ -711,10 +709,10 @@ article {
             padding: .5em 0 .125em;
             p {
                 font-size: .8em;
-                color: $color_6;
-                padding: 3px 0 0;
+                color: #808080;
+                padding: 5px 0 0;
                 margin: 0 0 6px;
-                line-height: 1.2em;
+                line-height: 1.25em;
             }
         }
     }
