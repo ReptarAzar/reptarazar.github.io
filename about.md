@@ -27,11 +27,11 @@ permalink: /about/
         <h4>On a typical Friday night I am</h4>
             <p>Who wants a typical Friday night?</p>
         <hr class="hr"/> -->
-        <div class="photo-credit">Photo by <a href="https://www.facebook.com/megomalleyphotography/posts/1137752982906796" target="_blank">Meg O'Malley</a></div>
+        <div class="photo-credit">Photo by <a href="https://www.instagram.com/amoriarity/" target="_blank">Anne Moriarity</a></div>
         <h3>Bio</h3>
-            <p>Christopher is a product designer based in San Francisco, California. He's currently working on experimental labs and analytics products at <a href="https://twitter.com/jenna/status/728044251934695424" target="_blank">SocialCode</a>. He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences with digital and physical products.</p>
-            <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Syracuse Basketball fan. His <strike>dream</strike> plan is to start a company and to run the Boston Marathon. </p>
-            <p>He has a Bachelor's Degree in Graphic Design from the S.I. Newhouse School of Public Communications at Syracuse University. You can find all this and a few more interesting bits on his <a href="assets/docs/Azar-Resume.pdf">Resumé</a>.</p>
+            <p>Christopher is a product designer based in San Francisco, California. He's currently working on customer analytics products at <a href="https://twitter.com/jenna/status/728044251934695424" target="_blank">SocialCode</a>. He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences with digital and physical products.</p>
+            <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Syracuse Basketball fan. </p>
+            <p>He has a dual Bachelor's Degree in Graphic Design and Public Policy from the S.I. Newhouse School of Public Communications and Maxwell School of Citizenship at Syracuse University You can find all this and a few more interesting bits on his <a href="assets/docs/Azar-Resume.pdf">Resumé</a>.</p>
         <h3>FAQ</h3>
             <p><b>Q:</b> Are you available for freelance work?</p>
             <p><b>A:</b> Nope.</p>
