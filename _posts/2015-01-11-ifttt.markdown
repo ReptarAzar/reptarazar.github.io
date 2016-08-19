@@ -44,13 +44,9 @@ categories:
     </div>
 
     <div class="content-column">
-        DISCLAIMER: Unlike all the other projects in this portfolio, this one is not for realsies. It's an experiment and a proof of concept and that's it.
+        DISCLAIMER: Unlike all the other projects in this portfolio, this one is just an experiment. There are no corporate stakeholders and I do not work at IFTTT. This project was just for fun. </p>
 
-        <p>While I would really like to, I do not work at IFTTT at this time. </p>
-
-        <p>BUT, I wanted to experiment, not with the recipes, but how we (users) interact with the APIs. In my head, the UX of a scanning a grid of logos felt a bit weighty and cumbersome compared to typing recipes out. So, what would a command line or Slack interface look like for IFTTT? Could one co-mingle speed and simplicity of the command line with the and ease of using IFTTT and all it's wonderful magic?</p>
-
-        <p>Enough intro, lets get into it.</p>
+        <p>BUT, I wanted to experiment, not with the recipes, but with a faster way to interact with the service with text. The experience of scanning a grid of logos felt slow compared to typing. So, what would a command line or Slack interface look like for IFTTT? Could one co-mingle speed and simplicity of the command line with the and ease of using IFTTT and all it's wonderful magic?</p>
 
     </div>
 </div>
@@ -63,7 +59,7 @@ categories:
     </div>
 
     <div class="content-column">
-        User: IFTTT rules, but making a recipe is slower than it could be and confined to the web/native apps.
+        Making a recipe on IFTTT is a slow process. Also, you have to visit IFTTT.com or one of the IFTTT web/native apps to get started.
         </div>
 </div>
 
