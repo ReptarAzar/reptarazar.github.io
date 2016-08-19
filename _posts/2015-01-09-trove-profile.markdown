@@ -37,9 +37,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Users: "Who are these [curator] folks? And why do I care?"
+        Curators want to market themselves and show social proof their expertise as they grow an audience.
 
-        <p>Product/Biz: "We need folks to stick around after creating an account. Profiles are a place for sharing snippet of identity not just a record of their activity on the site"</p>
+        <p>Product strategy: Creating a rich profile experience will allow users to express themselves and their expertise. </p>
     </div>
 </div>
 
