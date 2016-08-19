@@ -3,6 +3,43 @@
 
 // To do: make this only load on blog and post pages
 
+.hello-ideo {
+    background-color: #fff;
+    background-color: rgba(255,255,255,.95);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    .ideo-logo {
+        width: 285px;
+        height: 36px;
+        background-image: url(../assets/img/portfolio/ideo/ideo-logo.png);
+        display: block;
+        text-indent: -9999px;
+        white-space: nowrap;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+            background-image: url(../assets/img/portfolio/ideo/ideo-logo@2x.png);
+            -webkit-background-size: 285px 36px;
+            -moz-background-size: 285px 36px;
+            -o-background-size: 285px 36px;
+            background-size: 285px 36px;
+        }
+    }
+
+    .ideo-welcome {
+        margin-top: .5em;
+    }
+
+}
+
+#ideo-spacer {
+    height: 136px;
+}
+
 .portfolio-index-content {
     padding: 20px;
     max-width: 650px;
@@ -13,28 +50,6 @@
         -ms-animation: fadeIn 1s 1;
          -o-animation: fadeIn 1s 1;
             animation: fadeIn 1s 1;
-}
-
-
-//remove these two when portfolio is ready
-h1.mess {
-    font-family: $font_1;
-    text-align: center;
-    margin: 5em 0 5px;
-    font-size: 3em;
-    line-height: 1.2em;
-
-    @media screen and (max-width: 580px) {
-        font-size: 1.5em;
-    }
-
-}
-
-h3.mess {
-    font-family: $font_1;
-    text-align: center;
-    margin: 0 0 5em;
-    font-size: 1.5em;
 }
 
 // Portfolio index
@@ -71,6 +86,10 @@ h3.mess {
                 text-decoration: underline;
             }
 
+        }
+
+        &.socialcode-intelligence-thumb {
+            background-image: url(../assets/img/portfolio/socialcode/thumb.png);
         }
 
         &.trove-conversations-thumb {
@@ -145,10 +164,26 @@ h3.mess {
                 font-size: 58px;
             }
 
+            .post-sublink {
+                font-size: .5em;
+                opacity: .5;
+                display: inline-block;
+            }
+
+            &.socialcode {
+                color: white;
+                background-color: #5E9DE6;
+                padding: 17px 0 6px;
+                line-height: 0.7em;
+                font-size: 2.8em;
+
+            }
+
             &.trove {
                 color: white;
                 background-color: #9966DD;
                 padding: 3px 4px 0;
+                font-size: 2.8em;
             }
 
             &.ga {
@@ -157,8 +192,7 @@ h3.mess {
 
             &.littletinker {
                 color: black;
-                background-color: #FFE200;
-                background-color: rgba(255, 226, 0, 0.5);
+                border: 15px solid #FFE200;
                 padding: 4px 0 0;
             }
 
