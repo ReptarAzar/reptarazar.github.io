@@ -41,7 +41,7 @@ categories:
     </div>
 
     <div class="content-column">
-        There is too much noise in social media. Having a conversation with other folks that care about the subject is really hard.
+        Social media is full of noise. It is really hard to find or host conversations that pertain to one's interests.
 
         <p>Product strategy: We want Trove to be the place where people can invite and host civil conversations about the news they care about.</p>
 
