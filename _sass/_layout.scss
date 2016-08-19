@@ -99,6 +99,12 @@ $font_2: sans-serif;
     a {
         color: $color_3!important;
     }
+
+    @media screen and (max-width: 540px) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
 .page-foot>span {
     color: $color_3!important;
@@ -842,7 +848,12 @@ h3 {
     float: left;
     margin: 0 1em 0 0;
     text-align: left;
+
+    @media screen and (max-width: 540px) {
+       margin: 0 10px 0 0;
+    }
 }
+
 @media only screen and(min-width:30em) {
     .wrapper {
         padding: 0;

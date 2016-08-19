@@ -9,8 +9,6 @@ permalink: /portfolio/
     <p class="ideo-welcome">Hello IDEO.org and welcome! Thanks for checking out my portfolio. I appreciate your time. </p>
 </div>
 
-<div id="ideo-spacer" style="display:none;"></div>
-
 <div class="portfolio-index-content">
 
     <div class="post-list">
