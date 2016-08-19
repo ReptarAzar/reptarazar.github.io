@@ -1,0 +1,506 @@
+Searching 206 files for "Trove" (case sensitive)
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_config.yml:
+    3  email: christopherazar@gmail.com
+    4  description: > # this means to ignore newlines until "baseurl:"
+    5:   Christopher is a product designer at Trove and lives in San Francisco.
+    6  baseurl: "" # the subpath of your site, e.g. /blog/
+    7  url: "http://christopherazar.com" # the base hostname & protocol for your site
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_includes/head.html:
+   28          <meta property="og:url" content="http://www.christopherazar.com/" />
+   29          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   30:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   31          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   32      </head>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_includes/nav.html:
+   16              <p class="latest">Latest Post</p>
+   17              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   18:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   19            </li>
+   20            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/about/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>About | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+  112          <div class="photo-credit">Photo by <a href="https://www.facebook.com/megomalleyphotography/posts/1137752982906796" target="_blank">Meg O'Malley</a></div>
+  113          <h3>Bio</h3>
+  114:             <p>Christopher is a product designer based in San Francisco, California. Currently working on the future of news at <a href="http://trove.com" target="_blank">Trove</a> (formerly known as the Washington Post Digital Innovation Lab). He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences with digital and physical products.</p>
+  115              <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Syracuse Basketball fan. His <strike>dream</strike> plan is to start a company and to run the Boston Marathon. </p>
+  116              <p>He has a Bachelor's Degree in Graphic Design from the S.I. Newhouse School of Public Communications at Syracuse University. You can find all this and a few more interesting bits on his <a href="assets/docs/Azar-Resume.pdf">Resumé</a>.</p>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/conversations/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Conversations | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+   96
+   97      <div class="content-column">
+   98:         <span class="title">Conversations on <a href="http://trove.com">Trove.com</a></span>
+   99      </div>
+  100  </div>
+  ...
+  119      <div class="content-column">
+  120          To have a successful news product there needs to be a free flowing exchange of ideas.
+  121:         Conversations, fresh perspectives and alternate viewpoints, are one of the paramount differences between print and the web. It's more than a two way flow of information, it's civility and a community that's required for openness and progress. That's what we are striving to build on the Trove platform. We want Trove to be <i>the</i> place on the web to talk about the news. For curators we want to make tools for them to start the conversation, to set the tone, and to host the conversation with a variety of moderation tools. For followers, we are striving for smart engagement.
+  122          <blockquote>
+  123:         “Trove aspires to be be a community around the news, however, evidence of community is extremely limited in the existing app. To have true community, there needs to be an ecosystem of interactions that compel curators and users to share and come back into to the app. The lifeblood of conversations is the network of the hooks and invitations that happen outside of the app but bring users back in to participate.”
+  124:         <p>—Trove Product Document, August 2015</p>
+  125          </blockquote>
+  126:         <p>Product/Biz: We want Trove to be the place where people can host civil conversations about the news they care about.</p>
+  127      </div>
+  128  </div>
+  ...
+  135
+  136      <div class="content-column">
+  137:         Conversations are not an new construct on the web. Former colleague and creator of SlashDot, Rob Malda, helped me understand the ugliness that can come from an unfettered community. We wanted to seed a very different moderated experience on Trove.
+  138
+  139          <p>When doing research, I started looking for tight, civilized communities. I found that the more transparent and the more niche the context, the better behaved the mob was. I then used these findings to inform design decisions and they helpd product folks decide who to reach out to for the first wave.
+  ...
+  143
+  144          <p>Swarm - Less similar but, people talking to their friends about where they are and where they're going - @dens has been a personal inspiration and has a ton of experience with tips and online communication
+  145:         Letterboxed - a film diary website with a tight community of cinaphiles - excellent at creating hooks back into the product. Keep the flow going and films have longer halflife than most articles but is similar to some of the featured news on Trove.</p>
+  146
+  147          <p>
+  ...
+  225
+  226      <div class="content-column">
+  227:         Vijay Ravindran, CEO of Trove, had some great conversations in the first two days of this feature rolling out in his "Amazon Day 1" trove. George Aposporos, the founding VP of Business Development at Amazon and Neil Roseman, the original VP of Video at Amazon both joined in a conversation.
+  228
+  229         <div class="thumb-row">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/feed.xml:
+    3    <channel>
+    4      <title>Christopher Azar</title>
+    5:     <description>Christopher is a product designer at Trove and lives in San Francisco.
+    6  </description>
+    7      <link>http://christopherazar.com/</link>
+    .
+  139
+  140      &lt;div class=&quot;content-column&quot;&gt;
+  141:         &lt;span class=&quot;title&quot;&gt;Conversations on &lt;a href=&quot;http://trove.com&quot;&gt;Trove.com&lt;/a&gt;&lt;/span&gt;
+  142      &lt;/div&gt;
+  143  &lt;/div&gt;
+  ...
+  162      &lt;div class=&quot;content-column&quot;&gt;
+  163          To have a successful news product there needs to be a free flowing exchange of ideas.
+  164:         Conversations, fresh perspectives and alternate viewpoints, are one of the paramount differences between print and the web. It&#39;s more than a two way flow of information, it&#39;s civility and a community that&#39;s required for openness and progress. That&#39;s what we are striving to build on the Trove platform. We want Trove to be &lt;i&gt;the&lt;/i&gt; place on the web to talk about the news. For curators we want to make tools for them to start the conversation, to set the tone, and to host the conversation with a variety of moderation tools. For followers, we are striving for smart engagement.
+  165          &lt;blockquote&gt;
+  166:         “Trove aspires to be be a community around the news, however, evidence of community is extremely limited in the existing app. To have true community, there needs to be an ecosystem of interactions that compel curators and users to share and come back into to the app. The lifeblood of conversations is the network of the hooks and invitations that happen outside of the app but bring users back in to participate.”
+  167:         &lt;p&gt;—Trove Product Document, August 2015&lt;/p&gt;
+  168          &lt;/blockquote&gt;
+  169:         &lt;p&gt;Product/Biz: We want Trove to be the place where people can host civil conversations about the news they care about.&lt;/p&gt;
+  170      &lt;/div&gt;
+  171  &lt;/div&gt;
+  ...
+  178
+  179      &lt;div class=&quot;content-column&quot;&gt;
+  180:         Conversations are not an new construct on the web. Former colleague and creator of SlashDot, Rob Malda, helped me understand the ugliness that can come from an unfettered community. We wanted to seed a very different moderated experience on Trove.
+  181
+  182          &lt;p&gt;When doing research, I started looking for tight, civilized communities. I found that the more transparent and the more niche the context, the better behaved the mob was. I then used these findings to inform design decisions and they helpd product folks decide who to reach out to for the first wave.
+  ...
+  186
+  187          &lt;p&gt;Swarm - Less similar but, people talking to their friends about where they are and where they&#39;re going - @dens has been a personal inspiration and has a ton of experience with tips and online communication
+  188:         Letterboxed - a film diary website with a tight community of cinaphiles - excellent at creating hooks back into the product. Keep the flow going and films have longer halflife than most articles but is similar to some of the featured news on Trove.&lt;/p&gt;
+  189
+  190          &lt;p&gt;
+  ...
+  268
+  269      &lt;div class=&quot;content-column&quot;&gt;
+  270:         Vijay Ravindran, CEO of Trove, had some great conversations in the first two days of this feature rolling out in his &quot;Amazon Day 1&quot; trove. George Aposporos, the founding VP of Business Development at Amazon and Neil Roseman, the original VP of Video at Amazon both joined in a conversation.
+  271
+  272         &lt;div class=&quot;thumb-row&quot;&gt;
+  ...
+  326
+  327      &lt;div class=&quot;content-column&quot;&gt;
+  328:         &lt;span class=&quot;title&quot;&gt;User Profile Pages on &lt;a href=&quot;http://trove.com&quot;&gt;Trove.com&lt;/a&gt;&lt;/span&gt;
+  329      &lt;/div&gt;
+  330  &lt;/div&gt;
+  ...
+  680
+  681      &lt;div class=&quot;content-column&quot;&gt;
+  682:         &lt;span class=&quot;title&quot;&gt;Starring, Picking, and Commenting Flows on &lt;a href=&quot;http://trove.com&quot;&gt;Trove.com&lt;/a&gt;&lt;/span&gt;
+  683      &lt;/div&gt;
+  684  &lt;/div&gt;
+  ...
+  816              &lt;/p&gt;
+  817
+  818:             &lt;p&gt;&lt;a href=&quot;https://trove.com/&quot; target=&quot;_blank&quot;&gt;Pick, Star, Comment at Trove.com&lt;/a&gt;&lt;/p&gt;
+  819
+  820         &lt;/div&gt;
+  ...
+  849
+  850        <item>
+  851:         <title>Trove Homepage</title>
+  852          <description>&lt;h3 class=&quot;mess&quot; style=&quot;padding: 40px 0 0; margin:20px 0 0;&quot;&gt;Coming Soon&lt;/h3&gt;
+  853  &lt;p&gt;&lt;img src=&quot;../assets/img/portfolio/homepage/dribbble.png&quot; style=&quot;max-width: 100%;margin: 0 auto; display: block;&quot; /&gt;&lt;/p&gt;
+  ...
+  874
+  875        <item>
+  876:         <title>Trove Goodies</title>
+  877:         <description>&lt;h1 id=&quot;trove-goodies&quot;&gt;Trove Goodies&lt;/h1&gt;
+  878
+  879: &lt;p&gt;Here are a few of the bits and goodies I’ve worked on in the three years at Trove…&lt;/p&gt;
+  880
+  881: &lt;h3&gt;Trove UI Kit for Sketch&lt;/h3&gt;
+  882: &lt;p&gt;Lots of goodies packed into this one. &lt;a href=&quot;../assets/img/portfolio/goodies/Trove-UIKit.sketch&quot;&gt;Download UI Kit (Requires Sketch 3)&lt;/a&gt;&lt;/p&gt;
+  883
+  884: &lt;h3&gt;Trove Icon Font&lt;/h3&gt;
+  885: &lt;p&gt;&lt;a href=&quot;../assets/img/portfolio/goodies/TroveIcons.zip&quot;&gt;Download Trove Icon Font (.ttf File)&lt;/a&gt;&lt;/p&gt;
+  886
+  887: &lt;h3&gt;Trove Raspberry Pi Ticker&lt;/h3&gt;
+  888  &lt;p&gt;&lt;img src=&quot;../assets/img/portfolio/goodies/ticker.png&quot; /&gt;&lt;/p&gt;
+  889
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/future-of-ux/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Future of UX</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/ifttt/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>IFTTT | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Christopher Azar | Product Designer &#x1F44B;</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   53              <p class="latest">Latest Post</p>
+   54              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   55:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   56            </li>
+   57            <li class="page-links">
+   ..
+   89    <h2>I'm <span data-typer-targets="an artsy nerd,good with computers,a maker,a Product Designer,an after-hours coder,a marathon runner,a do-gooder,a tinkerer, a dreamer,an Eagle Scout,happy you're here">a Product Designer</span>.</h2>
+   90
+   91:   <h3>Product Designer, <a href="http://trove.com" target="_blank">Trove.com</a> <br /> Designer in Residence, <a href="https://generalassemb.ly/instructors/christopher-azar/5263" target="_blank" class="ga-text"></a></h3>
+   92
+   93    <h3><a href="https://www.flickr.com/photos/reptarazar/sets/72157650093323519/">Runner</a>, <a href="type-experiments">Type Lover</a>, and <a href="https://www.flickr.com/photos/reptarazar" title="flickr" target="_blank"> Photographer</a></h3>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/portfolio/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Portfolio | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/profile/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Profile Page | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+   95
+   96      <div class="content-column">
+   97:         <span class="title">User Profile Pages on <a href="http://trove.com">Trove.com</a></span>
+   98      </div>
+   99  </div>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/resources/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Resources | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/stars/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Picks, Stars, and Comments | ChristopherAzar.com</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+   96
+   97      <div class="content-column">
+   98:         <span class="title">Starring, Picking, and Commenting Flows on <a href="http://trove.com">Trove.com</a></span>
+   99      </div>
+  100  </div>
+  ...
+  232              </p>
+  233
+  234:             <p><a href="https://trove.com/" target="_blank">Pick, Star, Comment at Trove.com</a></p>
+  235
+  236         </div>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/template/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Project Template</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/trove-goodies/index.html:
+   19          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21:         <title>Trove Goodies</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+   83    <div class="page-content">
+   84      <div class="wrapper">
+   85:     <!-- <h1 class="post-title">Trove Goodies</h1> -->
+   86
+   87  <article class="content">
+   88: <h1 id="trove-goodies">Trove Goodies</h1>
+   89
+   90: <p>Here are a few of the bits and goodies I’ve worked on in the three years at Trove…</p>
+   91
+   92: <h3>Trove UI Kit for Sketch</h3>
+   93: <p>Lots of goodies packed into this one. <a href="../assets/img/portfolio/goodies/Trove-UIKit.sketch">Download UI Kit (Requires Sketch 3)</a></p>
+   94
+   95: <h3>Trove Icon Font</h3>
+   96: <p><a href="../assets/img/portfolio/goodies/TroveIcons.zip">Download Trove Icon Font (.ttf File)</a></p>
+   97
+   98: <h3>Trove Raspberry Pi Ticker</h3>
+   99  <p><img src="../assets/img/portfolio/goodies/ticker.png" /></p>
+  100
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/trove-homepage/index.html:
+   19          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21:         <title>Trove Homepage</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/trove/index.html:
+   19          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21:         <title>Trove</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+   ..
+   83    <div class="page-content">
+   84      <div class="wrapper">
+   85:     <!-- <h1 class="post-title">Trove</h1> -->
+   86
+   87  <article class="content">
+   88: <h1>Trove 2.0</h1>
+   89  <p>¶</p>
+   90
+   ..
+  107  <p>Take the world's news, figure out what all of it is about and then </p>
+  108
+  109: <h3>Trove Icon</h3>
+  110  <p>[[[[[      ]]]]]]
+  111  [[[[[      ]]]]]]
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/_site/type-experiments/index.html:
+   20          <link href='http://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+   21          <title>Type Experiments</title>
+   22:         <meta name="description" content="Christopher is a product designer at Trove and lives in San Francisco.
+   23  ">
+   24          <link rel="stylesheet" href="/css/main.css">
+   ..
+   29          <meta property="og:url" content="http://www.christopherazar.com/" />
+   30          <meta property="og:title" content="Hi internet! &#x1F44B;" />
+   31:         <meta property="og:description" content="Christopher is a product designer based in San Francisco, California. He's currently working on the future of news at Trove. He's f'ng awesome!" />
+   32          <meta property="og:image" content="http://www.christopherazar.com/assets/img/portfolio/conversations/thumb.png" />
+   33      </head>
+   ..
+   52              <p class="latest">Latest Post</p>
+   53              <p><a href="http://blog.christopherazar.com/post/130777269831/icon-label-alignment">Nitty-Gritty Icon Alignment</a></p>
+   54:             <!-- <p><a href="http://blog.christopherazar.com/post/119948705921/from-new-ways-to-search-and-discover-troves-to-an">Trove Front Page Refresh</a></p> -->
+   55            </li>
+   56            <li class="page-links">
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/about.md:
+   30          <div class="photo-credit">Photo by <a href="https://www.facebook.com/megomalleyphotography/posts/1137752982906796" target="_blank">Meg O'Malley</a></div>
+   31          <h3>Bio</h3>
+   32:             <p>Christopher is a product designer based in San Francisco, California. Currently working on the future of news at <a href="http://trove.com" target="_blank">Trove</a> (formerly known as the Washington Post Digital Innovation Lab). He was the 2012 Recipient of the Society for News Design, Edmund C. Arnold Award for design excellence. In a previous life he co-founded <i>Little Tinker</i>, a company dedicated building delightful experiences with digital and physical products.</p>
+   33              <p>In addition to his obsession with product design and user experience, Chris is an avid photographer, distance runner, motorcyclist, and Syracuse Basketball fan. His <strike>dream</strike> plan is to start a company and to run the Boston Marathon. </p>
+   34              <p>He has a Bachelor's Degree in Graphic Design from the S.I. Newhouse School of Public Communications at Syracuse University. You can find all this and a few more interesting bits on his <a href="assets/docs/Azar-Resume.pdf">Resumé</a>.</p>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/index.html:
+    9    <h2>I'm <span data-typer-targets="an artsy nerd,good with computers,a maker,a Product Designer,an after-hours coder,a marathon runner,a do-gooder,a tinkerer, a dreamer,an Eagle Scout,happy you're here">a Product Designer</span>.</h2>
+   10
+   11:   <h3>Product Designer, <a href="http://trove.com" target="_blank">Trove.com</a> <br /> Designer in Residence, <a href="https://generalassemb.ly/instructors/christopher-azar/5263" target="_blank" class="ga-text"></a></h3>
+   12
+   13    <h3><a href="https://www.flickr.com/photos/reptarazar/sets/72157650093323519/">Runner</a>, <a href="type-experiments">Type Lover</a>, and <a href="https://www.flickr.com/photos/reptarazar" title="flickr" target="_blank"> Photographer</a></h3>
+
+/Users/Chris/Documents/Dev/reptarazar.github.io/trove.md:
+    1  ---
+    2  layout: page
+    3: title: Trove
+    4  permalink: /trove/
+    5  ---
+    6
+    7: <h1>Trove 2.0</h1>
+    8  ¶
+    9
+   ..
+   26  <p>Take the world's news, figure out what all of it is about and then </p>
+   27
+   28: <h3>Trove Icon</h3>
+   29  [[[[[      ]]]]]]
+   30  [[[[[      ]]]]]]
+
+102 matches across 21 files
