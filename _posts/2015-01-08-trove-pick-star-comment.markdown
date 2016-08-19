@@ -41,9 +41,9 @@ categories:
     </div>
 
     <div class="content-column">
-        Users: What does "picking" do? I would love to give feedback to a curator.
+        Finding and curating relevant news content is hard.
 
-        <p>Product/Biz: We really need to get some more engagement and interactivity on the site. After folks read an article, there's nothing keeping them around.</p>
+        <p>Product strategy: We really need to get some more engagement and interactivity on the site. After folks read an article, there's no way to allow folks to engage with the story, to grow an audience or to curate content.</p>
 
     </div>
 </div>
@@ -55,11 +55,11 @@ categories:
     </div>
 
     <div class="content-column">
+            <iframe src="https://simplecast.fm/e/27850" width="100%" height="36px" seamless="" scrolling="no" frameborder="0"></iframe>
+            Design Details Ep. 108: The Flopping Dead (feat. Brad Simpson) - Start at 36:20 mark
+            <p><a href="../assets/img/portfolio/stars/stars-research.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/stars/stars-research.png" /></a></p>
 
-            <a href="../assets/img/portfolio/stars/stars-research.png" data-lightbox="sketches" class="lightbox-image"><img src="../assets/img/portfolio/stars/stars-research.png" /></a>
-
-        <p>A handful of these are from <a href="http://www.mobile-patterns.com/">mobile-patterns.com</a>, a terrific website by compatriot and former lead designer of Foursquare Mari Sheibley. I highly recommend it for looking at how a lot of places have implemented a common pattern quickly.</p>
-        </p>
+        <p>There's no shortage of inspiration on the web for starring or liking interactions. We looked at dozens of competitors before sketching out possible solutions. </p>
 
     </div>
 </div>
@@ -83,7 +83,7 @@ categories:
 
     <div class="content-column">
 
-        This project was a massive undertaking that spanned several months. Wireframes for this project went through 19 rounds of feedback before I got the go ahead from the executive and engineering teams to move to the mockup and prototyping phases.
+        This project was a massive undertaking that spanned several months. Wireframes for this project went through many rounds of executive stakeholder review before design and prototyping phases.
 
         <p>In this project, "Picking" was established as a "curation action". When a user picked an article, they were essentially adding it to a list that other users could follow. Some of the key decisions were how to invoke the pick action. We went with a modal so that users could focus on the task at hand. Also a modal worked well because it can pop on any page without disturbing the content beneath the modal.</p>
 

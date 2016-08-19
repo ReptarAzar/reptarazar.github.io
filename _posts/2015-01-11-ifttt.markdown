@@ -22,7 +22,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="title">IFTTT UX Experiment</a></span>
+        <span class="title">IFTTT UX Experiment</span>
     </div>
 </div>
 
@@ -163,8 +163,4 @@ categories:
     <div class="next-column post-list">
         <a href="http://onemorelevel.com/static/games/miniputt.swf" class="post-thumb miniputt-thumb" target="_blank">
             <span class="post-link miniputt">MiniPutt<span class="subheading">(flash game)</span>
-        </a>
-    </div>
-</div>
-
 
