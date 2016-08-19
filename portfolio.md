@@ -4,31 +4,34 @@ title: Portfolio | ChristopherAzar.com
 permalink: /portfolio/
 ---
 
-<!-- <h1 class="mess">WORK IN PROGRESS </h1>
-<h3 class="mess">(aren't we all)</h3>-->
+<div id="hello-ideo" class="hello-ideo" style="display:none;">
+    <span class="ideo-logo"></span>
+    <p class="ideo-welcome">Hello IDEO.org and welcome! Thanks for checking out my portfolio. I appreciate your time. </p>
+</div>
+
+<div id="ideo-spacer" style="display:none;"></div>
 
 <div class="portfolio-index-content">
 
     <div class="post-list">
 
+        <a href="mailto:christopherazar+websitecontact@gmail.com?subject=I'm interested in a SocailCode work sample" class="post-thumb socialcode-intelligence-thumb">
+            <span class="post-link socialcode">
+                SocialCode
+                <span class="post-sublink">(Contact for work sample)</span>
+            </span>
+        </a>
+
         <a href="/conversations" class="post-thumb trove-conversations-thumb">
-            <span class="post-link trove">Conversations</span>
+            <span class="post-link trove">Trove Conversations</span>
         </a>
 
         <a href="/profile" class="post-thumb trove-profiles-thumb">
-            <span class="post-link trove">Profiles</span>
+            <span class="post-link trove">Trove Profiles</span>
         </a>
 
         <a href="/stars" class="post-thumb trove-stars-thumb">
-            <span class="post-link trove">Picks, Stars</span>
-        </a>
-
-        <a href="/trove-homepage" class="post-thumb soon-thumb">
-            <span class="post-link trove">Homepage</span>
-        </a>
-
-        <a href="/trove-goodies" class="post-thumb soon-thumb">
-            <span class="post-link trove">Goodies</span>
+            <span class="post-link trove">Trove Picks</span>
         </a>
 
         <a href="https://www.facebook.com/LittleTinkerCo" target="_blank" class="post-thumb tinker-thumb">
@@ -45,20 +48,27 @@ permalink: /portfolio/
 
     </div>
 
-<p>In all of these projects, you will see a trend, a process.</p>
+<p>In all of these projects, you will see a trend and a process.</p>
 
-<p>You may find it boring, or repetitive, or a bit like your classic elementary school scientific method. But t works. There's a lot of nuance to a good process but here's how I've learned to produce the best, most useful work I know how. Here goes:</p>
+    <div class="process-list">
+        <p><b>Sketching sessions</b> - I believe the more cross-discipline teams are the better. I believe having different perspectives upfront makes for better, more informed products. I believe all people can be creative from stakeholders and deciders, data scientists, backend and frontend engineers, to business developers, clients, and UX researchers. There is no monopoly on ideas or one source of opportunity.</p>
 
-    <ol>
-        <li>Figure out and define the problem for the business and users</li>
-        <li>Analyze it and figure out the best way(s) to solve it and sketch those out</li>
-        <li>Continue to flesh those ideas out until everyone is on the same page and we figure out what we're gonna build</li>
-        <li>Mock up, build, and test</li>
-        <li>Analyze how it went and start all over when we decide there's a problem again.</li>
-    </ol>
+        <p><b>Define and profile your user</b> - Usually requires market research. Your sales, tech success and business development teams will be really helpful here. What are their habits? What are they using now to solve their problems? What is their buying power and cash on hand? Who are examples of this archetype? </p>
 
-<p>The process is only slightly different for personal projects – there is no business, so we can focus on building that focuses on just the user problems and experience.</p>
+        <p><b>Research, test prototypes with real users</b> - I believe in fast prototypes to test product ideas with real customers. </p>
 
-<p>So that is the "process" I hope you enjoy the case studies to see what decisions get made where and why.</p>
+        <p><b>Write up requirements with product managers</b> - I believe the best requirements docs include design and that you never know the scope of the project without designs. </p>
+
+        <p><b>Information architecture</b> - I believe that defining and diagramming the parts leads to stronger more stable product architecture. Ontology (what are the pieces?), taxonomy (what is the order?), choreography (how do they interact?) is a great way to get alignment and hash out unforeseen problems.</p>
+
+        <p><b>Wireframes</b> - Great tool for communication and dually helpful leading documents for engineers tasked with writing models and defining API endpoints. Focuses the team on features and functionality, puts a hold visual design discussions. Also answers “what data needs to be available where?”</p>
+
+        <p><b>Finally, visual design and implementation and iteration</b> - As an in-house designer I believe in maintaining component libraries and collaborative style guides. It’s the best way to scale design as a team and product suite grows. </p>
+
+    </div>
+
+<p>This process is similar to a lot of Product Designers and software shops. One unique facet that is my point of view that new poducts find market fit better, faster and more consistently when they “pave worn paths.” I think designers and products that first look, listen, inquire a lot while looking for pain points and ad-hoc solutions before designing. While it is possible to create successful products with intuition, I think it is more reliable to use research to find the latent needs of customers.</p>
+
+<p>So that is a bit about my process and how the sausage is made. Thanks for being here and I hope you enjoy the case studies above.</p>
 
 </div>
