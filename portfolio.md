@@ -46,10 +46,10 @@ permalink: /portfolio/
 
     </div>
 
-<p>In all of these projects, you will see a trend and a process.</p>
+<p>In all of these projects, there is a similar process.</p>
 
     <div class="process-list">
-        <p><b>Sketching sessions</b> - I believe the more cross-discipline teams are the better. I believe having different perspectives upfront makes for better, more informed products. I believe all people can be creative from stakeholders and deciders, data scientists, backend and frontend engineers, to business developers, clients, and UX researchers. There is no monopoly on ideas or one source of opportunity.</p>
+        <p><b>Sketching sessions</b> - I believe the more cross-discipline teams are the better when it comes to finding problem areas and opportunities. I believe having different perspectives upfront makes for better, more informed products. I believe all people can be creative from stakeholders and decision makers, data scientists, back-end and front-end engineers, to business developers, clients, and UX researchers. There is no monopoly on ideas or one source of opportunity.</p>
 
         <p><b>Define and profile your user</b> - Usually requires market research. Your sales, tech success and business development teams will be really helpful here. What are their habits? What are they using now to solve their problems? What is their buying power and cash on hand? Who are examples of this archetype? </p>
 
