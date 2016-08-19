@@ -36,3 +36,13 @@ $(window).on('resizeEnd', function() {
     } else {}
 
 });
+
+// Show / Hide IDEO div based on URL parameter sent through email
+if(location.search == "?hello=ideo"){
+  $('#hello-ideo').show();
+  $('#ideo-spacer').show();
+}
+else {
+  $('#hello-ideo').hide();
+  $('#ideo-spacer').hide();
+}
