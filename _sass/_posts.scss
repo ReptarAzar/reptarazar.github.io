@@ -121,10 +121,15 @@
             background-position: 50% 69%;
         }
 
+        &.ifttt-thumb {
+            background-image: url(../assets/img/portfolio/ifttt/erlenmeyer-flask.png);
+            background-size: 29%;
+            background-position: 50% 69%;
+        }
+
         &.sha-thumb {
             background-image: url(../assets/img/portfolio/sha/thumb.png);
         }
-
 
         &.miniputt-thumb {
             background-image: url(../assets/img/portfolio/miniputt-thumb.png);
@@ -203,6 +208,25 @@
             &.littletinker {
                 color: black;
                 padding: 4px 0 0;
+            }
+
+            &.ifttt {
+                color: dodgerblue;
+                top: 14%;
+
+                // KERNING :)
+                .character-1 {
+                    letter-spacing: -.06em;
+                }
+                .character-2 {
+                    letter-spacing: .018em;
+                }
+                .character-3 {
+                    letter-spacing: .05em;
+                }
+                .character-4 {
+                    letter-spacing: .05em;
+                }
             }
 
             &.sha {
@@ -291,6 +315,44 @@
                 background-position: 50% -15%;
             }
 
+            &.ifttt-hero {
+                font-size: 4em;
+                color: dodgerblue;
+                font-weight: 900;
+                width: 100%;
+                text-align: center;
+                padding-top: 50px;
+
+                @media screen and (max-width: 540px) {
+                    font-size: 50px;
+                    background-size: 130%;
+                }
+
+                // KERNING :)
+                .character-1 {
+                    letter-spacing: -.06em;
+                }
+                .character-2 {
+                    letter-spacing: .018em;
+                }
+                .character-3 {
+                    letter-spacing: .05em;
+                }
+                .character-4 {
+                    letter-spacing: .05em;
+                }
+
+                .erlenmeyer-flask {
+                    width: 220px;
+                    margin-top: 15px;
+
+                    @media screen and (max-width: 540px) {
+                        width: 100px;
+                        margin-top: 10px;
+                    }
+
+                }
+            }
         }
 
         &.next {

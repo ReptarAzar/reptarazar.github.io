@@ -40,9 +40,14 @@ permalink: /portfolio/
             <span class="post-link ga">Future of UX</span>
         </a>
 
+        <a href="/ifttt" class="post-thumb ifttt-thumb">
+            <span class="post-link ifttt"><span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T</span>
+        </a>
+
         <a href="/syracusehousing" class="post-thumb sha-thumb">
             <span class="post-link sha">Syracuse Housing</span>
         </a>
+
 
     </div>
 
