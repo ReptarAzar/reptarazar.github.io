@@ -21,15 +21,15 @@ permalink: /portfolio/
         </a>
 
         <a href="/conversations" class="post-thumb trove-conversations-thumb">
-            <span class="post-link trove">Conversations on Trove</span>
+            <span class="post-link trove">Trove Conversations</span>
         </a>
 
         <a href="/profile" class="post-thumb trove-profiles-thumb">
-            <span class="post-link trove">Profiles on Trove</span>
+            <span class="post-link trove">Trove Profiles</span>
         </a>
 
         <a href="/stars" class="post-thumb trove-stars-thumb">
-            <span class="post-link trove">Picks on Trove</span>
+            <span class="post-link trove">Trove Picks</span>
         </a>
 
         <a href="https://www.facebook.com/LittleTinkerCo" target="_blank" class="post-thumb tinker-thumb">
