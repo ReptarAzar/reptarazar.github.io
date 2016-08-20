@@ -49,7 +49,7 @@
 
 .portfolio-index-content {
     padding: 20px;
-    max-width: 650px;
+    max-width: 960px;
     margin: 0px auto;
 
     -webkit-animation: fadeIn 1s 1;
@@ -67,9 +67,9 @@
     .post-thumb {
         display: block;
         position: relative;
-        height: 380px;
+        height: 580px;
         background-color: #f0f0f0;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         background-size: 100%;
 
         -webkit-transition:background-size .15s ease-out;
@@ -121,11 +121,10 @@
             background-position: 50% 69%;
         }
 
-        &.ifttt-thumb {
-            background-image: url(../assets/img/portfolio/ifttt/erlenmeyer-flask.png);
-            background-size: 29%;
-            background-position: 50% 69%;
+        &.sha-thumb {
+            background-image: url(../assets/img/portfolio/sha/thumb.png);
         }
+
 
         &.miniputt-thumb {
             background-image: url(../assets/img/portfolio/miniputt-thumb.png);
@@ -159,12 +158,17 @@
             display: block;
             width: 100%;
             position: absolute;
-            top: 40%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
             font-size: 1.8rem;
-            line-height: 1.25em;
+            line-height: 1.3em;
             font-weight: 900;
             text-transform: uppercase;
+            color: #111;
+            // border: 10px solid transparent;
+
 
             // big screeens
             @media screen and (min-width: 580px) {
@@ -174,7 +178,7 @@
             .post-sublink {
                 font-size: .5em;
                 opacity: .5;
-                display: inline-block;
+                display: block;
             }
 
             &.socialcode {
@@ -186,39 +190,27 @@
             }
 
             &.trove {
-                color: white;
-                background-color: #9966DD;
                 padding: 3px 4px 0;
+                background-color: $teal;
+                color: #fff;
             }
 
             &.ga {
                 color: #E52123;
+                top: 42%;
             }
 
             &.littletinker {
                 color: black;
-                border: 15px solid #FFE200;
                 padding: 4px 0 0;
             }
 
-            &.ifttt {
-                color: dodgerblue;
-                top: 14%;
-
-                // KERNING :)
-                .character-1 {
-                    letter-spacing: -.06em;
-                }
-                .character-2 {
-                    letter-spacing: .018em;
-                }
-                .character-3 {
-                    letter-spacing: .05em;
-                }
-                .character-4 {
-                    letter-spacing: .05em;
-                }
+            &.sha {
+                background-color: #444;
+                color: white;
             }
+
+
 
             &.miniputt {
                 background-color: rgb(51, 102, 204);
@@ -294,45 +286,9 @@
                 background-position: 40% 0;
             }
 
-            &.ifttt-hero {
-
-                font-size: 4em;
-                color: dodgerblue;
-                font-weight: 900;
-                width: 100%;
-                text-align: center;
-                padding-top: 50px;
-
-                @media screen and (max-width: 540px) {
-                    font-size: 50px;
-                    background-size: 130%;
-                }
-
-
-                // KERNING :)
-                .character-1 {
-                    letter-spacing: -.06em;
-                }
-                .character-2 {
-                    letter-spacing: .018em;
-                }
-                .character-3 {
-                    letter-spacing: .05em;
-                }
-                .character-4 {
-                    letter-spacing: .05em;
-                }
-
-                .erlenmeyer-flask {
-                    width: 220px;
-                    margin-top: 15px;
-
-                    @media screen and (max-width: 540px) {
-                        width: 100px;
-                        margin-top: 10px;
-                    }
-
-                }
+             &.sha-hero {
+                background-image: url(../assets/img/portfolio/sha/thumb.png);
+                background-position: 50% -15%;
             }
 
         }

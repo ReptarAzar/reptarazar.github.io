@@ -16,20 +16,20 @@ permalink: /portfolio/
         <a href="mailto:christopherazar+websitecontact@gmail.com?subject=I'm interested in a SocailCode work sample" class="post-thumb socialcode-intelligence-thumb">
             <span class="post-link socialcode">
                 SocialCode
-                <span class="post-sublink">(Contact for work sample)</span>
+                <span class="post-sublink"> (Contact for work sample) </span>
             </span>
         </a>
 
         <a href="/conversations" class="post-thumb trove-conversations-thumb">
-            <span class="post-link trove">Trove Conversations</span>
+            <span class="post-link trove">Conversations on Trove</span>
         </a>
 
         <a href="/profile" class="post-thumb trove-profiles-thumb">
-            <span class="post-link trove">Trove Profiles</span>
+            <span class="post-link trove">Profiles on Trove</span>
         </a>
 
         <a href="/stars" class="post-thumb trove-stars-thumb">
-            <span class="post-link trove">Trove Picks</span>
+            <span class="post-link trove">Picks on Trove</span>
         </a>
 
         <a href="https://www.facebook.com/LittleTinkerCo" target="_blank" class="post-thumb tinker-thumb">
@@ -40,8 +40,8 @@ permalink: /portfolio/
             <span class="post-link ga">Future of UX</span>
         </a>
 
-        <a href="/ifttt" class="post-thumb ifttt-thumb">
-            <span class="post-link ifttt"><span class="character-1">I</span><span class="character-2">F</span><span class="character-3">T</span><span class="character-4">T</span>T</span>
+        <a href="/syracusehousing" class="post-thumb sha-thumb">
+            <span class="post-link sha">Syracuse Housing</span>
         </a>
 
     </div>
