@@ -45,7 +45,7 @@ permalink: /portfolio/
         </a>
 
         <a href="/syracusehousing" class="post-thumb sha-thumb">
-            <span class="post-link sha">Syracuse Housing</span>
+            <span class="post-link sha">SyracuseHousing.org</span>
         </a>
 
 
