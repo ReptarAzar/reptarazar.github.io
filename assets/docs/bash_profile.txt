@@ -1,0 +1,109 @@
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH"
+export PATH=/usr/local/bin:$PATH
+
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
+    [ -r "$file" ] && [ -f "$file" ] && source "$file"
+done
+unset file
+
+# Case-insensitive globbing (used in pathname expansion)
+shopt -s nocaseglob
+
+# Append to the Bash history file, rather than overwriting it
+shopt -s histappend
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell
+
+# Enable some Bash 4 features when possible:
+# * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
+# * Recursive globbing, e.g. `echo **/*.txt`
+for option in autocd globstar; do
+    shopt -s "$option" 2> /dev/null
+done
+
+# Add tab completion for many Bash commands
+if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
+    source "$(brew --prefix)/etc/bash_completion"
+fi
+
+# Enable tab completion for `g` by marking it as an alias for `git`
+if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+    complete -o default -o nospace -F _git g
+fi
+
+# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
+[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2 | tr ' ' '\n')" scp sftp ssh
+
+# Add tab completion for `defaults read|write NSGlobalDomain`
+# You could just use `-g` instead, but I like being explicit
+complete -W "NSGlobalDomain" defaults
+
+# Add `killall` tab completion for common apps
+complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall
+
+
+# Git completion
+# https://github.com/git/git/tree/master/contrib/completion
+
+source ~/.git-completion.sh
+source ~/.git-prompt.sh
+
+# Aliases and functions
+
+alias ls='ls -1'
+alias home='cd ~/Documents/Dev/reptarazar.github.io'
+alias sketch-plugins='cd Library/Application\ Support/com.bohemiancoding.sketch3/Plugins/'
+alias tinker='cd ~/Documents/Design/Personal/Little\ Tinker\ II/'
+alias rpi='cd Desktop/RPI/ && qemu-system-arm -kernel kernel-qemu -cpu arm1176 -m 256 -M versatilepb -no-reboot -serial stdio -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -hda raspbian.img'
+
+function gh() {
+  giturl=$(git config --get remote.origin.url)
+  if [ "$giturl" == "" ]
+    then
+     echo "Not a git repository or no remote.origin.url set"
+     return;
+  fi
+
+  giturl=${giturl/git\@github\.com\:/https://github.com/}
+  giturl=${giturl/\.git/\/tree/}
+  branch="$(git symbolic-ref HEAD 2>/dev/null)" ||
+  branch="(unnamed branch)"     # detached HEAD
+  branch=${branch##refs/heads/}
+  giturl=$giturl$branch
+  open $giturl
+}
+
+# virtual env
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/share/python/virtualenvwrapper.sh
+
+# Social Code
+alias video='cd ~/Documents/Dev/video-crap'
+# alias ic='cd ~/Documents/Dev/irish-cream'
+
+alias runsc='cd ~/Documents/Dev/advisor-frontend && npm run alpha'
+alias runic='cd ~/Documents/Dev/irish-cream && grunt serve'
+
+
+# Make it look sexy
+
+PS1='\[$(tput bold)\]\u \W$(__git_ps1 " (%s)") \[$(tput setaf 4)\]▹ \[$(tput sgr0)\]'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+##
+# Your previous /Users/Chris/.bash_profile file was backed up as /Users/Chris/.bash_profile.macports-saved_2014-12-11_at_10:49:57
+##
+
+# MacPorts Installer addition on 2014-12-11_at_10:49:57: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+PATH=~/.pyenv/shims:$PATH

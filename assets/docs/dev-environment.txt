@@ -1,0 +1,43 @@
+**ENVIRONMENT**
+
+*Programs*
+1Password
+Atom
+Alfred3
+Chrome
+CloudApp
+Dropbox
+Gitx
+iTerm2
+Keynote
+Sketch
+Slack
+Spectacle
+Xcode
+Zeplin
+
+*Files*
+Download “Azar-SocialCode” from Box
+Download Personal and Professional repos from Github
+
+*Configurations*
+
+Add fonts
+{ svn checkout https://github.com/google/fonts/trunk/apache/opensans;
+mv -f ~/opensans/*.ttf ~/Library/Fonts/;
+rm -rf opensans; }
+
+Alfred plain text
+Alfred clipboard
+Alfred 1Password
+
+Update .bash_profile
+
+*System Prefs*
+Add bluetooth keyboard
+Add bluetooth mouse
+Natively add accounts - Google Personal, Google SocialCode, iCloud
+Speed up keyboard key repeat
+Speed up mouse tracking speeds
+Update desktop background
+User profile image
