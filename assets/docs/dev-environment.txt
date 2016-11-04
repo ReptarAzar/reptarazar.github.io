@@ -6,10 +6,16 @@ Atom
 Alfred3
 Chrome
 CloudApp
+Docker App
 Dropbox
+F.lux
 Gitx
+GDrive
+Illustrator
 iTerm2
 Keynote
+Photoshop
+Screenhero
 Sketch
 Slack
 Spectacle
