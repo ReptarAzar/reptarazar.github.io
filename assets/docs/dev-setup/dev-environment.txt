@@ -37,7 +37,17 @@ Alfred plain text
 Alfred clipboard
 Alfred 1Password
 
-Update .bash_profile
+Add ~/.bash_profile
+Add ~/.git-completion.sh
+Add ~/.git-prompt.sh.
+Add usr/local/share/python/virtualenvwrapper.sh
+
+Add Gitx command line integration 
+
+
+# Allow atom to open files
+sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+
 
 *System Prefs*
 Add bluetooth keyboard
