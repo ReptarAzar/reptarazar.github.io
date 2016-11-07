@@ -19,6 +19,7 @@ Screenhero
 Sketch
 Slack
 Spectacle
+Spotify - https://www.spotify.com/de/download/mac/
 Xcode
 Zeplin
 
