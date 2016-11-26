@@ -39,7 +39,7 @@ a { color:#333; text-decoration:none; }
 
 #top-content .top-description { font-family: Arial, Helvetica, sans-serif; font-size:19px; font-weight:normal; margin-top:10px; margin-bottom:15px; }
 
-
+#top-content .info { margin: 0; }
 
 #top-content .address { background: url(../img/icons-sprite.png) 0 -473px no-repeat; display:block; overflow: hidden; padding:4px 0 0 35px; margin:0; }
 #top-content .phone { background: url(../img/icons-sprite.png) 0 -62px no-repeat; display:block; overflow: hidden; padding:4px 0 0 35px; margin:0; }
