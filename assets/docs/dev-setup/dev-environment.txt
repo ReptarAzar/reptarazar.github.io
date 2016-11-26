@@ -19,6 +19,7 @@ Screenhero
 Sketch
 Slack
 Spectacle
+Spotify - https://www.spotify.com/de/download/mac/
 Xcode
 Zeplin
 
@@ -42,8 +43,9 @@ Add ~/.git-completion.sh
 Add ~/.git-prompt.sh.
 Add usr/local/share/python/virtualenvwrapper.sh
 
-Add Gitx command line integration 
+Add Gitx command line integration
 
+Add ne SSH key on Github https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
 # Allow atom to open files
 sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
