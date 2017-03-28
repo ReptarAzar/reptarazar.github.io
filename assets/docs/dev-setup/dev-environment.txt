@@ -50,6 +50,9 @@ Add ne SSH key on Github https://help.github.com/articles/generating-a-new-ssh-k
 # Allow atom to open files
 sudo ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
+Move screenshots to folder 
+defaults write com.apple.screencapture location /Users/azar/Documents/Screenshots
+killall SystemUIServer
 
 *System Prefs*
 Add bluetooth keyboard
