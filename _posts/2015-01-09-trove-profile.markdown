@@ -172,11 +172,10 @@ categories:
     <h2>what to check out next...</h2>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Conversations</a></div>
+        <div class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Trove Conversations</a></div>
     </div>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Picks, Stars</a></div>
+        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Trove Curation</a></div>
     </div>
 </div>
-

@@ -38,9 +38,9 @@ $(window).on('resizeEnd', function() {
 });
 
 // Show / Hide IDEO div based on URL parameter sent through email
-if(location.search == "?hello=ideo"){
-  $('#hello-ideo').show();
-}
-else {
-  $('#hello-ideo').hide();
-}
+// if(location.search == "?hello=ideo"){
+//   $('#hello-ideo').show();
+// }
+// else {
+//   $('#hello-ideo').hide();
+// }
