@@ -27,7 +27,6 @@ permalink: /about/
             <p><a href="http://cazar.mysite.syr.edu/personal_site/index.htm" target="_blank">v2.0</a> &mdash; Circa 2009</p>
             <p><a href="http://gamma.christopherazar.com/" target="_blank">v3.0</a> &mdash; Circa 2010</p>
             <p><a href="http://cargocollective.com/azar/" target="_blank">v4.0</a> &mdash; Circa 2012</p>
-</article>
 
 <!-- <h3>An entertaining profile written by Samantha Okazaki.</h3>
 <h4>My self-summary</h4>

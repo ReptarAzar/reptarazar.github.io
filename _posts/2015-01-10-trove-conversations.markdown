@@ -16,9 +16,9 @@ categories:
         <div>Project Name</div>
     </div>
 
-    <div class="content-column">
-        <span class="title">Conversations on <a href="http://trove.com">Trove.com</a></span>
-    </div>
+    <h1 class="content-column">
+        <span class="title">Trove Conversations</span>
+    </h1>
 </div>
 
 <!-- Begin Role Row -->
@@ -28,7 +28,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="role">Design Lead</span>
+        <span class="role">Product Designer</span>
     </div>
 </div>
 
@@ -175,17 +175,17 @@ categories:
 <!-- Begin Next Row -->
 <div class="row next">
 
-    <h2>what to check out next...</h2>
+
 
     <div class="next-column post-list">
-        <a href="/profile" class="post-thumb trove-profiles-thumb">
-            <span class="post-link trove">Profiles</span>
+        <a href="/trove" class="post-thumb trove-thumb">
+            <span class="post-link trove">Trove Profiles</span>
         </a>
     </div>
 
     <div class="next-column post-list">
-        <a href="/stars" class="post-thumb trove-stars-thumb">
-            <span class="post-link trove">Picks, Stars</span>
+        <a href="/curation" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Trove Curation</span>
         </a>
     </div>
 </div>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Profile Page | ChristopherAzar.com"
 date:   2015-01-09 00:00:00
-permalink: profile
+permalink: trove
 categories:
 ---
 
@@ -15,9 +15,10 @@ categories:
         <div>Project Name</div>
     </div>
 
-    <div class="content-column">
-        <span class="title">User Profile Pages on <a href="http://trove.com">Trove.com</a></span>
-    </div>
+    <h1 class="content-column">
+        <span class="title">
+		Trove User Profiles</span>
+    </h1>
 </div>
 <!-- Begin Role Row -->
 <div class="row role">
@@ -26,7 +27,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="role">Design Lead</span>
+        <span class="role">Product Designer</span>
     </div>
 </div>
 
@@ -107,7 +108,7 @@ categories:
 </div>
 
 <!-- Begin Live Row -->
-<div class="row live">
+<!-- <div class="row live">
     <div class="label-column">
         Live
     </div>
@@ -129,26 +130,24 @@ categories:
             <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Vijay's Profile</a></p>
 
        </div>
-
-        <!-- <div class="thumb-row">
-            <p>
-                <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb ">
-                    <img src="../assets/img/portfolio/profiles/azar-picks-sm.png" />
-                </a>
-                <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
-                    <img src="../assets/img/portfolio/profiles/azar-edit-sm.png" />
-                </a>
-            </p>
-            <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Chris's Profile</a></p>
-        </div>
-        -->
+ <div class="thumb-row">
+        <p>
+            <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb ">
+                <img src="../assets/img/portfolio/profiles/azar-picks-sm.png" />
+            </a>
+            <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                <img src="../assets/img/portfolio/profiles/azar-edit-sm.png" />
+            </a>
+        </p>
+        <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Chris's Profile</a></p>
+    </div>
 
 
     </div>
-</div>
+</div> -->
 
 <!-- Begin Live Row -->
-<div class="row live">
+<!-- <div class="row live">
     <div class="label-column">
         Bonus
     </div>
@@ -164,18 +163,23 @@ categories:
         </div>
 
     </div>
-</div>
+</div> -->
+
 
 <!-- Begin Next Row -->
 <div class="row next">
 
-    <h2>what to check out next...</h2>
+
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-conversations-thumb"><a class="post-link trove" href="/conversations">Trove Conversations</a></div>
+        <a href="/conversations" class="post-thumb trove-conversations-thumb">
+            <span class="post-link trove">Trove Conversations</span>
+        </a>
     </div>
 
     <div class="next-column post-list">
-        <div class="post-thumb trove-stars-thumb"><a class="post-link trove" href="/stars">Trove Curation</a></div>
+        <a href="/curation" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Trove Curation</span>
+        </a>
     </div>
 </div>

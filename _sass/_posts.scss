@@ -19,6 +19,14 @@
             animation: fadeIn 1s 1;
 }
 
+.bold, b {
+	font-weight: 600;
+}
+
+a {
+	color: $teal;
+}
+
 // Portfolio index
 .post-list {
     margin-top: 50px;
@@ -109,7 +117,7 @@
         }
 
         &.tinker-thumb {
-            background-image: url(../assets/img/portfolio/micardi-illustration.png);
+            background-image: url(../assets/img/portfolio/littletinker/micardi-illustration.png);
 			position: relative;
 		    border-right: #f9f9f9 solid 10px;
     		background-size: 63%;
@@ -124,7 +132,6 @@
             background-image: url(../assets/img/portfolio/ga/ga-logo.png);
 			position: relative;
 		    background-size: 25%;
-
 			&:hover {
 				background-size: 28%;
 			}
@@ -132,7 +139,7 @@
 
 		// small screens
 		@media screen and (max-width: 580px) {
-			height: 350px;
+			height: 350px !important;
 		}
 
 		&.small-tile {
@@ -160,7 +167,7 @@
             line-height: 1.3em;
             font-weight: 600;
             color: #111;
-			padding-top: 70px;
+			padding-top: 60px;
 
 			.post-sublink {
 				font-size: 1.1rem;
@@ -224,25 +231,42 @@
                 background-size: 130%;
             }
 
+			&.adobe-hero {
+				background-image: url(../assets/img/portfolio/adobe/thumb.png);
+				background-position: 50% 14%;
+				background-size: 45%;
+			}
+
+			&.socialcode-hero {
+			   background-image: url(../assets/img/portfolio/socialcode/thumb.png);
+			   background-position: 50% -15%;
+		   }
+
             &.trove-profile-hero {
                 background-image: url(../assets/img/portfolio/profiles/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
             &.trove-conversations-hero {
                 background-image: url(../assets/img/portfolio/conversations/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
             &.trove-stars-hero {
                 background-image: url(../assets/img/portfolio/stars/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
-             &.sha-hero {
-                background-image: url(../assets/img/portfolio/sha/thumb.png);
-                background-position: 50% -15%;
-            }
+			&.wapolabs-hero {
+				// background-image: url(../assets/img/portfolio/wapo/thumb.png);
+				background-position: 50% 20%;
+				background-size: 45%;
+			}
+
+			&.littletinker-hero {
+				background-image: url(../assets/img/portfolio/littletinker/micardi-illustration.png);
+				background-position: 50% 0;
+			}
 
             &.ifttt-hero {
                 font-size: 4em;
@@ -289,7 +313,7 @@
             max-width: 999999px;
             margin: 100px 0 0;
             float: left;
-            padding: 20px 10px 40px;
+            padding: 0;
 
             .post-list {
                 margin-top: 20px;
@@ -300,23 +324,26 @@
                 text-align: center;
                 font-size: 1.2em;
                 color: #888;
+				font-weight: 600;
             }
 
             .next-column {
                 width: 50%;
                 float: left;
-                padding: 0 20px;
+                padding: 0 10px;
                 min-width: 260px;
+				max-width: 1440px;
                 @media screen and (max-width: 1200px) {
                     width: 100%;
                 }
             }
             .post-thumb {
                 margin-bottom: 0;
-                background-size: 80%;
+                background-size: 65%;
+				height: 500px;
 
                 &:hover {
-                    background-size: 85%;
+                    background-size: 70%;
                 }
             }
 
@@ -339,6 +366,20 @@
             }
 
         }
+
+		h1 {
+			position: relative;
+		}
+
+		.title {
+			position: absolute;
+			top: -14px;
+			@media screen and (max-width: 840px) {
+                position: relative;
+				top: 0;
+				line-height: 1.5rem;
+            }
+		}
 
         .content-column {
             width: 75%;
@@ -375,8 +416,20 @@
             }
 
             .youtube-container {
-                width: 100%;
+				position: relative;
+				padding-bottom: 53.4%; /* 16:9 */
+				padding-top: 25px;
+				margin-bottom: 25px;
+				height: 0;
             }
+
+			.youtube-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
 
             .invision-wrapper {
                 width: 438px;
@@ -452,9 +505,8 @@
 	display: block;
 	padding: 20px;
 	clear: both;
+	max-width: 960px;
 }
-
-
 
 .lightbox-image {
     position: relative;
