@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Picks, Stars, and Comments | ChristopherAzar.com"
+title:  "Trove Curation | ChristopherAzar.com"
 date:   2015-01-08 00:00:00
-permalink: stars
+permalink: curation
 categories:
 ---
 
@@ -16,9 +16,9 @@ categories:
         <div>Project Name</div>
     </div>
 
-    <div class="content-column">
-        <span class="title">Starring, Picking, and Commenting Flows on <a href="http://trove.com">Trove.com</a></span>
-    </div>
+    <h1 class="content-column">
+        <span class="title">Trove Curation</span>
+    </h1>
 </div>
 
 <!-- Begin Role Row -->
@@ -28,7 +28,7 @@ categories:
     </div>
 
     <div class="content-column">
-        <span class="role">Design Lead</span>
+        <span class="role">Product Designer</span>
     </div>
 </div>
 
@@ -138,7 +138,7 @@ categories:
 </div>
 
 <!-- Begin Live Row -->
-<div class="row live">
+<!-- <div class="row live">
     <div class="label-column">
         Live
     </div>
@@ -161,21 +161,21 @@ categories:
        </div>
 
     </div>
-</div>
+</div> -->
 
 <!-- Begin Next Row -->
 <div class="row next">
 
-    <h2>what to check out next...</h2>
+
 
     <div class="next-column post-list">
         <a href="/conversations" class="post-thumb trove-conversations-thumb">
-            <span class="post-link trove">Conversations</span>
+            <span class="post-link trove">Trove Conversations</span>
         </a>
     </div>
 
     <div class="next-column post-list">
-        <a href="https://www.facebook.com/LittleTinkerCo" target="_blank" class="post-thumb tinker-thumb">
+        <a href="/littletinker/" class="post-thumb tinker-thumb">
             <span class="post-link littletinker">Little Tinker</span>
         </a>
     </div>

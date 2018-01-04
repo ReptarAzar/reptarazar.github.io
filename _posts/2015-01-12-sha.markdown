@@ -89,7 +89,7 @@ categories:
 <!-- Begin Next Row -->
 <div class="row next">
 
-    <h2>what to check out next...</h2>
+    
 
     <div class="next-column post-list">
         <div class="post-thumb trove-conversations-thumb">

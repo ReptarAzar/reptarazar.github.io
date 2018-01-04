@@ -3,54 +3,14 @@
 
 // To do: make this only load on blog and post pages
 
-.hello-ideo {
-    background-color: #fff;
-    background-color: rgba(255,255,255,.95);
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    z-index: 1;
-
-    .ideo-logo {
-        width: 285px;
-        height: 36px;
-        background-image: url(../assets/img/portfolio/ideo/ideo-logo.png);
-        display: block;
-        text-indent: -9999px;
-        white-space: nowrap;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-            background-image: url(../assets/img/portfolio/ideo/ideo-logo@2x.png);
-            -webkit-background-size: 285px 36px;
-            -moz-background-size: 285px 36px;
-            -o-background-size: 285px 36px;
-            background-size: 285px 36px;
-        }
-        @media screen and (max-width: 540px) {
-            width: 142px;
-            height: 18px;
-            -webkit-background-size: 142px 18px;
-            -moz-background-size: 142px 18px;
-            -o-background-size: 142px 18px;
-            background-size: 142px 18px;
-        }
-    }
-
-    .ideo-welcome {
-        margin-top: .5em;
-    }
-
-}
-
-#ideo-spacer {
-    height: 136px;
-}
+// header {
+// 	background-color: #1c1c1c;
+// }
 
 .portfolio-index-content {
-    padding: 20px;
-    max-width: 960px;
+    padding: 20px 0;
     margin: 0px auto;
+	max-width: 1440px;
 
     -webkit-animation: fadeIn 1s 1;
        -moz-animation: fadeIn 1s 1;
@@ -59,18 +19,36 @@
             animation: fadeIn 1s 1;
 }
 
+.bold, b {
+	font-weight: 600;
+}
+
+a {
+	color: $teal;
+}
+
 // Portfolio index
 .post-list {
     margin-top: 50px;
     list-style: none;
 
+	// .flexbox {
+	// 	display: flex;
+	// }
+
     .post-thumb {
         display: block;
         position: relative;
-        height: 580px;
+        height: 650px;
         background-color: #f0f0f0;
-        margin-bottom: 30px;
-        background-size: 100%;
+        margin-bottom: 10px;
+        background-size: 50%;
+		opacity: 0.85;
+
+		-webkit-transition:opacity .25s ease-out;
+        -moz-transition:opacity .25s ease-out;
+        -o-transition:opacity .25s ease-out;
+        transition:opacity .25s ease-out;
 
         -webkit-transition:background-size .15s ease-out;
         -moz-transition:background-size .15s ease-out;
@@ -78,181 +56,139 @@
         transition:background-size .15s ease-out;
 
         // center the images in the back of the thumbs
-        background-position: 43% 40%;
+        background-position: 50% 75%;
         background-repeat: no-repeat;
 
-        // small screens
-        @media screen and (max-width: 580px) {
-            height: 200px;
-        }
-
         &:hover {
-            background-size: 105%;
+			background-size: 53%;
+			opacity: 1;
+			pointer: cursor;
 
             .post-link {
-                text-decoration: underline;
+                text-decoration: none;
             }
+        }
 
+        &.adobe-thumb {
+            background-image: url(../assets/img/portfolio/adobe/thumb.png);
+			height: 550px;
+			background-position: 50% 72%;
+			&:hover {
+				background-size: 55%;
+			}
         }
 
         &.socialcode-intelligence-thumb {
             background-image: url(../assets/img/portfolio/socialcode/thumb.png);
+			background-position: 50% 80%;
+			&:hover {
+				background-size: 53%;
+			}
         }
 
-        &.trove-conversations-thumb {
-            background-image: url(../assets/img/portfolio/conversations/thumb.png);
-        }
-
-        &.trove-profiles-thumb {
+		&.trove-thumb {
             background-image: url(../assets/img/portfolio/profiles/thumb.png);
+			position: relative;
+		    border-right: #f9f9f9 solid 10px;
+			background-size: 65%;
+			background-position: 50% 85%;
+
+			&:hover {
+				background-size: 70%;
+			}
         }
 
-        &.trove-stars-thumb {
-            background-image: url(../assets/img/portfolio/stars/thumb.png);
+		&.trove-conversations-thumb {
+			background-image: url(../assets/img/portfolio/conversations/thumb.png);
+		}
+
+		&.trove-stars-thumb {
+			background-image: url(../assets/img/portfolio/stars/thumb.png);
+		}
+
+		&.wapo-thumb {
+            background-image: url(../assets/img/portfolio/wapo/thumb.png);
+			background-size: 67%;
+		    background-position: 50% 100%;
+
+			&:hover {
+				background-size: 70%;
+			}
         }
 
         &.tinker-thumb {
-            background-image: url(../assets/img/portfolio/micardi-illustration.png);
+            background-image: url(../assets/img/portfolio/littletinker/micardi-illustration.png);
+			position: relative;
+		    border-right: #f9f9f9 solid 10px;
+    		background-size: 63%;
+		    background-position: 50% 85%;
+
+			&:hover {
+				background-size: 66%;
+			}
         }
 
         &.ga-thumb {
             background-image: url(../assets/img/portfolio/ga/ga-logo.png);
-            background-size: 29%;
-            background-position: 50% 69%;
+			position: relative;
+		    background-size: 25%;
+			&:hover {
+				background-size: 28%;
+			}
         }
 
-        &.ifttt-thumb {
-            background-image: url(../assets/img/portfolio/ifttt/erlenmeyer-flask.png);
-            background-size: 29%;
-            background-position: 50% 69%;
-        }
+		// small screens
+		@media screen and (max-width: 580px) {
+			height: 350px !important;
+		}
 
-        &.sha-thumb {
-            background-image: url(../assets/img/portfolio/sha/thumb.png);
-        }
+		&.small-tile {
+			height: 450px;
+			display: inline-block;
+			width: 50%;
+			float: left;
 
-        &.miniputt-thumb {
-            background-image: url(../assets/img/portfolio/miniputt-thumb.png);
-            background-position: 10px -10px;
-        }
+			@media screen and (max-width: 780px) {
+				width: 100%;
+				border: none;
+			}
 
-        &.soon-thumb {
-            background-image: url(../assets/img/portfolio/soon.png);
-            background-repeat: repeat;
-            background-position: 0 0;
-            background-size: inherit;
-
-            -webkit-transition:background-position .2s ease-out;
-            -moz-transition:background-position .2s ease-out;
-            -o-transition:background-position .2s ease-out;
-            transition:background-position .2s ease-out;
-
-            &:hover {
-                -webkit-transition:background-position 10s ease-out;
-                -moz-transition:background-position 10s ease-out;
-                -o-transition:background-position 10s ease-out;
-                transition:background-position 10s ease-out;
-
-                background-position: 2000px 2000px;
-                background-size: inherit;
-            }
-
-        }
+			@media screen and (max-width: 580px) {
+				height: 350px;
+			}
+		}
 
         .post-link {
             display: block;
             width: 100%;
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 2.25rem;
             line-height: 1.3em;
-            font-weight: 900;
-            text-transform: uppercase;
+            font-weight: 600;
             color: #111;
-            // border: 10px solid transparent;
+			padding-top: 60px;
 
+			.post-sublink {
+				font-size: 1.1rem;
+				line-height: 1.75rem;
+				display: block;
+				font-weight: 400;
+				&.top-sublink {
+					color: #bbb;
+					text-transform: uppercase;
+					font-weight: 600;
+					font-size: .75rem;
+					letter-spacing: .5px;
+					line-height: 1.5rem;
+				}
+			}
 
-            // big screeens
-            @media screen and (min-width: 580px) {
-                font-size: 58px;
-            }
-
-            .post-sublink {
-                font-size: .5em;
-                opacity: .5;
-                display: block;
-            }
-
-            &.socialcode {
-                color: white;
-                background-color: #5E9DE6;
-                padding: 17px 0 6px;
-                line-height: 0.7em;
-
-            }
-
-            &.trove {
-                padding: 3px 4px 0;
-                background-color: $teal;
-                color: #fff;
-            }
-
-            &.ga {
-                color: #E52123;
-                top: 42%;
-            }
-
-            &.littletinker {
-                color: black;
-                padding: 4px 0 0;
-            }
-
-            &.ifttt {
-                color: dodgerblue;
-                top: 14%;
-
-                // KERNING :)
-                .character-1 {
-                    letter-spacing: -.06em;
-                }
-                .character-2 {
-                    letter-spacing: .018em;
-                }
-                .character-3 {
-                    letter-spacing: .05em;
-                }
-                .character-4 {
-                    letter-spacing: .05em;
-                }
-            }
-
-            &.sha {
-                background-color: #444;
-                color: white;
-            }
-
-
-
-            &.miniputt {
-                background-color: rgb(51, 102, 204);
-                color: white;
-                padding-bottom: 10px;
-                top: 35%;
-
-                .subheading {
-                    display: block;
-                    width: 100%;
-                    text-align: center;
-                    font-size: 30px;
-                    line-height: 24px;
-                    font-weight: 700;
-                    letter-spacing: .035em;
-                }
-
-            }
+			@media screen and (max-width: 580px) {
+				font-size: 1.5rem;
+				line-height: 1.3em;
+				padding: 40px 20px 0;
+			}
 
         }
 
@@ -295,25 +231,42 @@
                 background-size: 130%;
             }
 
+			&.adobe-hero {
+				background-image: url(../assets/img/portfolio/adobe/thumb.png);
+				background-position: 50% 14%;
+				background-size: 45%;
+			}
+
+			&.socialcode-hero {
+			   background-image: url(../assets/img/portfolio/socialcode/thumb.png);
+			   background-position: 50% -15%;
+		   }
+
             &.trove-profile-hero {
                 background-image: url(../assets/img/portfolio/profiles/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
             &.trove-conversations-hero {
                 background-image: url(../assets/img/portfolio/conversations/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
             &.trove-stars-hero {
                 background-image: url(../assets/img/portfolio/stars/thumb.png);
-                background-position: 40% 0;
+                background-position: 50% 0;
             }
 
-             &.sha-hero {
-                background-image: url(../assets/img/portfolio/sha/thumb.png);
-                background-position: 50% -15%;
-            }
+			&.wapolabs-hero {
+				// background-image: url(../assets/img/portfolio/wapo/thumb.png);
+				background-position: 50% 20%;
+				background-size: 45%;
+			}
+
+			&.littletinker-hero {
+				background-image: url(../assets/img/portfolio/littletinker/micardi-illustration.png);
+				background-position: 50% 0;
+			}
 
             &.ifttt-hero {
                 font-size: 4em;
@@ -360,7 +313,7 @@
             max-width: 999999px;
             margin: 100px 0 0;
             float: left;
-            padding: 20px 10px 40px;
+            padding: 0;
 
             .post-list {
                 margin-top: 20px;
@@ -371,23 +324,26 @@
                 text-align: center;
                 font-size: 1.2em;
                 color: #888;
+				font-weight: 600;
             }
 
             .next-column {
                 width: 50%;
                 float: left;
-                padding: 0 20px;
+                padding: 0 10px;
                 min-width: 260px;
+				max-width: 1440px;
                 @media screen and (max-width: 1200px) {
                     width: 100%;
                 }
             }
             .post-thumb {
                 margin-bottom: 0;
-                background-size: 85%;
+                background-size: 65%;
+				height: 500px;
 
                 &:hover {
-                    background-size: 95%;
+                    background-size: 70%;
                 }
             }
 
@@ -410,6 +366,20 @@
             }
 
         }
+
+		h1 {
+			position: relative;
+		}
+
+		.title {
+			position: absolute;
+			top: -14px;
+			@media screen and (max-width: 840px) {
+                position: relative;
+				top: 0;
+				line-height: 1.5rem;
+            }
+		}
 
         .content-column {
             width: 75%;
@@ -446,8 +416,20 @@
             }
 
             .youtube-container {
-                width: 100%;
+				position: relative;
+				padding-bottom: 53.4%; /* 16:9 */
+				padding-top: 25px;
+				margin-bottom: 25px;
+				height: 0;
             }
+
+			.youtube-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
 
             .invision-wrapper {
                 width: 438px;
@@ -517,8 +499,14 @@
 // end .post
 }
 
-
-
+.process {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding: 20px;
+	clear: both;
+	max-width: 960px;
+}
 
 .lightbox-image {
     position: relative;
