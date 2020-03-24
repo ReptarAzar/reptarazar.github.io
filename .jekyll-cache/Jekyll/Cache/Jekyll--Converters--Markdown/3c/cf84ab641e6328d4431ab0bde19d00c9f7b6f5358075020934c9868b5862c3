@@ -1,0 +1,176 @@
+I"2<!-- Begin Hero Row -->
+<div class="row hero trove-profile-hero"></div>
+
+<!-- Begin Title Row -->
+<div class="row title">
+    <div class="label-column">
+        <div>Project Name</div>
+    </div>
+
+    <h1 class="content-column">
+        <span class="title">
+		Trove User Profiles</span>
+    </h1>
+</div>
+<!-- Begin Role Row -->
+<div class="row role">
+    <div class="label-column">
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
+        <span class="role">Product Designer</span>
+    </div>
+</div>
+
+<!-- Begin Problem Row -->
+<div class="row problem">
+    <div class="label-column">
+        Problem
+    </div>
+
+    <div class="content-column">
+        Curators want to market themselves and show social proof their expertise as they grow an audience.
+
+        <p>Product strategy: Creating a rich profile experience will allow users to express themselves and their expertise. </p>
+    </div>
+</div>
+
+<!-- Begin Research Row -->
+<div class="row research">
+    <div class="label-column">
+        Research
+    </div>
+
+    <div class="content-column">
+        For this project we had a lot of usability testing results to work from. In addition to those videos I pulled in a study from <a href="http://blog.ghost.org/ghost-onboarding/">Ghost</a> about and a few case studies from other apps into the pool of research. We took a look at the wins and takeaways <a href="https://blog.twitter.com/2015/designing-the-new-twitter-profiles">Twitter</a> had building their profiles and we started sketching ideas. We made a few basic assumptions about what would be valuable to support on a profile. We then went about designing new fields the user activity we already had returning in the API.
+    </div>
+</div>
+
+<!-- Begin Sketches Row -->
+<div class="row sketches">
+    <div class="label-column">
+        Sketches
+    </div>
+
+    <div class="content-column">
+        <a href="../assets/img/portfolio/profiles/whiteboad-001.jpg" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/profiles/whiteboad-001.jpg" />
+        </a>
+
+        <p>Both philosophical and practical ideas about what it means to have a profile go into out product discussions with designers and stakeholders.</p>
+    </div>
+</div>
+
+<!-- Begin Mockup Row -->
+<div class="row mockup">
+    <div class="label-column">
+        Mockup
+    </div>
+
+    <div class="content-column">
+        <a href="../assets/img/portfolio/profiles/sketch-doc.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/profiles/sketch-doc.png" />
+        </a>
+
+        <p><a href="../assets/img/portfolio/profiles/profile.sketch">Download sketch file</a></p>
+
+        <p>Then I'll begin pixel-perfect mock ups of the final designs. After the designs are reviewed by stakeholders, they are split into tickets and I'll generate a focused batch of mockup files for each ticket that way the engineer can just grab exactly what they need and don't have to dig at all.  <a href="../assets/img/portfolio/profiles/folder-structure.png" data-lightbox="sketches">tickets/folder structure </a>for this project.</p>
+
+    </div>
+</div>
+
+<!-- Begin Prototype Row -->
+<div class="row prototype">
+    <div class="label-column">
+        Prototype
+    </div>
+
+    <div class="content-column">
+
+        Here are a few prototypes I made that you can click around and play with. As a fun game try making the first one look filled in like the second prototype (or top and bottom on mobile). <br />
+        <div class="invision-wrapper">
+            <iframe class="invision" width="438" height="870" src="//invis.io/Z74LBQBXV" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
+        </div>
+        <div class="invision-wrapper">
+            <iframe class="invision" width="438" height="870" src="//invis.io/QX4LBOJYM" frameborder="0" allowfullscreen="" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Begin Live Row -->
+<!-- <div class="row live">
+    <div class="label-column">
+        Live
+    </div>
+
+    <div class="content-column">
+
+        In the engineering scope process, the uploading of cover photos for each profile was cut. But here is a few screenshots of what made it to production.
+
+       <div class="thumb-row">
+            <p>
+                <a href="../assets/img/portfolio/profiles/vijay-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/profiles/vijay-picks-sm.png"  />
+                </a>
+                <a href="../assets/img/portfolio/profiles/vijay-troves.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                    <img src="../assets/img/portfolio/profiles/vijay-troves-sm.png"  />
+                </a>
+            </p>
+
+            <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Vijay's Profile</a></p>
+
+       </div>
+ <div class="thumb-row">
+        <p>
+            <a href="../assets/img/portfolio/profiles/azar-picks.png" data-lightbox="sketches" class="lightbox-image mockup-thumb ">
+                <img src="../assets/img/portfolio/profiles/azar-picks-sm.png" />
+            </a>
+            <a href="../assets/img/portfolio/profiles/azar-edit.png" data-lightbox="sketches" class="lightbox-image mockup-thumb shadow">
+                <img src="../assets/img/portfolio/profiles/azar-edit-sm.png" />
+            </a>
+        </p>
+        <p><a href="https://trove.com/92ebd230-e3d6-11e0-939e-12313d08ec5d/activity?" target="_blank">Visit Chris's Profile</a></p>
+    </div>
+
+
+    </div>
+</div> -->
+
+<!-- Begin Live Row -->
+<!-- <div class="row live">
+    <div class="label-column">
+        Bonus
+    </div>
+
+    <div class="content-column">
+
+        Here's a bonus. It's a settings page I made to go with the new profile page. It was eventually scrapped based on the decision to use engineering resourses where there's more traffic. But this design solved a few problems we have on the current settings pages dealing with different input types that require different saving paradigms.
+
+        <p>It's a clickable prototype too, so feel free to play around and check out the different input types and save structure. </p>
+
+        <div class="invision-wrapper">
+            <iframe class="invision" width="438" height="870" src="//invis.io/A33BPR568" frameborder="0" allowfullscreen scrolling="no"></iframe>
+        </div>
+
+    </div>
+</div> -->
+
+<!-- Begin Next Row -->
+<div class="row next">
+
+
+
+    <div class="next-column post-list">
+        <a href="/conversations" class="post-thumb trove-conversations-thumb">
+            <span class="post-link trove">Trove Conversations</span>
+        </a>
+    </div>
+
+    <div class="next-column post-list">
+        <a href="/curation" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Trove Curation</span>
+        </a>
+    </div>
+</div>
+:ET

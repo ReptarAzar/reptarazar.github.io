@@ -1,10 +1,4 @@
----
-layout: post
-title:  "Adobe Acrobat"
-date:   2016-01-05 00:00:00
-permalink: /adobe/
----
-
+I"±
 <!-- Begin Hero Row -->
 <div class="hero row adobe-hero">
 </div>
@@ -31,7 +25,6 @@ permalink: /adobe/
     </div>
 </div>
 
-
 <!-- Begin Intro Row -->
 <div class="row intro">
     <div class="label-column">
@@ -39,7 +32,7 @@ permalink: /adobe/
     </div>
 
     <div class="content-column">
-		<b>The largest release in Acrobat history. </b> The same year Acrobat celebrated 25 years, I had the opportunity to help drive and ship a massive overhaul to the over 300 million customers.
+		<b>The largest release in Document Cloud history. </b> The same year Acrobat celebrated 25 years, I had the opportunity to help drive and ship a massive overhaul to the over 300 million customers.
     </div>
 </div>
 
@@ -63,7 +56,6 @@ permalink: /adobe/
     </div>
 </div>
 
-
 <!-- Begin Video Row -->
 <div class="row problem">
     <div class="label-column">
@@ -72,11 +64,10 @@ permalink: /adobe/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
 	</div>
 </div>
-
 
 <!-- Begin Next Row -->
 <div class="row next">
@@ -92,3 +83,4 @@ permalink: /adobe/
         </a>
     </div>
 </div>
+:ET

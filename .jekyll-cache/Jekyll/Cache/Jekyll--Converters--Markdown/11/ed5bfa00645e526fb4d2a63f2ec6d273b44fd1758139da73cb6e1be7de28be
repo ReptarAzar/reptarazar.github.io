@@ -1,10 +1,4 @@
----
-layout: post
-title:  "Adobe Acrobat"
-date:   2016-01-05 00:00:00
-permalink: /adobe/
----
-
+I"ª
 <!-- Begin Hero Row -->
 <div class="hero row adobe-hero">
 </div>
@@ -30,7 +24,6 @@ permalink: /adobe/
         <span class="role">Sr Experience Designer, Lead</span>
     </div>
 </div>
-
 
 <!-- Begin Intro Row -->
 <div class="row intro">
@@ -63,7 +56,6 @@ permalink: /adobe/
     </div>
 </div>
 
-
 <!-- Begin Video Row -->
 <div class="row problem">
     <div class="label-column">
@@ -72,11 +64,10 @@ permalink: /adobe/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
 	</div>
 </div>
-
 
 <!-- Begin Next Row -->
 <div class="row next">
@@ -92,3 +83,4 @@ permalink: /adobe/
         </a>
     </div>
 </div>
+:ET

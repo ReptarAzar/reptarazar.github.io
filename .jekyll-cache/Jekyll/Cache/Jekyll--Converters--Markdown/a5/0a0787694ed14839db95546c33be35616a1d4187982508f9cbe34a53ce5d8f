@@ -1,10 +1,4 @@
----
-layout: post
-title:  "Adobe Acrobat"
-date:   2016-01-05 00:00:00
-permalink: /adobe/
----
-
+I"{
 <!-- Begin Hero Row -->
 <div class="hero row adobe-hero">
 </div>
@@ -16,7 +10,7 @@ permalink: /adobe/
     </div>
 
     <h1 class="content-column">
-        <span class="title"> Adobe Acrobat</span>
+        <span class="title"> Adobe Document Cloud</span>
     </h1>
 </div>
 
@@ -31,7 +25,6 @@ permalink: /adobe/
     </div>
 </div>
 
-
 <!-- Begin Intro Row -->
 <div class="row intro">
     <div class="label-column">
@@ -39,7 +32,7 @@ permalink: /adobe/
     </div>
 
     <div class="content-column">
-		<b>The largest release in Acrobat history. </b> The same year Acrobat celebrated 25 years, I had the opportunity to help drive and ship a massive overhaul to the over 300 million customers.
+		<b>The largest releases in Document Cloud history. </b> The same year Acrobat celebrated 25 years, I had the opportunity to help drive and ship a massive overhaul to the over 300 million customers.
     </div>
 </div>
 
@@ -59,10 +52,9 @@ permalink: /adobe/
         Solution
     </div>
     <div class="content-column">
-    Project "Virgo" was a complete visual redesign of the Acrobat ecosystem of products to incorporate Adobe's new design system Spectrum, it added new real-time collaboration cloud review service, integrated a previously isolated Adobe Sign business and made a few billion PDFs accessible with new machine learning capabilities. As a design lead I was responsible for the home, which included the new service integration, document organization, and document management experience across desktop and web.
+    As a lead on the Adobe Document Cloud design team, I was responsible for "Home" the document organization and management experience across desktop and web. Codename "Virgo" was a complete visual redesign of the Acrobat ecosystem of products to incorporate Adobe's new design system Spectrum, added new real-time collaboration cloud service called "DC Review," and made a few billion PDFs accessible with new machine learning capabilities.
     </div>
 </div>
-
 
 <!-- Begin Video Row -->
 <div class="row problem">
@@ -72,11 +64,10 @@ permalink: /adobe/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
 	</div>
 </div>
-
 
 <!-- Begin Next Row -->
 <div class="row next">
@@ -92,3 +83,4 @@ permalink: /adobe/
         </a>
     </div>
 </div>
+:ET

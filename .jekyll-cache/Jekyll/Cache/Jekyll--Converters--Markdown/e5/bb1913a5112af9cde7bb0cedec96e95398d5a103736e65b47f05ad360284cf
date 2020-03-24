@@ -1,0 +1,98 @@
+I"v<!-- Begin Hero Row -->
+<div class="hero row sha-hero">
+
+</div>
+
+<!-- Begin Title Row -->
+<div class="row title">
+    <div class="label-column">
+        <div>Project Name</div>
+    </div>
+
+    <div class="content-column">
+        <span class="title">Syracuse Housing</span>
+    </div>
+</div>
+
+<!-- Begin Role Row -->
+<div class="row role">
+    <div class="label-column">
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
+        <span class="role">Designer and Front-end Developer</span>
+    </div>
+</div>
+
+<!-- Begin Problem Row -->
+<div class="row problem">
+    <div class="label-column">
+        Problem
+    </div>
+
+    <div class="content-column">
+         Prospective clients were having trouble finding SHA locations that fit their needs. Also, the new website needed to not only be updated by SHA employees with no coding experience, but accesible to clients with little computer experience.
+
+         <p>Strategy: Create a custom Drupal CMS, with simple form fields to add pages, photos, or news stories, to replace the hard-coded site. Add Google translations to the site for Spanish speaker accesibility and a filterable and interactive map of with all 15 housing developments and 2,500 apartments that SHA manages.</p>
+
+        </div>
+</div>
+
+<!-- Begin Research Row -->
+<div class="row research">
+    <div class="label-column">
+        Background
+    </div>
+
+    <div class="content-column">
+
+        This project was started when I was brought on as a volunteer policy consultant for the Syracuse Housing Authority. After talking with a few sets of clients and looking at the technology stack they were using. I wrote up an organization report of my findings that went beyond the Policy assesments and included SHA History, Mission &amp; Purpose, Goals &amp; Activities, Budget - Source of funds - percent is gov funding, client demographics (ie. number of Families, total people serviced ect., the names of the SHA Key Players (Director and the Board).
+
+        <p>Then I pulled together a proposal for a new SyracuseHosing.org website. The executive stakeholder for the project was David Paccone, Assistant Executive Director, Director of Development at Syracuse Housing Authority. After talking through a proposal for the site, I got started sketching out the site. At that point I recruited my friend Nick Valinski, a computer science major, to help wiring up the back-end of the site.</p>
+
+        <p>This project was time-boxed at six months to fit in a single semester. As a requirement of SHA, we logged all our hours for the project. After about 160 hours of designing and coding it up, we launched <a href="http://syracusehousing.org/" target="_blank">SyracuseHousing.org</a> in December 2011. It was a proud moment. At SHA, in public housing they serve 2344 households with 3687 residents and in the section 8 program they serve 3234 households with 7436 residents.</p>
+
+    </div>
+</div>
+
+<!-- Begin Sketches Row -->
+<div class="row sketches">
+    <div class="label-column">
+        screenshots
+    </div>
+
+    <div class="content-column">
+        <a href="../assets/img/portfolio/sha/screenshot-1.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/sha/screenshot-1.png" />
+        </a>
+
+        <a href="../assets/img/portfolio/sha/screenshot-2.png" data-lightbox="sketches" class="lightbox-image">
+            <img src="../assets/img/portfolio/sha/screenshot-2.png" />
+        </a>
+
+    </div>
+</div>
+
+<!-- Begin Next Row -->
+<div class="row next">
+
+    
+
+    <div class="next-column post-list">
+        <div class="post-thumb trove-conversations-thumb">
+        <a class="post-link trove" href="/conversations">Conversations on trove</a></div>
+    </div>
+
+<!-- <div class="next-column post-list">
+        <a href="http://onemorelevel.com/static/games/miniputt.swf" class="post-thumb miniputt-thumb" target="_blank">
+            <span class="post-link miniputt">MiniPutt<span class="subheading">(flash game)</span> -->
+
+    <div class="next-column post-list">
+        <a href="/stars" class="post-thumb trove-stars-thumb">
+            <span class="post-link trove">Picks on Trove</span>
+        </a>
+    </div>
+
+</div>
+:ET

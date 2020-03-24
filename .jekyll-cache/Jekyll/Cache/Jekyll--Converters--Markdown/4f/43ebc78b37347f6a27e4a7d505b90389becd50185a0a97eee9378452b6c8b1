@@ -1,0 +1,76 @@
+I"é	<!-- Begin Hero Row -->
+<div class="hero row adobe-hero">
+</div>
+
+<!-- Begin Title Row -->
+<div class="row title">
+    <div class="label-column">
+        <div>Project Name</div>
+    </div>
+
+    <h1 class="content-column">
+        <span class="title"> Adobe Document Cloud</span>
+    </h1>
+</div>
+
+<!-- Begin Role Row -->
+<div class="row role">
+    <div class="label-column">
+        <div>Role</div>
+    </div>
+
+    <div class="content-column">
+        <span class="role">Sr Experience Designer, Lead</span>
+    </div>
+</div>
+
+<!-- Begin Intro Row -->
+<div class="row intro">
+    <div class="label-column">
+        Intro
+    </div>
+
+    <div class="content-column">
+		<b>The largest releases in DC history. </b> As a lead on the Adobe Document Cloud design team, I was responsible for a major piece of the largest releases in DC history. It was a complete redesign to incorporate Adobe's new design system Spectrum, added new real-time collaboration cloud services "DC Review," new machine learning features making a few billion PDFs accessible and made Acrobat clients accessible screen-reader across all platforms.
+    </div>
+</div>
+
+<!-- Begin Problem Row -->
+<div class="row intro">
+    <div class="label-column">
+        Problem
+    </div>
+
+    <div class="content-column">
+		<b>Please contact me for a work sample.</b> As a lead on the Adobe Document Cloud design team, I was responsible for a major piece of the largest releases in DC history. It was a complete redesign to incorporate Adobe's new design system Spectrum, added new real-time collaboration cloud services "DC Review," new machine learning features making a few billion PDFs accessible and made Acrobat clients accessible screen-reader across all platforms.
+    </div>
+</div>
+
+<!-- Begin Video Row -->
+<div class="row problem">
+    <div class="label-column">
+        demo
+    </div>
+
+    <div class="content-column">
+		<div class="youtube-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uUfcVznZndY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+		</div>
+	</div>
+</div>
+
+<!-- Begin Next Row -->
+<div class="row next">
+	<div class="next-column post-list">
+		<a href="/curation" class="post-thumb trove-stars-thumb">
+			<span class="post-link trove">Trove Curation</span>
+		</a>
+	</div>
+
+    <div class="next-column post-list">
+        <a href="/littletinker" class="post-thumb tinker-thumb">
+            <span class="post-link littletinker">Little Tinker</span>
+        </a>
+    </div>
+</div>
+:ET
