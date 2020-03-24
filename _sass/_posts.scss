@@ -71,19 +71,28 @@ a {
 
         &.adobe-thumb {
             background-image: url(../assets/img/portfolio/adobe/thumb.png);
-			height: 550px;
-			background-position: 50% 72%;
-			&:hover {
-				background-size: 55%;
-			}
+      			height: 550px;
+      			background-position: 50% 72%;
+      			&:hover {
+      				background-size: 55%;
+      			}
+        }
+
+        &.adobe-dva-thumb {
+            background-image: url(../assets/img/portfolio/adobe-dva/thumb.svg);
+      			height: 550px;
+      			background-position: 50% 72%;
+      			&:hover {
+      				background-size: 55%;
+      			}
         }
 
         &.socialcode-intelligence-thumb {
             background-image: url(../assets/img/portfolio/socialcode/thumb.png);
-			background-position: 50% 80%;
-			&:hover {
-				background-size: 53%;
-			}
+      			background-position: 50% 80%;
+      			&:hover {
+      				background-size: 53%;
+      			}
         }
 
 		&.trove-thumb {
@@ -238,8 +247,8 @@ a {
 			}
 
       &.adobe-dva-hero {
-				background-image: url(../assets/img/portfolio/adobe-dva/thumb.png);
-				background-position: 50% 13%;
+				background-image: url(../assets/img/portfolio/adobe-dva/thumb.svg);
+				background-position: 50% 7%;
         background-size: 24%;
 			}
 

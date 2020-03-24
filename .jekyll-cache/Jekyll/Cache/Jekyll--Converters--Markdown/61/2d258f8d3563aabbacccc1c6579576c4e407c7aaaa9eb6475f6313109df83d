@@ -1,9 +1,4 @@
----
-layout: default
-title: Portfolio | ChristopherAzar.com
-permalink: /portfolio/
----
-<!--
+I"9<!--
 <div id="hello-ideo" class="hello-ideo" style="display:none;">
     <span class="ideo-logo"></span>
     <p class="ideo-welcome">Hello IDEO.org and welcome! Thanks for checking out my portfolio. I appreciate your time. </p>
@@ -13,13 +8,13 @@ permalink: /portfolio/
 
     <div class="post-list">
 
-        <a href="/adobe-dva" class="post-thumb adobe-dva-thumb">
+        <a href="/adobe-dva" class="post-thumb adobe-thumb">
 
-                <span class="post-link adobe"><span class="post-sublink top-sublink">Currently</span>Premiere Pro & After Effects
-                <span class="post-sublink">Designing editing & motion design tools</span>
+                <span class="post-link adobe"><span class="post-sublink top-sublink">Currently</span>Adobe Premiere Pro &amp; After Effects <span class="post-sublink">Modernizing Acrobat for Millions of People
+                </span>
 
     		<a href="/adobe" class="post-thumb adobe-thumb">
-                <span class="post-link adobe">Adobe Acrobat<span class="post-sublink">Modernizing PDF for millions of people
+                <span class="post-link adobe">Adobe Acrobat<span class="post-sublink">Modernizing PDF for Millions 
                 </span>
 
         <a href="/socialcode/" class="post-thumb socialcode-intelligence-thumb">
@@ -80,7 +75,7 @@ permalink: /portfolio/
 				<p><b>User Experience Design</b> - Especially early-stage environments and in areas of great uncertainty</p>
 				<!-- high  defining the outer edges of a framework and codifying a POV to hand-off or work inside -->
 
-				<p><b>Design Research & Strategy</b> - Using research methods to find overlaps in the latent desires of stakeholders and customers. Developing findings to create user-journeys and design frameworks </p>
+				<p><b>Design Research &amp; Strategy</b> - Using research methods to find overlaps in the latent desires of stakeholders and customers. Developing findings to create user-journeys and design frameworks </p>
 
 				<p></p>
 				<p></p>
@@ -113,7 +108,7 @@ permalink: /portfolio/
 
 				</p>
 
-				<br/>
+				<br />
 
 				<p><b><a href="../assets/docs/Christopher Azar - UX Work Sample.pdf">Download PDF Work Sample</a></b></p>
 
@@ -121,3 +116,5 @@ permalink: /portfolio/
 		    </div>
 
 		</div>
+</span></a></span></a></span></a></span></a></span></a></div></div>
+:ET
