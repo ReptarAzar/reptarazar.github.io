@@ -250,6 +250,17 @@ a {
 				background-image: url(../assets/img/portfolio/adobe-dva/thumb.svg);
 				background-position: 50% 7%;
         background-size: 24%;
+
+        @media screen and (max-width: 540px) {
+            background-position: 50% 1%;
+            background-size: 100%;
+        }
+
+        @media screen and (max-width: 1080px) {
+    				background-position: 50% 1%;
+            background-size: 50%;
+  			}
+
 			}
 
 			&.socialcode-hero {
