@@ -1,11 +1,4 @@
----
-layout: post
-title:  "Adobe Pro Video & Audio"
-date:   2016-01-05 00:00:00
-permalink: /adobe-dva/
----
-
-<!-- Begin Hero Row -->
+I"�<!-- Begin Hero Row -->
 <div class="hero row adobe-dva-hero">
 </div>
 
@@ -16,7 +9,7 @@ permalink: /adobe-dva/
     </div>
 
     <h1 class="content-column">
-        <span class="title"> Adobe Premiere Pro & After Effects </span>
+        <span class="title"> Adobe Premiere Pro &amp; After Effects </span>
     </h1>
 </div>
 
@@ -31,7 +24,6 @@ permalink: /adobe-dva/
     </div>
 </div>
 
-
 <!-- Begin Intro Row -->
 <div class="row intro">
     <div class="label-column">
@@ -43,8 +35,6 @@ permalink: /adobe-dva/
     </div>
 </div>
 
-
-
 <!-- Begin Video Row -->
 <div class="row problem">
     <div class="label-column">
@@ -53,12 +43,11 @@ permalink: /adobe-dva/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/yNFFrn1WrR8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/yNFFrn1WrR8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
 
 	</div>
 </div>
-
 
 <!-- Begin Video Row -->
 <div class="row problem">
@@ -68,12 +57,12 @@ permalink: /adobe-dva/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/25ltIoHtiO4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/25ltIoHtiO4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
     <div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/njKIMrMEdY4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/njKIMrMEdY4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Starbucks Cup? What Starbucks Cup? Problem solved. 👍 <a href="https://twitter.com/hashtag/GameofThrones?src=hash&amp;ref_src=twsrc%5Etfw">#GameofThrones</a> <a href="https://twitter.com/HBO?ref_src=twsrc%5Etfw">@HBO</a> | <a href="https://twitter.com/Starbucks?ref_src=twsrc%5Etfw">@Starbucks</a> | edit by <a href="https://twitter.com/Beatlejase?ref_src=twsrc%5Etfw">@Beatlejase</a> <a href="https://t.co/XBlsXuRd1R">pic.twitter.com/XBlsXuRd1R</a></p>&mdash; Adobe After Effects (@AdobeAE) <a href="https://twitter.com/AdobeAE/status/1125452852065738753?ref_src=twsrc%5Etfw">May 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Starbucks Cup? What Starbucks Cup? Problem solved. 👍 <a href="https://twitter.com/hashtag/GameofThrones?src=hash&amp;ref_src=twsrc%5Etfw">#GameofThrones</a> <a href="https://twitter.com/HBO?ref_src=twsrc%5Etfw">@HBO</a> | <a href="https://twitter.com/Starbucks?ref_src=twsrc%5Etfw">@Starbucks</a> | edit by <a href="https://twitter.com/Beatlejase?ref_src=twsrc%5Etfw">@Beatlejase</a> <a href="https://t.co/XBlsXuRd1R">pic.twitter.com/XBlsXuRd1R</a></p>&mdash; Adobe After Effects (@AdobeAE) <a href="https://twitter.com/AdobeAE/status/1125452852065738753?ref_src=twsrc%5Etfw">May 6, 2019</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>
 </div>
 
@@ -85,12 +74,11 @@ permalink: /adobe-dva/
 
     <div class="content-column">
 		<div class="youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/mSz75aZXrzM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/mSz75aZXrzM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
 		</div>
 
 	</div>
 </div>
-
 
 <!-- Begin Next Row -->
 <div class="row next">
@@ -106,3 +94,4 @@ permalink: /adobe-dva/
         </a>
     </div>
 </div>
+:ET
