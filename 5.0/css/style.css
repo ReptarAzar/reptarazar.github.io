@@ -84,6 +84,114 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ==========================================================================
+   Post-boiler plate styles 
+    Authored by Christopher Azar
+   ========================================================================== */
+
+   body {
+    padding: 2rem;
+
+   }
+
+   img {
+    max-width: 265px;
+    border-radius: 8px;
+    position: fixed;
+   }
+
+
+  .container {
+    font-family: sans-serif;
+    position: relative; 
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto; 
+  }
+
+  .intro {
+    margin-left: 33%;
+    position: relative;
+  }
+
+  .portrait {
+    top: -150px;
+    position: relative;
+
+  }
+
+  .body-copy {
+    margin-left: 33%;
+    position: relative;
+  }
+
+  .small-heading {
+    margin-top: 32px;
+  }
+
+  .italicized {
+    font-style: italic;
+  }
+
+  /* Responsive design */
+  @media screen and (max-width: 962px) {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 1.25rem;
+    }
+
+   img {
+    max-width: 960px;
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+   }
+
+   .intro {
+    padding: 32px 32px 16px;
+    margin: 0;
+   }
+
+   .portrait {
+    top: 0;
+  }
+
+  .body-copy {
+    padding: 16px 32px 32px;
+    margin: 0;
+  }
+
+  }
+
+
+
+/* ==========================================================================
+   CSS-only light and dark mode 
+   ========================================================================== */
+
+/* In case user preference is light: */
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+
+/* In case user preference is dark: */
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: black;
+      color: white;
+  }
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -244,4 +352,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
