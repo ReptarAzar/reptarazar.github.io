@@ -92,8 +92,11 @@ textarea {
 
    body {
     padding: 2rem;
-
    }
+
+  h1 {
+    font-weight: 400; 
+  }
 
    img {
     max-width: 265px;
@@ -103,11 +106,25 @@ textarea {
 
 
   .container {
-    font-family: sans-serif;
+    font-family: "owners-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     position: relative; 
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto; 
+    animation: fadeInAnimation ease .75s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
   }
 
   .intro {
@@ -132,6 +149,12 @@ textarea {
 
   .italicized {
     font-style: italic;
+  }
+
+  .bolded {
+    font-family: "owners-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   /* Responsive design */
@@ -187,8 +210,8 @@ textarea {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: black;
-      color: white;
+      background-color: #111;
+      color: #fff;
   }
 }
 
