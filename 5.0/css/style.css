@@ -170,6 +170,13 @@ textarea {
     font-style: normal;
   }
 
+  .semi-bolded {
+    font-family: "owners-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
   /* Responsive design */
   @media screen and (max-width: 962px) {
     body {
