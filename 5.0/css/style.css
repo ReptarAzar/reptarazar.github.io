@@ -92,6 +92,7 @@ textarea {
 
    body {
     padding: 2rem;
+    cursor: none;
    }
 
   h1 {
@@ -107,12 +108,13 @@ textarea {
    a {
     color: #000;
     text-decoration: underline;
+    cursor: none;
    }
 
   a.quiet {
     text-decoration: none;
     color: #000;
-    background-color: #f6f6f6;
+    background-color: rgba(144, 144, 144, 0.1);
     border-radius: 4px;
     padding: 0 3px;
   }
@@ -128,6 +130,22 @@ textarea {
     animation: fadeInAnimation ease .75s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+  }
+
+  #cursor-wrapper {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+}
+
+  #cursor {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: width 0.1s, height 0.1s;
   }
 
   @keyframes fadeInAnimation {
