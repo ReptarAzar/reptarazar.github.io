@@ -244,35 +244,41 @@ textarea {
   }
 }
 
-
+/* In case user manually set light mode: */
+html[data-theme="dark"] a.quiet {
+    color: #fff !important;
+    background-color: #222 !important;
+}
 
 /* In case user preference is dark: */
 /* Dark mode */
+
 @media (prefers-color-scheme: dark) {
   body {
       background-color: rgba(1, 1, 1, 0.95);
       color: rgba(255, 255, 255, 0.9);
   }
+}
 
+@media (prefers-color-scheme: dark) {
   a {
     color: #fff;
     text-decoration: underline;
    }
+}
 
-  a.quiet {
+@media (prefers-color-scheme: dark) {
+  .quiet {
     color: #fff !important;
     background-color: #222 !important;
-  }
+  } 
+}
+
+@media (prefers-color-scheme: dark) {
   #cursor {
       background-color: rgba(255, 255, 255, 0.2);
       
   }
-}
-
-/* In case user manually set light mode: */
-html[data-theme="dark"] a.quiet {
-    color: #fff !important;
-    background-color: #222 !important;
 }
 
 
