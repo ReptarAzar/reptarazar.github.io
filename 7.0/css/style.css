@@ -244,6 +244,8 @@ textarea {
   }
 }
 
+
+
 /* In case user preference is dark: */
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
@@ -258,15 +260,21 @@ textarea {
    }
 
   a.quiet {
-    color: #fff;
+    color: #fff !important;
     background-color: #222 !important;
   }
   #cursor {
       background-color: rgba(255, 255, 255, 0.2);
       
   }
-
 }
+
+/* In case user manually set light mode: */
+html[data-theme="dark"] a.quiet {
+    color: #fff !important;
+    background-color: #222 !important;
+}
+
 
 /* ==========================================================================
    Helper classes
