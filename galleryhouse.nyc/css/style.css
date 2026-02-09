@@ -165,40 +165,104 @@ textarea {
     margin: 0 auto;
   }
 
+/* About page: 80vh content area when short (100vh total, no scroll), 10vh breathing room when long */
+body.page-about .container {
+  padding: 10vh 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body.page-about .intro {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+
+body.page-about .about-heading {
+  margin-top: 0;
+}
+
+body.page-about .intro p {
+  margin: 0 0 0.85em;
+}
+
+/* Home page: no scroll, full viewport */
+body.page-home {
+  overflow: hidden;
+  height: 100%;
+}
+
+html:has(body.page-home) {
+  height: 100%;
+}
 
 .hero {
   height: 100vh;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.hero img{
-  height: 75vh;      /* ← percentage of viewport height */
-  width: auto;       /* maintain aspect ratio */
-  max-width: 95vw;   /* prevent horizontal overflow */
-  object-fit: contain;
+.hero-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  text-decoration: none;
+  color: inherit;
+  touch-action: manipulation;
 }
 
-.enter {
-    position: absolute;
-    left: 50%;
-    top: 83vh;
-    color: white;
-    font-weight: bold;
+body.page-home .hero-link {
+  text-decoration: none;
 }
 
-.hover-fade {
-  opacity: 1;
-  transition: opacity 480ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.hover-fade:hover {
+.hero-img:hover,
+.hero-link:focus-visible .hero-img {
   opacity: 0.8;
 }
 
+.hero-image-wrap {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 20px;
+}
+
+.hero-img {
+  max-height: 85vh;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+  transition: opacity 480ms cubic-bezier(0.16, 1, 0.3, 1);
+  border-radius: 2px;
+}
+
+.hero-enter {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  text-align: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: .85em;
+}
+
    .about-heading {
-    margin-top: 20vh;
+    margin-top: 10vh;
    }
 
   .portrait {
@@ -245,11 +309,21 @@ textarea {
       font-size: 1.25rem;
     }
 
-   img {
+   .container img,
+   .intro img,
+   .body-copy img {
     max-width: 960px;
     border-radius: 0;
     position: relative;
     width: 100%;
+   }
+
+   /* Hero image stays constrained by .hero-image-wrap; do not force width: 100% */
+   .hero .hero-img {
+    max-height: 70vh;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
    }
 
    .intro {
@@ -257,6 +331,11 @@ textarea {
     margin: 0;
    }
 
+   body.page-about .intro {
+    padding: 32px;
+    min-height: 80vh;
+    max-width: 800px;
+   }
 
    .portrait {
     top: 0;
@@ -407,9 +486,10 @@ html[data-theme="dark"] a.quiet {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-  #cursor-wrapper
+  #cursor-wrapper {
     /* display: none; */
   }
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),

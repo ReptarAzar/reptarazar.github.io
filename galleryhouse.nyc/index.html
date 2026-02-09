@@ -25,14 +25,14 @@ Copyright © Chris Azar 2026
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery House</title>
   <link rel="stylesheet" href="https://use.typekit.net/bfe6bqm.css">
-  <link rel="stylesheet" href="css/style.css?v=7">
+  <link rel="stylesheet" href="css/style.css?v=8">
   <meta name="description" content="">
 
   <meta property="og:title" content="Gallery House">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://galleryhouse.nyc">
-  <meta property="og:image" content="https://galleryhouse.nyc/img/home.png">
-  <meta property="og:image:alt" content="https://galleryhouse.nyc/img/home.png">
+  <meta property="og:image" content="https://galleryhouse.nyc/img/1.jpg">
+  <meta property="og:image:alt" content="Gallery House">
 
 
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -50,13 +50,15 @@ Copyright © Chris Azar 2026
   </script>
 </head>
 
-<body>
+<body class="page-home">
     <div class="hero">
-        <a href="about/index.html" class="">
-          <img src="img/home.jpg" alt="" class="hover-fade" />
-          <span class="enter">enter</span>
-        </a>    
+        <a href="about/index.html" class="hero-link">
+            <span class="hero-image-wrap">
+                <img id="hero-daily-img" src="" alt="Gallery House" class="hero-img">
+                <span class="hero-enter">enter</span>
+            </span>
+        </a>
     </div>
-
+    <script src="js/home.js"></script>
 </body>
 </html>
