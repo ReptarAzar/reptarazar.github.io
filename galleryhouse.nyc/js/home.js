@@ -16,10 +16,7 @@
     enter.style.bottom = bottomPx + 'px';
   }
 
-  var startOfYear = new Date(new Date().getFullYear(), 0, 0);
-  var dayOfYear = Math.floor((Date.now() - startOfYear) / (24 * 60 * 60 * 1000));
-  var index = 1 + (dayOfYear % 9);
-  el.src = 'img/' + index + '.jpg';
+  el.src = window.__heroImgSrc;
 
   el.addEventListener('load', positionEnter);
   positionEnter();

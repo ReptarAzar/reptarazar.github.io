@@ -40,6 +40,19 @@ Copyright © Chris Azar 2026
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <script>
+    (function () {
+      var startOfYear = new Date(new Date().getFullYear(), 0, 0);
+      var dayOfYear = Math.floor((Date.now() - startOfYear) / (24 * 60 * 60 * 1000));
+      var index = 1 + (dayOfYear % 9);
+      window.__heroImgSrc = 'img/' + index + '.jpg';
+      var link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = window.__heroImgSrc;
+      document.head.appendChild(link);
+    })();
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZQR1NSD7J"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
