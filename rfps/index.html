@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NYC + NYS Gov Tech RFPs</title>
+<meta name="description" content="Open technology solicitations from New York City and New York State agencies, sorted by due date.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+/* A procurement docket: due date first, then what and who. */
+:root {
+  --paper: #F2F4F0; --surface: #FFFFFF; --ink: #18212B; --muted: #5A6672; --rule: #D4DAD4;
+  --accent: #0E5A8A; --on-accent: #FFFFFF; --soon: #8F3A12; --soon-bg: #FBE7DC;
+  --font: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #10161C; --surface: #182029; --ink: #E5EAEE; --muted: #9AA6B2; --rule: #2B3540;
+    --accent: #72B6E3; --on-accent: #0A1620; --soon: #F2A27A; --soon-bg: #3A2216;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font);
+  font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-top: calc(env(safe-area-inset-top, 0px) + 28px);
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 56px);
+}
+.wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eyebrow { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 6px 0 10px; font-size: clamp(28px, 5vw, 40px); line-height: 1.08; font-weight: 800; letter-spacing: -.015em; text-wrap: balance; }
+.lede { margin: 0; max-width: 62ch; color: var(--muted); }
+.updated { margin: 10px 0 0; font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.filters { display: inline-flex; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; background: var(--surface); align-self: flex-start; }
+.filters button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 14px; padding: 8px 14px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.filters button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+ol.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.item details { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; }
+.item summary { list-style: none; cursor: pointer; padding: 14px 16px; display: grid; grid-template-columns: 1fr; gap: 3px; }
+.item summary::-webkit-details-marker { display: none; }
+.due { font-size: 12.5px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums; }
+.item.soon .due { color: var(--soon); }
+.item.soon .due-date { background: var(--soon-bg); padding: 1px 6px; border-radius: 4px; }
+.title { font-size: 17px; font-weight: 700; line-height: 1.3; }
+.agency { color: var(--ink); }
+.meta { font-size: 13px; color: var(--muted); }
+.mono { font-family: var(--mono); font-size: 12.5px; }
+.body { padding: 0 16px 16px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; gap: 12px; }
+.desc { margin: 14px 0 0; max-width: 65ch; }
+dl { margin: 0; display: grid; grid-template-columns: minmax(130px, 32%) 1fr; gap: 8px 14px; font-size: 14px; }
+dt { color: var(--muted); }
+dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.out { color: var(--accent); font-weight: 600; }
+.empty { background: var(--surface); border: 1px dashed var(--rule); border-radius: 10px; padding: 28px 20px; text-align: center; color: var(--muted); }
+footer { font-size: 13px; color: var(--muted); max-width: 65ch; }
+@media (max-width: 560px) {
+  dl { grid-template-columns: 1fr; gap: 2px; }
+  dd { margin-bottom: 8px; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <p class="eyebrow">New York City and New York State</p>
+    <h1>Open Gov Tech RFPs</h1>
+    <p class="lede">Technology solicitations from city and state agencies that are still taking proposals, soonest due first. Tap one for the details and a link to the official notice.</p>
+    <p class="updated">Updated Oct 17, 2026 · <span id="count">6</span> open</p>
+  </header>
+
+  <div class="filters" role="group" aria-label="Filter by government level">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="city" aria-pressed="false">City</button>
+    <button type="button" data-filter="state" aria-pressed="false">State</button>
+  </div>
+
+  <ol class="list" id="list">
+      <li class="item" data-due="2026-10-23" data-level="state">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Oct 23, 2026</span></span>
+            <span class="title">MTA All-Agency Technology Hardware Managed Services</span>
+            <span class="agency">Metropolitan Transportation Authority (MTA Headquarters)</span>
+            <span class="meta"><span class="level">State authority</span> · <span class="mono">0000552851</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">Managed services for technology hardware across all MTA agencies.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">0000552851</dd><dt>Scope</dt><dd>Hardware management.</dd><dt>Where to respond</dt><dd>MTA Headquarters procurement</dd></dl>
+            <a class="out" href="https://www.mta.info/doing-business-with-us/procurement/mta-headquarters" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+      <li class="item" data-due="2026-10-26" data-level="state">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Oct 26, 2026</span></span>
+            <span class="title">Alcohol Price Posting and Delinquency Management (SLA e-Wholesale Platform)</span>
+            <span class="agency">NYS Office of Information Technology Services (ITS), for the State Liquor Authority</span>
+            <span class="meta"><span class="level">State</span> · <span class="mono">IFB C001029</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">Hosting services for the State Liquor Authority&#x27;s e-Wholesale platform, where alcohol wholesalers post prices and delinquencies are tracked.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">IFB C001029</dd><dt>Type</dt><dd>Invitation for Bid (IFB)</dd><dt>Released</dt><dd>Oct 2, 2026</dd><dt>Scope</dt><dd>Hosting for an existing state platform.</dd><dt>Where to respond</dt><dd>NYS ITS (see IFB documents)</dd></dl>
+            <a class="out" href="https://its.ny.gov/c001029-alcohol-price-posting-and-delinquency-management" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+      <li class="item" data-due="2026-11-02" data-level="state">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Nov 2, 2026</span></span>
+            <span class="title">Secure, Accessible &amp; Modern Fare Gates</span>
+            <span class="agency">Metropolitan Transportation Authority (MTA Headquarters)</span>
+            <span class="meta"><span class="level">State authority</span> · <span class="mono">0000565285</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">Buying, delivering, installing, integrating, maintaining and supporting new fare gates.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">0000565285</dd><dt>Scope</dt><dd>Fare gate hardware plus integration, maintenance and support.</dd><dt>Where to respond</dt><dd>MTA Headquarters procurement</dd></dl>
+            <a class="out" href="https://www.mta.info/doing-business-with-us/procurement/mta-headquarters" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+      <li class="item" data-due="2026-11-03" data-level="state">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Nov 3, 2026</span></span>
+            <span class="title">Salesforce Implementation Enterprise Agreement</span>
+            <span class="agency">NYS Office of Information Technology Services (ITS)</span>
+            <span class="meta"><span class="level">State</span> · <span class="mono">RFP C000979 · Contract Reporter 2137738</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">Certified Salesforce consulting partners to provide implementation services under a three-year enterprise agreement for state agencies.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">RFP C000979 · Contract Reporter 2137738</dd><dt>Type</dt><dd>RFP</dd><dt>NAICS code</dt><dd class="mono">541512</dd><dt>Released</dt><dd>Aug 3, 2026</dd><dt>Contract term</dt><dd>3 years</dd><dt>Scope</dt><dd>Building and configuring Salesforce apps for state agencies.</dd><dt>M/WBE and SDVOB goals</dt><dd>MBE 15%, WBE 15%, SDVOB 6%</dd><dt>Prior awardees (last 5 years)</dt><dd>None listed</dd><dt>Where to respond</dt><dd>NYS ITS (see RFP documents)</dd></dl>
+            <a class="out" href="https://its.ny.gov/c000979-salesforce-implementation-enterprise-agreement" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+      <li class="item" data-due="2026-11-06" data-level="city">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Nov 6, 2026, 3:00 PM</span></span>
+            <span class="title">RFP for Provider Data Management Services</span>
+            <span class="agency">NYC Health + Hospitals / MetroPlus Health Plan</span>
+            <span class="meta"><span class="level">City (public benefit corporation)</span> · <span class="mono">PIN MHP-1125</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">A system to manage provider data across its whole life: credentialing, contracting, claims and the provider directory members use.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">PIN MHP-1125</dd><dt>Type</dt><dd>RFP</dd><dt>Released</dt><dd>Oct 13, 2026</dd><dt>Scope</dt><dd>Provider data management and maintenance software and services.</dd><dt>Contact</dt><dd>Kathleen Nolan, (212) 908-8730, nolank@metroplus.org</dd><dt>Where to respond</dt><dd>See City Record notice</dd></dl>
+            <a class="out" href="https://www.nyc.gov/assets/dcas/downloads/pdf/cityrecord/2026/cityrecord-10-13-26.pdf" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+      <li class="item" data-due="2026-11-19" data-level="city">
+        <details>
+          <summary>
+            <span class="due"><span class="due-label">Due</span> <span class="due-date">Nov 19, 2026, 4:00 PM</span></span>
+            <span class="title">Payroll Managed Services</span>
+            <span class="agency">NYC Department of Education</span>
+            <span class="meta"><span class="level">City</span> · <span class="mono">RFP R1861</span></span>
+          </summary>
+          <div class="body">
+            <p class="desc">Managed services to support the rollout of a new DOE payroll system.</p>
+            <dl><dt>Solicitation ID</dt><dd class="mono">RFP R1861</dd><dt>Type</dt><dd>RFP</dd><dt>Pre-proposal conference</dt><dd>May 12, 2026</dd><dt>Scope</dt><dd>Payroll system implementation support.</dd><dt>Where to respond</dt><dd>NYC DOE InfoHub</dd></dl>
+            <a class="out" href="https://infohub.nyced.org/in-our-schools/working-with-the-doe/contracts-and-purchasing/open-doe-solicitations/request-for-proposals" target="_blank" rel="noopener">Open the official listing &#8599;</a>
+          </div>
+        </details>
+      </li>
+  </ol>
+  <p class="empty" id="empty" hidden>Nothing open right now. Check back soon.</p>
+
+  <footer>Due dates and terms change through addenda. Always confirm on the official notice in NYC PASSPort, the City Record, the NYS Contract Reporter, or the agency's own procurement page before responding.</footer>
+</main>
+<script>
+(function () {
+  var pad = function (n) { return String(n).padStart(2, "0"); };
+  var d = new Date();
+  var today = d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+  var soon = new Date(d.getTime() + 7 * 864e5);
+  var soonIso = soon.getFullYear() + "-" + pad(soon.getMonth() + 1) + "-" + pad(soon.getDate());
+  var items = Array.prototype.slice.call(document.querySelectorAll(".item"));
+  var filter = "all";
+  items.forEach(function (li) {
+    var due = li.getAttribute("data-due");
+    if (due && due < today) li.setAttribute("data-past", "1");
+    else if (due && due <= soonIso) li.classList.add("soon");
+  });
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var ok = !li.hasAttribute("data-past") && (filter === "all" || li.getAttribute("data-level") === filter);
+      li.hidden = !ok;
+      if (ok) shown++;
+    });
+    document.getElementById("empty").hidden = shown > 0;
+    document.getElementById("count").textContent = String(items.filter(function (li) { return !li.hasAttribute("data-past"); }).length);
+  }
+  document.querySelectorAll("[data-filter]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      filter = b.getAttribute("data-filter");
+      document.querySelectorAll("[data-filter]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
